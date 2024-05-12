@@ -1,0 +1,1 @@
+CREATE INDEX ld_$POPULATION_index_snp1 ON ld_$POPULATION (snp1);

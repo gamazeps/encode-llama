@@ -1,0 +1,99 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: import-snps-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: snps-importer
+        image: gcr.io/devenv-215523/snps-importer:${IMPORTER_VERSION}
+        imagePullPolicy: Always
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            sleep 2s
+            trap "touch /tmp/pod/terminated" EXIT
+            java -jar /app/snps-importer.jar
+        env:
+          - name: SNP_ASSOC_GS_DIR
+            value: "wenglab-data-common:snpassociations/data"
+          - name: GWAS_INTERSECTING_SNP_WITHCCRE_GS_DIR
+            value: "wenglab-data-common:snpassociations/data"
+          - name: GWAS_INTERSECTING_SNP_WITHBCRE_GS_DIR
+            value: "wenglab-data-common:snpassociations/data"
+          - name: NIH_BASE_URLS
+            value: "https://ftp.ncbi.nlm.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/BED/;hg38"
+          - name: GENOMES_BASE_URLS
+            value: "http://data.genomealmanac.org/public/"
+          - name: LD_BLOCK_BROAD_BASE_URL
+            value: "https://pubs.broadinstitute.org/mammals/haploreg/data/"
+          - name: PSYCHENCODE_EQTL_URLS
+            value: "http://data.genomealmanac.org/public/DER-08_capstone4.eQTL.significant.hg38.txt.gz"
+          - name: PSYCHENCODE_CQTL_URLS
+            value: "http://data.genomealmanac.org/public/DER-09_hg38_cQTL.significant.txt.gz"
+          - name: STUDY_FILE_URLS
+            value: "http://data.genomealmanac.org/public/grch38_gwas/GWAS.v7.sorted.bed;hg38"
+          - name: CT_FDR_URLS
+            value: "http://data.genomealmanac.org/public/grch38_gwas/GWAS.v7.Matrix.FDR.txt;hg38"
+          - name: CT_FE_URLS
+            value: "http://data.genomealmanac.org/public/grch38_gwas/GWAS.v7.Matrix.fe.txt;hg38"
+          - name: CT_P_VALUE_URLS
+            value: "http://data.genomealmanac.org/public/grch38_gwas/GWAS.v7.Matrix.pvalue.txt;hg38"
+          - name: LD_BLOCK_POPULATIONS
+            value: "AFR,EUR,AMR,SAS,EAS"
+          - name: SNP_FILE_PAR
+            value: "30"
+          - name: CHROM_NAMES
+            value: "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22"
+          - name: EXISTS_SCHEMA
+            value: "false"
+          - name: SNPS_CHROMOSOMES
+            value: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,X,Y"
+          - name: GTEX_EQTL_URLS
+            value: https://storage.googleapis.com/gtex_analysis_v8/single_tissue_qtl_data/GTEx_Analysis_v8_eQTL.tar
+          - name: DB_SCHEMA
+            value: "${DB_SCHEMA}"
+          - name: DB_URL
+            value: "jdbc:postgresql://127.0.0.1:5432/genes-db"
+          - name: DENSITY_RESOLUTIONS
+            value: "10000|50000|100000"
+          - name: DB_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: username
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: password
+        volumeMounts:
+          - name: tmp-pod
+            mountPath: /tmp/pod
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            /cloud_sql_proxy -instances=devenv-215523:us-east1:genes-instance=tcp:5432 -credential_file=/secrets/cloudsql/staging-service-account.json & CHILD_PID=$!
+            (while true; do if [[ -f "/tmp/pod/terminated" ]]; then kill $CHILD_PID; echo "Killed $CHILD_PID because the main container terminated."; fi; sleep 1; done) &
+            wait $CHILD_PID
+            if [[ -f "/tmp/pod/terminated" ]]; then exit 0; echo "Job completed. Exiting..."; fi
+        securityContext:
+          runAsUser: 2  # non-root user
+          allowPrivilegeEscalation: false
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+          - name: tmp-pod
+            mountPath: /tmp/pod
+            readOnly: true
+      volumes:
+        - name: service-account-key
+          secret:
+            secretName: service-account-key
+        - name: tmp-pod
+          emptyDir: {}
+      restartPolicy: Never

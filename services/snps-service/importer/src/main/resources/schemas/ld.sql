@@ -1,0 +1,4 @@
+CREATE TABLE ld_$POPULATION (
+    snp1 TEXT NOT NULL,
+    ldLinks TEXT NOT NULL
+);

@@ -1,0 +1,14 @@
+#
+# docker compose file for testing
+#
+
+version: '3'
+services:
+
+  # database
+  postgrestest:
+    image: postgres:latest
+    ports:
+      - 5555:5432 # don't conflict with local postgresql
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust

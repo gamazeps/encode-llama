@@ -1,0 +1,3 @@
+CREATE INDEX gwas_intersectingsnpswithbcres_index ON gwas_intersectingsnp_withbcres (snpid);
+CREATE INDEX gwas_ntersectingsnpswithbcres_disease_index ON gwas_intersectingsnp_withbcres (disease);
+CREATE INDEX gwas_ntersectingsnpswithbcres_disease_bcre_group_index ON gwas_intersectingsnp_withbcres (disease,bcre_group);

@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;H:\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\PhalkeN\google-cloud-sdk-220.0.0-windows-x86_64-bundled-python\google-cloud-sdk\bin;C:\Users\PhalkeN\google-cloud-sdk-220.0.0-windows-x86_64-bundled-python\google-cloud-sdk\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Jq;C:\Python27;C:\kubernetes;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\PostgreSQL\11\bin;C:\Program Files\terraform_0.11.11_windows_amd64;C:\Users\PhalkeN\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\PhalkeN\AppData\Local\Programs\Python\Python37;C:\Users\PhalkeN\AppData\Local\Microsoft\WindowsApps;C:\Users\PhalkeN\AppData\Local\GitHubDesktop\bin;C:\Users\PhalkeN\AppData\Roaming\npm;C:\Users\PhalkeN\AppData\Local\Yarn\bin;C:\Users\PhalkeN\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.3\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.10.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "C:\\Users\\PhalkeN\\snps-service"
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
