@@ -1,0 +1,25 @@
+name: Test
+
+on: [push]
+
+env:
+  SKIP_GCP_TEST: T
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # test importer
+    - uses: actions/checkout@v1
+    - name: Test Importer
+      run: |
+          importer/scripts/test.sh
+
+    # test service
+    - uses: actions/checkout@v1
+    - name: Test Service
+      run: |
+          service/scripts/test.sh

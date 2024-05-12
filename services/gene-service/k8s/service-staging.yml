@@ -1,0 +1,104 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genes-service-deployment
+  labels:
+    app: genes-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: genes-service
+  template:
+    metadata:
+      labels:
+        app: genes-service
+    spec:
+      containers:
+      - name: genes-service
+        image: gcr.io/devenv-215523/genes-service:${SERVICE_VERSION}
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+        env:
+          - name: POSTGRES_USER_SCHEMA
+            value: "${DB_USER_SCHEMA}"
+          - name: POSTGRES_ENCODE_SCHEMA
+            value: "${DB_ENCODE_SCHEMA}"
+          - name: POSTGRES_PSYCHENCODE_SCHEMA
+            value: "${DB_PSYCHENCODE_SCHEMA}"
+          - name: POSTGRES_GENCODE_SCHEMA
+            value: "${DB_GENCODE_SCHEMA}"
+          - name: POSTGRES_USER
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: username
+          - name: POSTGRES_PASS
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: password
+          - name: POSTGRES_DB
+            value: genes-db
+          - name: GCS_BUCKET
+            value: gcp.wenglab.org
+          - name: GCS_PROJECT_ID
+            value: devenv-215523
+          - name: GCS_SERVICE_KEY
+            value: /secrets/cloudsql/workflow-service-account.json
+          - name: GTEX_GENES_TPM_MATRICES
+            value: tpm=http://data.genomealmanac.org/gtex_tpm_all.npy
+          - name: RAMPAGE_MATRICES
+            value: GRCh38=http://gcp.wenglab.org/gene-service-files/GRCh38-tss-rampage-matrix.npy
+          - name: TSSRAMPAGE_MATRICES
+            value: GRCh38=http://gcp.wenglab.org/gene-service-files/hg38_rPeak_Matrix.npy
+          - name: SINGLE_CELL_MATRICES
+            value: IsoHuB=http://gcp.wenglab.org/gene-service-files/psychscreen/IsoHuB_expression_matrix_subset.npy|MultiomeBrain-DLPFC=http://gcp.wenglab.org/gene-service-files/psychscreen/MultiomeBrain-DLPFC_expression_matrix_subset.npy|DevBrain-snRNAseq=http://gcp.wenglab.org/gene-service-files/psychscreen/DevBrain-snRNAseq_expression_matrix_subset.npy|CMC=http://gcp.wenglab.org/gene-service-files/psychscreen/CMC_expression_matrix_subset.npy|SZBDMulti-Seq=http://gcp.wenglab.org/gene-service-files/psychscreen/SZBDMulti-Seq_expression_matrix_subset.npy|UCLA-ASD=http://gcp.wenglab.org/gene-service-files/psychscreen/UCLA-ASD_expression_matrix_subset.npy|LIBD=http://gcp.wenglab.org/gene-service-files/psychscreen/LIBD_expression_matrix_subset.npy|PTSDBrainomics=http://gcp.wenglab.org/gene-service-files/psychscreen/PTSDBrainomics_expression_matrix_subset.npy
+            #value: "SZBDMulti-Seq=https://downloads.wenglab.org/SZBDMulti-Seq_expression_matrix_subset.npy"  
+        ports:
+        - containerPort: 3000
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        resources:
+          requests:
+            cpu: 100m
+            memory: 50Gi
+          limits:
+            memory: 50Gi
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/cloud_sql_proxy",
+                  "-instances=devenv-215523:us-east1:genes-instance=tcp:5432",
+                  "-credential_file=/secrets/cloudsql/workflow-service-account.json"]
+        securityContext:
+          runAsUser: 2  # non-root user
+          allowPrivilegeEscalation: false
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+      volumes:
+        - name: service-account-key
+          secret:
+            secretName: workflow-service-account-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: genes-service-service
+  labels:
+    app: genes-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 3000
+  selector:
+    app: genes-service

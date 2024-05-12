@@ -1,0 +1,2000 @@
+ROW_ID	ROW_VERSION	study	individualID	individualIDSource	diagnosis	sex	ethnicity	ageDeath	ageOnset	yearAutopsy	causeDeath	brainWeight	height	weight	ageBiopsy	smellTestScore	smoker	notes	Capstone_4
+0	17	BrainSpan	HSB103		Control	M	CAUC	13 PCW											
+1	17	BrainSpan	HSB105		Control	M	CAUC	18											
+2	17	BrainSpan	HSB107		Control	F	CAUC	21 PCW											
+3	17	BrainSpan	HSB112		Control	M	CAUC	8 PCW											
+4	17	BrainSpan	HSB113		Control	F	Multiracial	12 PCW											
+5	17	BrainSpan	HSB114		Control	M	CAUC	13 PCW											
+6	17	BrainSpan	HSB118		Control	M	AA	4											
+7	17	BrainSpan	HSB119		Control	M	AA	15											
+8	17	BrainSpan	HSB121		Control	M	CAUC	0.3											
+9	17	BrainSpan	HSB122		Control	F	CAUC	1											
+10	17	BrainSpan	HSB123		Control	M	AA	37											true
+11	17	BrainSpan	HSB124		Control	F	AA	13											
+12	17	BrainSpan	HSB126		Control	F	CAUC	30											true
+13	17	BrainSpan	HSB127		Control	F	CAUC	19											
+14	17	BrainSpan	HSB130		Control	F	CAUC	21											true
+15	17	BrainSpan	HSB131		Control	F	CAUC	0.5											
+16	17	BrainSpan	HSB132		Control	M	CAUC	0.3											
+17	17	BrainSpan	HSB135		Control	F	AA	40											true
+18	17	BrainSpan	HSB136		Control	M	AA	23											true
+19	17	BrainSpan	HSB139		Control	M	AA	0.3											
+20	17	BrainSpan	HSB141		Control	M	AA	8											
+21	17	BrainSpan	HSB143		Control	F	CAUC	2											
+22	17	BrainSpan	HSB145		Control	M	CAUC	36											true
+23	17	BrainSpan	HSB148		Control	M	CAUC	9 PCW											
+24	17	BrainSpan	HSB149		Control	F	CAUC	13 PCW											
+25	17	BrainSpan	HSB150		Control	F	AA	12 PCW											
+26	17	BrainSpan	HSB153		Control	F	AS	12 PCW											
+27	17	BrainSpan	HSB154		Control	M	Multiracial	16 PCW											
+28	17	BrainSpan	HSB155		Control	F	CAUC	35 PCW											
+29	17	BrainSpan	HSB159		Control	M	CAUC	22 PCW											
+30	17	BrainSpan	HSB171		Control	M	AA	0.8											
+31	17	BrainSpan	HSB172		Control	M	HISP	3											
+32	17	BrainSpan	HSB173		Control	F	CAUC	3											
+33	17	BrainSpan	HSB175		Control	F	AA	11											
+34	17	BrainSpan	HSB178		Control	M	CAUC	16 PCW											
+35	17	BrainSpan	HSB194		Control	M	CAUC	37 PCW											
+36	17	BrainSpan	HSB92		Control	M	AA	21 PCW											
+37	17	BrainSpan	HSB96		Control	M	HISP	16 PCW											
+38	17	BrainSpan	HSB97		Control	F	CAUC	17 PCW											
+39	17	BrainSpan	HSB98		Control	F	HISP	19 PCW											
+40	19	CMC	CMC_MSSM_002	MSSM	Bipolar Disorder	M	CAUC	42		2004	Cardiovascular	1398	68	225					true
+41	19	CMC	CMC_MSSM_003	MSSM	Bipolar Disorder	M	CAUC	58		2004	Infection and parasitic disease	1518							true
+42	19	CMC	CMC_MSSM_004	MSSM	Affective Disorder	F	CAUC	28		2004	Other	1415	67	186					true
+43	19	CMC	CMC_MSSM_005	MSSM	Affective Disorder	F	CAUC	36		2004	Other	1204	67	170					true
+44	19	CMC	CMC_MSSM_006	MSSM	Affective Disorder	M	CAUC	52		2004	COPD	1218		280					true
+45	19	CMC	CMC_MSSM_007	MSSM	Affective Disorder	F	CAUC	78		2004	Cardiovascular	1012							true
+46	19	CMC	CMC_MSSM_008	MSSM	Affective Disorder	F	CAUC	49		2004	Cardiovascular	1218	66	130					true
+47	19	CMC	CMC_MSSM_009	MSSM	Bipolar Disorder	M	CAUC	62		2005	Other	1159	70	220					true
+48	19	CMC	CMC_MSSM_010	MSSM	Affective Disorder	F	CAUC	60		2005	Cardiovascular	1160	66	181					true
+49	19	CMC	CMC_MSSM_011	MSSM	Bipolar Disorder	M	CAUC	51		2005	Cardiovascular	1434	75	234					true
+50	19	CMC	CMC_MSSM_012	MSSM	Bipolar Disorder	F	CAUC	70		1991		1243							true
+51	19	CMC	CMC_MSSM_013	MSSM	Bipolar Disorder	F	CAUC	59		2005	Cardiovascular	1064	66	260					true
+52	19	CMC	CMC_MSSM_016	MSSM	Bipolar Disorder	F	HISP	77		2009	Cardiovascular	992	64	147					true
+53	19	CMC	CMC_MSSM_017	MSSM	Bipolar Disorder	F	CAUC	76		2010	Cardiovascular	1098	67						true
+54	19	CMC	CMC_MSSM_019	MSSM	Bipolar Disorder	M	CAUC	69		1991	Cardiovascular	1236							true
+55	19	CMC	CMC_MSSM_020	MSSM	Bipolar Disorder	F	CAUC	90+		1992		1133							true
+56	19	CMC	CMC_MSSM_021	MSSM	Affective Disorder	F	CAUC	80		1992		1113							true
+57	19	CMC	CMC_MSSM_022	MSSM	Bipolar Disorder	F	CAUC	64		1999	Non-brain cancer	1355							true
+58	19	CMC	CMC_MSSM_023	MSSM	Affective Disorder	F	AA	89		2001	Other	1042	65	114					true
+59	19	CMC	CMC_MSSM_024	MSSM	Bipolar Disorder	M	CAUC	72		2004	Cardiovascular	1425	63	117					true
+60	19	CMC, EpiDiff	CMC_MSSM_025	MSSM	Schizophrenia	M	CAUC	68		2002	Cardiovascular	1216							true
+61	19	CMC, EpiDiff	CMC_MSSM_026	MSSM	Control	M	HISP	58		2003	Cardiovascular	1238	65	163					true
+62	19	CMC	CMC_MSSM_027	MSSM	Schizophrenia	M	CAUC	66		1994	Cardiovascular	1239							true
+63	19	CMC	CMC_MSSM_028	MSSM	Schizophrenia	F	CAUC	76		1995	Cardiovascular	1038							true
+64	19	CMC, EpiDiff	CMC_MSSM_029	MSSM	Control	F	CAUC	82		1995	Cardiovascular	1005	67	180					true
+65	19	CMC	CMC_MSSM_033	MSSM	Control	F	AA	81		1996	Cardiovascular	899		169					true
+66	19	CMC	CMC_MSSM_035	MSSM	Control	M	CAUC	75		1994	Cardiovascular	1102		118					true
+67	19	CMC, EpiDiff	CMC_MSSM_036	MSSM	Control	F	CAUC	82		1995	Cardiovascular	1010		121					true
+68	19	CMC	CMC_MSSM_037	MSSM	Control	F	AA	40		2003	Cardiovascular	1272	70	325					true
+69	19	CMC, EpiDiff	CMC_MSSM_038	MSSM	Control	F	HISP	82		1995	Non-brain cancer	1182	61	125					true
+70	19	CMC	CMC_MSSM_039	MSSM	Control	F	CAUC	68		2004	Non-brain cancer	1174	69	275					true
+71	19	CMC, EpiDiff	CMC_MSSM_040	MSSM	Control	M	CAUC	64		2005	Cardiovascular	1376		214					true
+72	19	CMC	CMC_MSSM_041	MSSM	Control	F	CAUC	90+		1986		940							true
+73	19	CMC, EpiDiff	CMC_MSSM_042	MSSM	Schizophrenia	M	CAUC	61		1993	Cardiovascular	1437							true
+74	19	CMC, EpiDiff	CMC_MSSM_044	MSSM	Control	M	CAUC	66		2000	Cardiovascular	1402	69	237					true
+75	19	CMC, EpiDiff	CMC_MSSM_045	MSSM	Control	M	CAUC	73		2005	Cardiovascular	1345	68	192					true
+76	19	CMC, EpiDiff	CMC_MSSM_046	MSSM	Control	F	CAUC	90+		2003	Non-brain cancer	876	61	112					true
+77	19	CMC	CMC_MSSM_047	MSSM	Control	F	CAUC	60		2007	Cardiovascular	1199	69	190					true
+78	19	CMC	CMC_MSSM_048	MSSM	Schizophrenia	M	CAUC	84		2001	Cardiovascular	1259							true
+79	19	CMC, EpiDiff	CMC_MSSM_049	MSSM	Control	F	CAUC	61		2007	Other	1222	64	114					true
+80	19	CMC, EpiDiff	CMC_MSSM_050	MSSM	Control	M	AS	73		2004	Cardiovascular	1184	66	126					true
+81	19	CMC, EpiDiff	CMC_MSSM_051	MSSM	Control	F	AA	90+		2006	Cardiovascular	1022	62	120					true
+82	19	CMC, EpiDiff	CMC_MSSM_052	MSSM	Control	F	CAUC	85		2006	Cardiovascular	1040	60	109					true
+83	19	CMC, EpiDiff	CMC_MSSM_053	MSSM	Control	M	CAUC	64		2006	Other	1278	73	251					true
+84	19	CMC	CMC_MSSM_054	MSSM	Control	M	CAUC	84		2005	Cardiovascular	1164	69	135					true
+85	19	CMC	CMC_MSSM_055	MSSM	Control	M	CAUC	66		2005	Cardiovascular	1370	72	167					true
+86	19	CMC	CMC_MSSM_056	MSSM	Control	F	CAUC	67		2005	Cardiovascular	1222	65	283					true
+87	19	CMC, EpiDiff	CMC_MSSM_057	MSSM	Control	F	AA	79		2005	Cardiovascular	1002	64	167					true
+88	19	CMC, EpiDiff	CMC_MSSM_058	MSSM	Control	F	HISP	76		2005	Non-brain cancer	1110	58	98					true
+89	19	CMC, EpiDiff	CMC_MSSM_059	MSSM	Schizophrenia	M	CAUC	57		2000	Non-brain cancer	1377							true
+90	19	CMC	CMC_MSSM_060	MSSM	Control	M	AA	90+		2005	Cardiovascular	846	68	139					true
+91	19	CMC, EpiDiff	CMC_MSSM_061	MSSM	Control	M	CAUC	68		2005	Cardiovascular	1044	64	112					true
+92	19	CMC, EpiDiff	CMC_MSSM_062	MSSM	Schizophrenia	M	CAUC	75		1994	Non-brain cancer	1457							true
+93	19	CMC	CMC_MSSM_063	MSSM	Control	M	CAUC	72		1996	Other	1270							true
+94	19	CMC	CMC_MSSM_064	MSSM	Control	M	CAUC	85		2003	Non-brain cancer	1196	67	158					true
+95	19	CMC, EpiDiff	CMC_MSSM_065	MSSM	Control	F	CAUC	90+		2003	Cardiovascular	984	48	148					true
+96	19	CMC, EpiDiff	CMC_MSSM_066	MSSM	Control	F	CAUC	78		2003	Cardiovascular	998	62	127					true
+97	19	CMC	CMC_MSSM_067	MSSM	Control	F	HISP	81		2004	Cardiovascular	908	58	134					true
+98	19	CMC	CMC_MSSM_069	MSSM	Control	F	HISP	63		2004	Cardiovascular	1214		196					true
+99	19	CMC, EpiDiff	CMC_MSSM_070	MSSM	Control	M	HISP	74		2001	Cardiovascular	1216							
+100	19	CMC	CMC_MSSM_071	MSSM	Control	M	AA	62		2004	Cardiovascular	1260							true
+101	19	CMC	CMC_MSSM_072	MSSM	Control	F	CAUC	66		2004	Other	1355	68						true
+102	19	CMC, EpiDiff	CMC_MSSM_073	MSSM	Control	F	CAUC	79		1988	Infection and parasitic disease	979							true
+103	19	CMC	CMC_MSSM_074	MSSM	Control	F	CAUC	86		1988	Cardiovascular	1006							true
+104	19	CMC, EpiDiff	CMC_MSSM_075	MSSM	Control	F	CAUC	77		1991	Cardiovascular	1398							true
+105	19	CMC	CMC_MSSM_076	MSSM	Control	F	AA	90+		1993	Cardiovascular	852							true
+106	19	CMC, EpiDiff	CMC_MSSM_077	MSSM	Control	F	HISP	75		2009	Cardiovascular	1036	62	143					true
+107	19	CMC, EpiDiff	CMC_MSSM_078	MSSM	Control	M	CAUC	90+		2009	Cardiovascular	1266	63	165					true
+108	19	CMC, EpiDiff	CMC_MSSM_079	MSSM	Control	F	CAUC	90+		2010	Cardiovascular	1235	62	162					true
+109	19	CMC, EpiDiff	CMC_MSSM_080	MSSM	Control	M	CAUC	84		1997	Non-brain cancer	1211		154					true
+110	19	CMC	CMC_MSSM_081	MSSM	Control	F	CAUC	88		1992	Cardiovascular	1022							true
+111	19	CMC, EpiDiff	CMC_MSSM_083	MSSM	Control	M	AS	69		2001	Cardiovascular	1046		205					true
+112	19	CMC	CMC_MSSM_084	MSSM	Control	M	CAUC	31		2007	Other	1388	63	120					true
+113	19	CMC, EpiDiff	CMC_MSSM_085	MSSM	Control	M	CAUC	74		2006	Cardiovascular	1238	72	123					true
+114	19	CMC	CMC_MSSM_086	MSSM	Control	M	AA	77		2007	Cardiovascular	1214	70	133					true
+115	19	CMC, EpiDiff	CMC_MSSM_087	MSSM	Control	F	AA	90+		2008	Cardiovascular	866	60	124					true
+116	19	CMC, EpiDiff	CMC_MSSM_088	MSSM	Control	M	HISP	85		2008	Cardiovascular	1020	66	128					true
+117	19	CMC, EpiDiff	CMC_MSSM_089	MSSM	Control	M	CAUC	90+		2008	Cardiovascular	1104	71	150					true
+118	19	CMC	CMC_MSSM_090	MSSM	Control	M	CAUC	70		2006	Other	1422		146					true
+119	19	CMC, EpiDiff	CMC_MSSM_092	MSSM	Control	F	CAUC	79		2001	Cardiovascular	1049	69	143					true
+120	19	CMC	CMC_MSSM_093	MSSM	Control	F	CAUC	90+		2009	Cardiovascular	894		174					true
+121	19	CMC	CMC_MSSM_094	MSSM	Control	F	CAUC	90+		2005	Cardiovascular	1144	63	135					true
+122	19	CMC	CMC_MSSM_095	MSSM	Control	M	AA	90+		2006	Other	970	67	121					true
+123	19	CMC	CMC_MSSM_096	MSSM	Control	F	CAUC	67		1988	Cardiovascular	1179							true
+124	19	CMC, EpiDiff	CMC_MSSM_097	MSSM	Schizophrenia	M	CAUC	73		1992	Cardiovascular	1036							true
+125	19	CMC, EpiDiff	CMC_MSSM_098	MSSM	Control	M	HISP	39		2006	Cardiovascular	1098	65	142					true
+126	19	CMC, EpiDiff	CMC_MSSM_099	MSSM	Control	F	AA	62		2002	Cardiovascular	1132	66	250					true
+127	19	CMC	CMC_MSSM_100	MSSM	Control	M	CAUC	64		2006	Cardiovascular	1238	70	96					true
+128	19	CMC	CMC_MSSM_101	MSSM	Control	F	CAUC	88		2007	Cardiovascular	1274	63	137					true
+129	19	CMC	CMC_MSSM_104	MSSM	Control	M	HISP	35		2010	Cardiovascular	1304	70						true
+130	19	CMC	CMC_MSSM_105	MSSM	Control	F	CAUC	90+		2010		1128	64	160					true
+131	19	CMC, EpiDiff	CMC_MSSM_106	MSSM	Control	F	CAUC	90+		2012	Cardiovascular	1094	60	171					true
+132	19	CMC, EpiDiff	CMC_MSSM_107	MSSM	Control	F	CAUC	90+		2012	Cardiovascular	974							true
+133	19	CMC, EpiDiff	CMC_MSSM_108	MSSM	Control	M	CAUC	90+		2012	Other	1120	70	140					true
+134	19	CMC, EpiDiff	CMC_MSSM_109	MSSM	Control	F	CAUC	90+		2011	Cardiovascular	1136	68	110					true
+135	19	CMC, EpiDiff	CMC_MSSM_110	MSSM	Control	F	CAUC	89		1992	Cardiovascular	1210							true
+136	19	CMC, EpiDiff	CMC_MSSM_111	MSSM	Schizophrenia	M	CAUC	54		2006	Cardiovascular	1434	74	207					true
+137	19	CMC, EpiDiff	CMC_MSSM_113	MSSM	Schizophrenia	M	CAUC	75		2002	Cardiovascular	1146	65	106					true
+138	19	CMC	CMC_MSSM_115	MSSM	Schizophrenia	F	CAUC	50		2004	Cardiovascular	1398	68	140					true
+139	19	CMC, EpiDiff	CMC_MSSM_116	MSSM	Schizophrenia	F	CAUC	74		2008	Cardiovascular	1226	62	179					true
+140	19	CMC, EpiDiff	CMC_MSSM_117	MSSM	Control	M	CAUC	86		2008	Cardiovascular	1170	67	116					true
+141	19	CMC, EpiDiff	CMC_MSSM_118	MSSM	Schizophrenia	M	CAUC	54		2009	Cardiovascular	1482							true
+142	19	CMC	CMC_MSSM_119	MSSM	Schizophrenia	M	CAUC	82		1992	Cardiovascular	1081							true
+143	19	CMC	CMC_MSSM_120	MSSM	Control	M	HISP	46		2006	Cardiovascular	1164	65	168					true
+144	19	CMC, EpiDiff	CMC_MSSM_121	MSSM	Control	M	CAUC	51		2006	Cardiovascular	1488	71	190					true
+145	19	CMC	CMC_MSSM_122	MSSM	Control	M	CAUC	90+		2006	Cardiovascular	1184		154					true
+146	19	CMC	CMC_MSSM_123	MSSM	Control	M	AA	36		2006	Other	1098	68	215					true
+147	19	CMC, EpiDiff	CMC_MSSM_124	MSSM	Control	M	CAUC	48		2006	Cardiovascular	1386	76	290					true
+148	19	CMC, EpiDiff	CMC_MSSM_128	MSSM	Control	M	HISP	42		2006	Other	1366	71	202					true
+149	19	CMC, EpiDiff	CMC_MSSM_130	MSSM	Control	M	CAUC	41		2007	Other	1464	73	240					true
+150	19	CMC	CMC_MSSM_131	MSSM	Control	M	AA	59		2006	Cardiovascular	1168	64	121					true
+151	19	CMC	CMC_MSSM_132	MSSM	Schizophrenia	F	CAUC	81		2003	Cardiovascular	1076	64	125					true
+152	19	CMC, EpiDiff	CMC_MSSM_133	MSSM	Schizophrenia	M	CAUC	70		2001	Cardiovascular	1324	70	111					true
+153	19	CMC	CMC_MSSM_136	MSSM	Control	M	CAUC	76		2002	Cardiovascular	1164	69	122					true
+154	19	CMC	CMC_MSSM_137	MSSM	Control	F	CAUC	90+		1993	Cardiovascular	989		92					true
+155	19	CMC	CMC_MSSM_138	MSSM	Control	F	AA	78		1987	Cardiovascular	1050							true
+156	19	CMC, EpiDiff	CMC_MSSM_139	MSSM	Schizophrenia	F	CAUC	71		1990	Cardiovascular	1055							true
+157	19	CMC, EpiDiff	CMC_MSSM_140	MSSM	Control	F	CAUC	85		2009	Cardiovascular	1128	63	163					true
+158	19	CMC, EpiDiff	CMC_MSSM_142	MSSM	Schizophrenia	F	CAUC	79		1993	Cardiovascular	1050	64	90					true
+159	19	CMC	CMC_MSSM_143	MSSM	Schizophrenia	M	AA	84		1992	Cardiovascular	1051							true
+160	19	CMC	CMC_MSSM_146	MSSM	Control	M	AA	69		1986	Infection and parasitic disease	1181							true
+161	19	CMC	CMC_MSSM_147	MSSM	Control	M	HISP	66		1986	Infection and parasitic disease	1418							true
+162	19	CMC	CMC_MSSM_148	MSSM	Schizophrenia	F	AA	70		1999	Cardiovascular	1221							
+163	19	CMC	CMC_MSSM_149	MSSM	Control	M	CAUC	88		1987	Non-brain cancer	1299							true
+164	19	CMC	CMC_MSSM_150	MSSM	Control	F	CAUC	90+		1988		1024							true
+165	19	CMC	CMC_MSSM_151	MSSM	Control	M	CAUC	89		1989		1022							true
+166	19	CMC	CMC_MSSM_154	MSSM	Schizophrenia	M	CAUC	80		1990	Cardiovascular	1362							
+167	19	CMC	CMC_MSSM_158	MSSM	Schizophrenia	F	CAUC	77		1991	Cardiovascular	980		100					
+168	19	CMC	CMC_MSSM_159	MSSM	Control	F	CAUC	90+		1999	Cardiovascular	1020		101					true
+169	19	CMC	CMC_MSSM_160	MSSM	Control	F	CAUC	80		1991	Cardiovascular	984							true
+170	19	CMC, EpiDiff	CMC_MSSM_161	MSSM	Schizophrenia	F	CAUC	86		1991	Cardiovascular	1091							true
+171	19	CMC, EpiDiff	CMC_MSSM_163	MSSM	Schizophrenia	M	CAUC	83		1992	Cardiovascular	1207							true
+172	19	CMC, EpiDiff	CMC_MSSM_166	MSSM	Schizophrenia	M	CAUC	73		1992	Cardiovascular	1339							true
+173	19	CMC	CMC_MSSM_168	MSSM	Schizophrenia	M	CAUC	73		1992	Cardiovascular	1001							true
+174	19	CMC	CMC_MSSM_169	MSSM	Schizophrenia	M	CAUC	76		1993	Cardiovascular	1186							true
+175	19	CMC	CMC_MSSM_171	MSSM	Schizophrenia	F	AA	73		1993	Cardiovascular	1162							true
+176	19	CMC	CMC_MSSM_172	MSSM	Control	M	HISP	47		2006	Cardiovascular	1304	69	196					true
+177	19	CMC, EpiDiff	CMC_MSSM_173	MSSM	Schizophrenia	M	CAUC	53		2006	Cardiovascular	1528	71	200					true
+178	19	CMC, EpiDiff	CMC_MSSM_174	MSSM	Control	M	CAUC	79		2007	Non-brain cancer	1130	70	156					true
+179	19	CMC	CMC_MSSM_175	MSSM	Control	M	CAUC	79		1994	Cardiovascular	1286							true
+180	19	CMC	CMC_MSSM_177	MSSM	Control	M	CAUC	60		2007	Cardiovascular	1448	67	195					true
+181	19	CMC	CMC_MSSM_178	MSSM	Control	M	CAUC	60		2007	Other	1222	69	173					true
+182	19	CMC, EpiDiff	CMC_MSSM_179	MSSM	Control	F	CAUC	86		2008	Cardiovascular	1004	63	154					true
+183	19	CMC, EpiDiff	CMC_MSSM_180	MSSM	Schizophrenia	M	CAUC	90+		1993	Cardiovascular	1416							true
+184	19	CMC, EpiDiff	CMC_MSSM_182	MSSM	Control	M	CAUC	62		2007	Cardiovascular	1504	67	188					true
+185	19	CMC, EpiDiff	CMC_MSSM_183	MSSM	Control	M	CAUC	66		2007	Cardiovascular	1168	71	130					true
+186	19	CMC, EpiDiff	CMC_MSSM_184	MSSM	Control	F	CAUC	90+		2008	Cardiovascular	1064	64	120					true
+187	19	CMC	CMC_MSSM_185	MSSM	Control	M	CAUC	81		1995	Infection and parasitic disease	1247		133					true
+188	19	CMC, EpiDiff	CMC_MSSM_186	MSSM	Control	F	HISP	57		2008	Cardiovascular	1082	65	224					true
+189	19	CMC	CMC_MSSM_187	MSSM	Control	M	CAUC	39		2005	Other	1380	71	175					true
+190	19	CMC	CMC_MSSM_188	MSSM	Control	M	AS	55		2005	Cardiovascular	1190	68	182					true
+191	19	CMC	CMC_MSSM_190	MSSM	Control	M	CAUC	84		2005	Cardiovascular	1446	71	175					true
+192	19	CMC	CMC_MSSM_192	MSSM	Schizophrenia	M	CAUC	86		1993	Cardiovascular	1216							true
+193	19	CMC, EpiDiff	CMC_MSSM_193	MSSM	Schizophrenia	M	CAUC	70		2010	Non-brain cancer	1146	68	143					true
+194	19	CMC	CMC_MSSM_194	MSSM	Schizophrenia	F	CAUC	90+		1990	Cardiovascular	1085	60	95					true
+195	19	CMC, EpiDiff	CMC_MSSM_196	MSSM	Schizophrenia	F	CAUC	86		1990	Cardiovascular	920							true
+196	19	CMC, EpiDiff	CMC_MSSM_197	MSSM	Schizophrenia	M	CAUC	74		1992	Cardiovascular	1374							true
+197	19	CMC	CMC_MSSM_198	MSSM	Schizophrenia	M	CAUC	63		1992	Cardiovascular	1408							true
+198	19	CMC, EpiDiff	CMC_MSSM_199	MSSM	Schizophrenia	F	CAUC	82		1992	Cardiovascular	1021							true
+199	19	CMC, EpiDiff	CMC_MSSM_200	MSSM	Schizophrenia	M	CAUC	79		1992	Infection and parasitic disease	1021							true
+200	19	CMC, EpiDiff	CMC_MSSM_201	MSSM	Schizophrenia	F	CAUC	84		1992	Cardiovascular	1258	71	140					true
+201	19	CMC	CMC_MSSM_202	MSSM	Schizophrenia	M	AA	77		1992	Cardiovascular	1112							
+202	19	CMC	CMC_MSSM_203	MSSM	Control	M	CAUC	70		1996	Other	1420							true
+203	19	CMC, EpiDiff	CMC_MSSM_204	MSSM	Schizophrenia	M	CAUC	87		1992	Cardiovascular	1290	67	130					true
+204	19	CMC, EpiDiff	CMC_MSSM_205	MSSM	Schizophrenia	M	CAUC	81		1992	Cardiovascular	1299							true
+205	19	CMC, EpiDiff	CMC_MSSM_206	MSSM	Control	M	AA	67		1993	Cardiovascular	1085		113					true
+206	19	CMC, EpiDiff	CMC_MSSM_208	MSSM	Control	F	CAUC	90+		1993	Cardiovascular	809		84					true
+207	19	CMC	CMC_MSSM_209	MSSM	Schizophrenia	M	CAUC	77		1994	Cardiovascular	1081							true
+208	19	CMC, EpiDiff	CMC_MSSM_210	MSSM	Schizophrenia	M	CAUC	66		1996	Cardiovascular	1304		83					true
+209	19	CMC	CMC_MSSM_212	MSSM	Schizophrenia	M	AS	65		1996		1462							true
+210	19	CMC, EpiDiff	CMC_MSSM_213	MSSM	Schizophrenia	M	CAUC	62		1996	Cardiovascular	1440						Kleinfelter (XXY)	true
+211	19	CMC, EpiDiff	CMC_MSSM_214	MSSM	Control	F	AA	75		2000	Cardiovascular	1030	65	141					true
+212	19	CMC, EpiDiff	CMC_MSSM_215	MSSM	Control	M	CAUC	84		1996	Cardiovascular	941		100					true
+213	19	CMC	CMC_MSSM_216	MSSM	Schizophrenia	F	CAUC	64		1994	Cardiovascular	1118							true
+214	19	CMC, EpiDiff	CMC_MSSM_217	MSSM	Control	F	CAUC	79		1995	Non-brain cancer	1202		97					true
+215	19	CMC, EpiDiff	CMC_MSSM_218	MSSM	Schizophrenia	M	CAUC	76		1995	Cardiovascular	1283							true
+216	19	CMC	CMC_MSSM_219	MSSM	Control	F	CAUC	86		1995	Cardiovascular	1289		98					true
+217	19	CMC, EpiDiff	CMC_MSSM_221	MSSM	Control	F	AA	81		1997	Cardiovascular	1038	65	116					true
+218	19	CMC, EpiDiff	CMC_MSSM_222	MSSM	Schizophrenia	M	CAUC	68		1997	Cardiovascular	1040							true
+219	19	CMC	CMC_MSSM_223	MSSM	Control	M	CAUC	71		2005	Other	1140		137					true
+220	19	CMC, EpiDiff	CMC_MSSM_224	MSSM	Schizophrenia	F	AA	53		2001	Cardiovascular	1130							true
+221	19	CMC, EpiDiff	CMC_MSSM_225	MSSM	Control	F	CAUC	90+		1991	Cardiovascular	1099							true
+222	19	CMC	CMC_MSSM_226	MSSM	Control	F	CAUC	90+		1994	Cardiovascular	962		74					true
+223	19	CMC	CMC_MSSM_227	MSSM	Control	M	CAUC	27		2005	Other	1356	67	172					true
+224	19	CMC	CMC_MSSM_228	MSSM	Control	M	CAUC	43		2005	Other	1472	71	190					true
+225	19	CMC	CMC_MSSM_230	MSSM	Control	M	CAUC	38		2004	Other	1364	71	170					true
+226	19	CMC, EpiDiff	CMC_MSSM_232	MSSM	Control	M	CAUC	24		2004	Cardiovascular	1300							true
+227	19	CMC, EpiDiff	CMC_MSSM_233	MSSM	Control	M	CAUC	49		2004	Cardiovascular	1436	68	229					true
+228	19	CMC, EpiDiff	CMC_MSSM_234	MSSM	Control	M	CAUC	90+		1994	Cardiovascular	1072		154					true
+229	19	CMC	CMC_MSSM_235	MSSM	Control	M	CAUC	56		2004	Cardiovascular	1450	71	300					true
+230	19	CMC	CMC_MSSM_236	MSSM	Control	F	HISP	74		1991	Cardiovascular	969							true
+231	19	CMC, EpiDiff	CMC_MSSM_237	MSSM	Control	M	CAUC	42		2005	Other	1272							true
+232	19	CMC	CMC_MSSM_238	MSSM	Control	F	CAUC	81		2005	Cardiovascular	1094	64	107					true
+233	19	CMC	CMC_MSSM_240	MSSM		M	CAUC	36		2005	Other	1408		235					
+234	19	CMC	CMC_MSSM_242	MSSM	Control	M	CAUC	71		2005	Cardiovascular	1410	70	200					true
+235	19	CMC	CMC_MSSM_243	MSSM	Control	F	AA	49		2003	Cardiovascular	1270	68	169					true
+236	19	CMC, EpiDiff	CMC_MSSM_244	MSSM	Control	F	CAUC	41		2004	Cardiovascular	1286	65	142					true
+237	19	CMC	CMC_MSSM_245	MSSM	Control	M	HISP	78		2002	Cardiovascular	1088		108					true
+238	19	CMC	CMC_MSSM_246	MSSM	Control	F	CAUC	81		2000	Cardiovascular	1241		158					true
+239	19	CMC, EpiDiff	CMC_MSSM_247	MSSM	Control	M	CAUC	60		2002	Cardiovascular	1368	70	299					true
+240	19	CMC, EpiDiff	CMC_MSSM_248	MSSM	Schizophrenia	M	AA	68		1993	Cardiovascular	1214							true
+241	19	CMC	CMC_MSSM_249	MSSM	Control	M	CAUC	84		1999	Cardiovascular	1135	68	127					true
+242	19	CMC, EpiDiff	CMC_MSSM_250	MSSM	Schizophrenia	M	CAUC	41		2000	Other	1157						Kleinfelter (XXY)	true
+243	19	CMC, EpiDiff	CMC_MSSM_251	MSSM	Control	M	CAUC	61		1989	Cardiovascular	912							true
+244	19	CMC, EpiDiff	CMC_MSSM_252	MSSM	Control	F	CAUC	76		1991	Cardiovascular	1060							true
+245	19	CMC, EpiDiff	CMC_MSSM_253	MSSM	Schizophrenia	F	CAUC	75		1992	Cardiovascular	1472	62	127					true
+246	19	CMC, EpiDiff	CMC_MSSM_254	MSSM	Schizophrenia	M	CAUC	64		1991	Cardiovascular	1330							true
+247	19	CMC	CMC_MSSM_255	MSSM	Schizophrenia	F	CAUC	77		1990	Cardiovascular	1053	62	100					true
+248	19	CMC	CMC_MSSM_257	MSSM	Schizophrenia	M	AA	86		1993	Cardiovascular	1061	68	125					true
+249	19	CMC	CMC_MSSM_258	MSSM	Schizophrenia	F	CAUC	64		2005	Cardiovascular	1362	63	198					true
+250	19	CMC, EpiDiff	CMC_MSSM_259	MSSM	Control	M	AA	69		1995	Non-brain cancer	1080		122					true
+251	19	CMC, EpiDiff	CMC_MSSM_260	MSSM	Schizophrenia	F	CAUC	75		2002	Cardiovascular	960	65	136					true
+252	19	CMC	CMC_MSSM_261	MSSM	Control	F	CAUC	79		2005	Cardiovascular	1178	63	115					true
+253	19	CMC	CMC_MSSM_262	MSSM	Schizophrenia	M	CAUC	78		2005	Cardiovascular	1942	67	138					true
+254	19	CMC, EpiDiff	CMC_MSSM_263	MSSM	Control	F	AA	73		2002	Cardiovascular	1305	67	110					true
+255	19	CMC	CMC_MSSM_264	MSSM	Control	M	CAUC	75		1993	Cardiovascular	1276	71	93					true
+256	19	CMC, EpiDiff	CMC_MSSM_265	MSSM	Schizophrenia	M	CAUC	84		1992	Cardiovascular	983							true
+257	19	CMC, EpiDiff	CMC_MSSM_266	MSSM	Schizophrenia	M	CAUC	81		1992	Cardiovascular	1133							true
+258	19	CMC	CMC_MSSM_269	MSSM	Schizophrenia	M	CAUC	79		2006	Cardiovascular	1356							true
+259	19	CMC, EpiDiff	CMC_MSSM_270	MSSM	Control	F	CAUC	85		1996	Cardiovascular	1130	65	113					true
+260	19	CMC	CMC_MSSM_271	MSSM	Schizophrenia	F	CAUC	62		2006	Cardiovascular	1120	65	176					true
+261	19	CMC	CMC_MSSM_272	MSSM	Control	M	AA	48		1990	Cardiovascular	739	69	140					true
+262	19	CMC, EpiDiff	CMC_MSSM_274	MSSM	Control	F	CAUC	89		1991	Cardiovascular	1000							true
+263	19	CMC	CMC_MSSM_277	MSSM	Schizophrenia	M	CAUC	58		1997	Cardiovascular	1057							true
+264	19	CMC	CMC_MSSM_278	MSSM	Control	F	CAUC	60		1995	Cardiovascular	1352		120					true
+265	19	CMC	CMC_MSSM_279	MSSM	Schizophrenia	M	CAUC	77		1995	Non-brain cancer	939							true
+266	19	CMC	CMC_MSSM_280	MSSM	Control	F	CAUC	85		1995	Cardiovascular	939		119					true
+267	19	CMC	CMC_MSSM_281	MSSM	Control	F	CAUC	90+		1996	Cardiovascular	1026		90					true
+268	19	CMC, EpiDiff	CMC_MSSM_282	MSSM	Control	M	CAUC	88		1995	Cardiovascular	1084		123					true
+269	19	CMC	CMC_MSSM_285	MSSM		M	CAUC	88		2000	Cardiovascular	1036		117					
+270	19	CMC	CMC_MSSM_287	MSSM	Schizophrenia	M	CAUC	59		2004	Cardiovascular	1364							
+271	19	CMC	CMC_MSSM_288	MSSM	Schizophrenia	M	CAUC	69		2006		1062	71	143					true
+272	19	CMC	CMC_MSSM_289	MSSM	Schizophrenia	M	CAUC	82		2006	Cardiovascular	1202	68	175					true
+273	19	CMC, EpiDiff	CMC_MSSM_290	MSSM	Schizophrenia	M	HISP	51		2005	Cardiovascular	1260	70	187				CMC_MSSM_290 is a sibling pair with CMC_MSSM_307	true
+274	19	CMC	CMC_MSSM_291	MSSM	Schizophrenia	M	CAUC	84		2004	Cardiovascular	1576	64	114					true
+275	19	CMC, EpiDiff	CMC_MSSM_292	MSSM	Control	F	CAUC	84		1998	Cardiovascular	961	62	180					true
+276	19	CMC	CMC_MSSM_294	MSSM	Schizophrenia	M	CAUC	46		2005		1420	70	280					true
+277	19	CMC, EpiDiff	CMC_MSSM_295	MSSM	Schizophrenia	M	CAUC	62		2005	Cardiovascular	1166		142					true
+278	19	CMC, EpiDiff	CMC_MSSM_296	MSSM	Schizophrenia	F	CAUC	88		2005	Cardiovascular	1390	61	129					true
+279	19	CMC	CMC_MSSM_297	MSSM	Schizophrenia	M	CAUC	47		2010	Cardiovascular	1144	73	270					true
+280	19	CMC, EpiDiff	CMC_MSSM_298	MSSM	Schizophrenia	F	CAUC	65		2007	Cardiovascular	1084	63	129					true
+281	19	CMC	CMC_MSSM_299	MSSM	Schizophrenia	F	CAUC	59		2011	Other	1440	62	168					true
+282	19	CMC	CMC_MSSM_300	MSSM	Schizophrenia	M	CAUC	72		2007	Cardiovascular	932							true
+283	19	CMC	CMC_MSSM_301	MSSM	Schizophrenia	M	CAUC	52		2010	Cardiovascular	960		133					true
+284	19	CMC	CMC_MSSM_302	MSSM	Schizophrenia	F	CAUC	90+		2010	Cardiovascular	1176		86					
+285	19	CMC, EpiDiff	CMC_MSSM_304	MSSM	Schizophrenia	M	CAUC	76		2009	Cardiovascular	1114	73	216					true
+286	19	CMC, EpiDiff	CMC_MSSM_305	MSSM	Schizophrenia	F	CAUC	86		2010		1382	64	102					true
+287	19	CMC, EpiDiff	CMC_MSSM_306	MSSM	Schizophrenia	M	CAUC	65		2010	Cardiovascular	1422	71	208					true
+288	19	CMC	CMC_MSSM_307	MSSM	Schizophrenia	M	AA	57		2009	Cardiovascular	1376		158				CMC_MSSM_307 is a sibling pair with CMC_MSSM_290	true
+289	19	CMC	CMC_MSSM_308	MSSM	Schizophrenia	M	AA	60		2010	Cardiovascular	874	67	173					true
+290	19	CMC, EpiDiff	CMC_MSSM_309	MSSM	Schizophrenia	F	CAUC	84		2003	Cardiovascular	1084	65	128					true
+291	19	CMC	CMC_MSSM_310	MSSM	Schizophrenia	F	CAUC	90+		2003	Cardiovascular	1196							true
+292	19	CMC, EpiDiff	CMC_MSSM_311	MSSM	Schizophrenia	F	CAUC	62		2002	Cardiovascular	1492	63	177					true
+293	19	CMC, EpiDiff	CMC_MSSM_312	MSSM	Schizophrenia	M	CAUC	68		2002	Cardiovascular	1380	71	197					true
+294	19	CMC	CMC_MSSM_313	MSSM	Schizophrenia	M	CAUC	67		2002	Cardiovascular	1112	72	185					true
+295	19	CMC, EpiDiff	CMC_MSSM_314	MSSM	Control	M	HISP	90+		1999	Cardiovascular	992	62	142					true
+296	19	CMC, EpiDiff	CMC_MSSM_315	MSSM	Schizophrenia	F	AA	90+		2003	Cardiovascular	1314	59						true
+297	19	CMC	CMC_MSSM_316	MSSM	Schizophrenia	M	CAUC	40		2003	Cardiovascular	1014		280					true
+298	19	CMC	CMC_MSSM_317	MSSM	Schizophrenia	F	CAUC	84		2003	Cardiovascular	1252		162					
+299	19	CMC	CMC_MSSM_318	MSSM	Schizophrenia	M	CAUC	73		2004	Cardiovascular	1422		153					
+300	19	CMC	CMC_MSSM_319	MSSM	Schizophrenia	M	CAUC	52		2003	Cardiovascular	810	74	273					true
+301	19	CMC, EpiDiff	CMC_MSSM_320	MSSM	Schizophrenia	F	AA	90+		2003	Cardiovascular	1338	54	130					true
+302	19	CMC, EpiDiff	CMC_MSSM_321	MSSM	Schizophrenia	M	CAUC	48		2002	COPD	1260	73	224					true
+303	19	CMC, EpiDiff	CMC_MSSM_322	MSSM	Schizophrenia	M	CAUC	85		2001	Non-brain cancer	1042							true
+304	19	CMC	CMC_MSSM_323	MSSM	Schizophrenia	M	CAUC	89		2001	Cardiovascular	1054							true
+305	19	CMC	CMC_MSSM_325	MSSM	Control	M	HISP	65		1999	Cardiovascular	1200	68	134					true
+306	19	CMC, EpiDiff	CMC_MSSM_326	MSSM	Schizophrenia	M	CAUC	82		2001	Cardiovascular	1044							true
+307	19	CMC	CMC_MSSM_327	MSSM	Schizophrenia	F	AA	81		2001	Cardiovascular	793		89					true
+308	19	CMC, EpiDiff	CMC_MSSM_330	MSSM	Schizophrenia	F	AA	85		2002	Cardiovascular	1118	64	96					true
+309	19	CMC, EpiDiff	CMC_MSSM_331	MSSM	Schizophrenia	F	CAUC	67		1996	COPD	1180		111					true
+310	19	CMC, EpiDiff	CMC_MSSM_332	MSSM	Schizophrenia	F	CAUC	73		2000	COPD	1287							true
+311	19	CMC, EpiDiff	CMC_MSSM_333	MSSM	Schizophrenia	F	HISP	65		1999	Cardiovascular	1390							true
+312	19	CMC, EpiDiff	CMC_MSSM_334	MSSM	Schizophrenia	M	AA	58		2000		1384							true
+313	19	CMC	CMC_MSSM_335	MSSM	Schizophrenia	M	CAUC	32		2000	Cardiovascular	1054	65	282					true
+314	19	CMC	CMC_MSSM_336	MSSM	Schizophrenia	F	CAUC	89		2000	Cardiovascular	1125							true
+315	19	CMC, EpiDiff	CMC_MSSM_337	MSSM	Schizophrenia	F	CAUC	59		1998	Cardiovascular	1355							true
+316	19	CMC, EpiDiff	CMC_MSSM_338	MSSM	Schizophrenia	F	AA	56		2010	Cardiovascular	1236							true
+317	19	CMC, EpiDiff	CMC_MSSM_339	MSSM	Schizophrenia	M	CAUC	58		1999	Cardiovascular	1325							true
+318	19	CMC	CMC_MSSM_340	MSSM	Schizophrenia	M	AA	76		1999	Cardiovascular	1040	66	94					true
+319	19	CMC, EpiDiff	CMC_MSSM_341	MSSM	Schizophrenia	M	HISP	65		2000	Cardiovascular	1328							true
+320	19	CMC	CMC_MSSM_343	MSSM	Schizophrenia	F	CAUC	59		2000	Cardiovascular	1491							true
+321	19	CMC, EpiDiff	CMC_MSSM_344	MSSM	Schizophrenia	M	CAUC	90+		2000	Cardiovascular	1222	56	116					true
+322	19	CMC, EpiDiff	CMC_MSSM_345	MSSM	Schizophrenia	M	CAUC	79		2000	Cardiovascular	1338							true
+323	19	CMC, EpiDiff	CMC_MSSM_346	MSSM	Schizophrenia	M	CAUC	68		2000	Cardiovascular	1076							true
+324	19	CMC, EpiDiff	CMC_MSSM_347	MSSM	Schizophrenia	M	CAUC	82		2001	Cardiovascular	1304							true
+325	19	CMC	CMC_MSSM_348	MSSM	Schizophrenia	F	CAUC	89		1996	Cardiovascular	1254							true
+326	19	CMC, EpiDiff	CMC_MSSM_349	MSSM	Schizophrenia	M	CAUC	79		1993	Cardiovascular	1069	66	138					true
+327	19	CMC, EpiDiff	CMC_MSSM_350	MSSM	Schizophrenia	M	AA	81		1994	Cardiovascular	1149							true
+328	19	CMC	CMC_MSSM_351	MSSM	Schizophrenia	F	CAUC	83		1998	Cardiovascular	1214							
+329	19	CMC, EpiDiff	CMC_MSSM_352	MSSM	Schizophrenia	M	CAUC	64		1997	Cardiovascular	1014							true
+330	19	CMC, EpiDiff	CMC_MSSM_354	MSSM	Schizophrenia	M	CAUC	83		1992	Cardiovascular	1166							true
+331	19	CMC	CMC_MSSM_355	MSSM	Schizophrenia	F	CAUC	90+		2008	Cardiovascular	1108	64	90					true
+332	19	CMC, EpiDiff	CMC_MSSM_356	MSSM	Schizophrenia	F	CAUC	81		1992	Cardiovascular	1139		86					true
+333	19	CMC, EpiDiff	CMC_MSSM_357	MSSM	Schizophrenia	M	HISP	90+		1993	Cardiovascular								true
+334	19	CMC, EpiDiff	CMC_MSSM_358	MSSM	Control	M	AA	64		2003	Cardiovascular	1143	74	205					true
+335	19	CMC	CMC_MSSM_359	MSSM	Schizophrenia	M	CAUC	73		2001	Cardiovascular	1282							true
+336	19	CMC, EpiDiff	CMC_MSSM_360	MSSM	Schizophrenia	F	CAUC	90+		2001	Cardiovascular	1008							true
+337	19	CMC	CMC_MSSM_361	MSSM	Schizophrenia	M	CAUC	77		2001	Non-brain cancer	1262							true
+338	19	CMC, EpiDiff	CMC_MSSM_362	MSSM	Schizophrenia	M	CAUC	73		2001	Cardiovascular	1194							true
+339	19	CMC, EpiDiff	CMC_MSSM_363	MSSM	Schizophrenia	F	CAUC	77		2001	Cardiovascular	1068							true
+340	19	CMC	CMC_MSSM_364	MSSM	Schizophrenia	M	CAUC	56		2002	Cardiovascular	1650							true
+341	19	CMC, EpiDiff	CMC_MSSM_365	MSSM	Control	F	CAUC	82		2000	Cardiovascular	1107		100					true
+342	19	CMC	CMC_MSSM_366	MSSM	Schizophrenia	M	CAUC	84		1991	Cardiovascular	1144							true
+343	19	CMC, EpiDiff	CMC_MSSM_367	MSSM	Schizophrenia	M	CAUC	86		1994	Cardiovascular	1221		162					true
+344	19	CMC, EpiDiff	CMC_MSSM_369	MSSM	Control	M	CAUC	90+		2003	Cardiovascular	1100	68	116					true
+345	19	CMC	CMC_MSSM_370	MSSM	Schizophrenia	F	CAUC	71		1992	Cardiovascular	1204							true
+346	19	CMC, EpiDiff	CMC_MSSM_371	MSSM	Schizophrenia	M	HISP	73		1995	Cardiovascular	1160	68	157					true
+347	19	CMC	CMC_MSSM_372	MSSM	Schizophrenia	M	CAUC	90+		1998	Cardiovascular	1020							true
+348	19	CMC, EpiDiff	CMC_MSSM_373	MSSM	Schizophrenia	M	CAUC	90+		1999	Cardiovascular	1070							true
+349	19	CMC	CMC_MSSM_375	MSSM	Schizophrenia	M	AA	90+		1996	Cardiovascular	966							true
+350	19	CMC	CMC_MSSM_376	MSSM	Control	F	CAUC	73		1997	Cardiovascular	1080	58	140					true
+351	19	CMC, EpiDiff	CMC_MSSM_377	MSSM	Schizophrenia	M	CAUC	66		1998	Cardiovascular	1134							true
+352	19	CMC	CMC_MSSM_378	MSSM	Schizophrenia	F	AA	70		2008	Cardiovascular	1198	63	197					true
+353	19	CMC, EpiDiff	CMC_MSSM_379	MSSM	Schizophrenia	M	CAUC	71		2007	Cardiovascular	1222	67	156					true
+354	19	CMC, EpiDiff	CMC_MSSM_380	MSSM	Control	F	AA	74		2003	Cardiovascular	1040	54	100					true
+355	19	CMC	CMC_MSSM_381	MSSM	Schizophrenia	M	CAUC	70		2005	Cardiovascular	1436		168					true
+356	19	CMC	CMC_MSSM_382	MSSM	Schizophrenia	M	CAUC	73		1994	Cardiovascular	1309							true
+357	19	CMC	CMC_MSSM_383	MSSM	Control	F	CAUC	83		2000	Cardiovascular	1188	62	210					true
+358	19	CMC, EpiDiff	CMC_MSSM_384	MSSM	Control	F	CAUC	90+		1995	Cardiovascular	1078	61	133					true
+359	19	CMC, EpiDiff	CMC_MSSM_385	MSSM	Schizophrenia	M	CAUC	76		2000	Non-brain cancer	1042							true
+360	19	CMC, EpiDiff	CMC_MSSM_386	MSSM	Schizophrenia	M	CAUC	85		1994	Cardiovascular	1261							true
+361	19	CMC	CMC_MSSM_387	MSSM	Schizophrenia	M	AA	69		1991	Cardiovascular	1172							true
+362	19	CMC	CMC_MSSM_388	MSSM	Schizophrenia	F	CAUC	80		1989	Other	1210	49	184					true
+363	19	CMC, EpiDiff	CMC_MSSM_389	MSSM	Control	M	CAUC	54		1996	Other	1500							true
+364	19	CMC, EpiDiff	CMC_MSSM_390	MSSM	Schizophrenia	M	CAUC	86		1997	Cardiovascular	1401		127					true
+365	19	CMC, EpiDiff	CMC_MSSM_391	MSSM	Control	M	CAUC	75		2003	Cardiovascular	1404	70	155					true
+366	19	CMC, EpiDiff	CMC_MSSM_401	MSSM	Control	F	CAUC	85		1989		1014							true
+367	19	CMC, EpiDiff	CMC_MSSM_402	MSSM	Control	M	CAUC	59		2003	Non-brain cancer	1344	68	120					true
+368	19	CMC, EpiDiff	CMC_MSSM_403	MSSM	Schizophrenia	M	CAUC	69		2000	Cardiovascular	1303							true
+369	19	CMC	CMC_MSSM_404	MSSM	Schizophrenia	M	CAUC	61		1991	Cardiovascular	1109							true
+370	19	CMC	CMC_MSSM_405	MSSM	Schizophrenia	M	AA	59		1998	Other	1221							true
+371	19	CMC	CMC_MSSM_406	MSSM	Control	F	HISP	90+		1995	Cardiovascular	997	66	136					true
+372	19	CMC	CMC_MSSM_407	MSSM	Control	F	CAUC	90+		2009	Other	1030	59	103					true
+373	19	CMC, EpiDiff	CMC_MSSM_409	MSSM	Control	M	AA	72		1994	Cardiovascular	869		141					true
+374	19	CMC, EpiDiff	CMC_MSSM_410	MSSM	Control	M	CAUC	86		1993	Cardiovascular	1119							true
+375	19	CMC	CMC_MSSM_412	MSSM	Control	F	CAUC	73		1988	Infection and parasitic disease	1090							true
+376	19	CMC	CMC_MSSM_413	MSSM	Control	M	CAUC	90+		2003	Cardiovascular	1176	68	143					true
+377	19	CMC	CMC_MSSM_415	MSSM	Schizophrenia	M	CAUC	58		1990	Cardiovascular	1238							true
+378	19	CMC	CMC_MSSM_416	MSSM	Schizophrenia	F	CAUC	76		1991	Cardiovascular	1033							true
+379	19	CMC, EpiDiff	CMC_MSSM_419	MSSM	Control	F	CAUC	90+		1991	Cardiovascular	1003							true
+380	19	CMC	CMC_MSSM_420	MSSM	Schizophrenia	M	CAUC	63		1992	Cardiovascular	1223							true
+381	19	CMC, EpiDiff	CMC_MSSM_421	MSSM	Schizophrenia	F	CAUC	69		1992	Cardiovascular	966							true
+382	19	CMC	CMC_MSSM_422	MSSM	Schizophrenia	M	CAUC	87		1992	Cardiovascular	1022							true
+383	19	CMC, EpiDiff	CMC_MSSM_423	MSSM	Schizophrenia	M	AA	57		1994	Cardiovascular	1277		171					true
+384	19	CMC	CMC_PENN_001	Penn	Control	F	CAUC	65		2011	Other	1206							true
+385	19	CMC, EpiDiff	CMC_PENN_002	Penn	Control	M	AA	74		2007		1233							true
+386	19	CMC, EpiDiff	CMC_PENN_003	Penn	Control	M	CAUC	67		2011	Non-brain cancer	1545	73	220					true
+387	19	CMC, EpiDiff	CMC_PENN_004	Penn	Control	F	CAUC	90+		2010	Cardiovascular	1034							true
+388	19	CMC, EpiDiff	CMC_PENN_005	Penn	Control	F	CAUC	78		2011	Other	1201	63	200					true
+389	19	CMC	CMC_PENN_006	Penn	Control	F	CAUC	68		2011	Non-brain cancer	1151	60	108					true
+390	19	CMC	CMC_PENN_007	Penn	Control	F	CAUC	65		2007	Non-brain cancer	1207							true
+391	19	CMC	CMC_PENN_008	Penn	Control	M	AA	47		2003	Other	1383							true
+392	19	CMC, EpiDiff	CMC_PENN_009	Penn	Control	F	CAUC	83		2010	Non-brain cancer	1026							true
+393	19	CMC, EpiDiff	CMC_PENN_010	Penn	Control	F	AA	59		2010	Cardiovascular	1166	64	200					true
+394	19	CMC, EpiDiff	CMC_PENN_011	Penn	Control	M	CAUC	42		2011	Other	1554	68	187					true
+395	19	CMC, EpiDiff	CMC_PENN_012	Penn	Control	F	AA	68		2006	Cardiovascular	1278	65	86					true
+396	19	CMC	CMC_PENN_013	Penn	Control	M	CAUC	68		2010	Infection and parasitic disease	1330							true
+397	19	CMC, EpiDiff	CMC_PENN_014	Penn	Control	F	Multiracial	46		2011	Other	1228	64	170					true
+398	19	CMC, EpiDiff	CMC_PENN_015	Penn	Control	M	CAUC	72		2011	Cardiovascular	1320							true
+399	19	CMC	CMC_PENN_016	Penn	Control	F	CAUC	82		2010		1300							true
+400	19	CMC	CMC_PENN_017	Penn	Control	F	CAUC	90+		2002	Non-brain cancer	1107							true
+401	19	CMC, EpiDiff	CMC_PENN_018	Penn	Control	M	CAUC	70		2003	Cardiovascular	1388							true
+402	19	CMC	CMC_PENN_019	Penn	Control	F	CAUC	85		2006		1198							true
+403	19	CMC, EpiDiff	CMC_PENN_020	Penn	Control	M	AA	73		2003	Cardiovascular	1249							true
+404	19	CMC, EpiDiff	CMC_PENN_021	Penn	Control	M	CAUC	69		1998		1625							true
+405	19	CMC	CMC_PENN_022	Penn	Control	F	CAUC	36		1992	Cardiovascular	1280	72	285					true
+406	19	CMC	CMC_PENN_023	Penn	Control	M	AA	76		2011	Cardiovascular	1370							true
+407	19	CMC	CMC_PENN_024	Penn	Control	F	AA	61		2010		1341							true
+408	19	CMC	CMC_PENN_025	Penn	Control	M	CAUC	85		2003	Cardiovascular	1202							true
+409	19	CMC	CMC_PENN_026	Penn	Control	M	CAUC	29		1986	Cardiovascular		66	187					true
+410	19	CMC, EpiDiff	CMC_PENN_028	Penn	Control	M	CAUC	47		2011	Cardiovascular	1333	68	195					true
+411	19	CMC, EpiDiff	CMC_PENN_029	Penn	Control	M	CAUC	61		2010	Non-brain cancer	1369							true
+412	19	CMC, EpiDiff	CMC_PENN_030	Penn	Schizophrenia	F	CAUC	88		1997		1244							true
+413	19	CMC	CMC_PENN_031	Penn	Schizophrenia	F	CAUC	80		1997		1400							true
+414	19	CMC	CMC_PENN_032	Penn	Schizophrenia	M	CAUC	86		1990	COPD	1420	65	125					true
+415	19	CMC, EpiDiff	CMC_PENN_033	Penn	Schizophrenia	F	AA	90+		2003		1213							true
+416	19	CMC	CMC_PENN_034	Penn	Schizophrenia	M	CAUC	71		1992		1270							true
+417	19	CMC, EpiDiff	CMC_PENN_035	Penn	Schizophrenia	F	CAUC	87		2006		1021							true
+418	19	CMC, EpiDiff	CMC_PENN_036	Penn	Schizophrenia	F	CAUC	76		1998		1002							true
+419	19	CMC	CMC_PENN_037	Penn	Schizophrenia	F	CAUC	80		1994		1060							true
+420	19	CMC	CMC_PENN_038	Penn	Schizophrenia	M	CAUC	89		1994		1341							true
+421	19	CMC	CMC_PENN_039	Penn	Schizophrenia	M	CAUC	81		2004		1386							true
+422	19	CMC, EpiDiff	CMC_PENN_040	Penn	Schizophrenia	F	CAUC	75		1997		1097							true
+423	19	CMC, EpiDiff	CMC_PENN_041	Penn	Schizophrenia	M	CAUC	86		1998		1310							true
+424	19	CMC, EpiDiff	CMC_PENN_042	Penn	Schizophrenia	F	CAUC	88		1999		990							true
+425	19	CMC	CMC_PENN_043	Penn	Schizophrenia	F	AA	69		1995		1090							true
+426	19	CMC	CMC_PENN_044	Penn	Schizophrenia	F	CAUC	75		1996		1219							true
+427	19	CMC, EpiDiff	CMC_PENN_045	Penn	Schizophrenia	F	CAUC	79		1991	Cardiovascular	1040	61	175					true
+428	19	CMC, EpiDiff	CMC_PENN_046	Penn	Schizophrenia	F	CAUC	70		2001		1120							true
+429	19	CMC	CMC_PENN_047	Penn	Schizophrenia	M	CAUC	78		1990	Other	1360		75					true
+430	19	CMC	CMC_PENN_048	Penn	Schizophrenia	F	CAUC	66		2008		951							true
+431	19	CMC	CMC_PENN_049	Penn	Schizophrenia	F	AA	39		1998		1245							true
+432	19	CMC	CMC_PENN_050	Penn	Schizophrenia	M	CAUC	69		1996		1503							true
+433	19	CMC, EpiDiff	CMC_PENN_051	Penn	Schizophrenia	F	CAUC	77		1996		935							true
+434	19	CMC	CMC_PENN_052	Penn	Schizophrenia	F	CAUC	76		1996		946							true
+435	19	CMC	CMC_PENN_053	Penn	Schizophrenia	F	CAUC	86		2001		980							true
+436	19	CMC	CMC_PENN_054	Penn	Schizophrenia	M	CAUC	26		2009		1466							true
+437	19	CMC	CMC_PENN_056	Penn	Schizophrenia	F	CAUC	74		1992		1140							true
+438	19	CMC	CMC_PENN_057	Penn	Schizophrenia	M	CAUC	81		2002		1385							true
+439	19	CMC, EpiDiff	CMC_PENN_058	Penn	Schizophrenia	F	CAUC	89		2008		1008							true
+440	19	CMC	CMC_PENN_059	Penn	Schizophrenia	F	CAUC	83		2002		1222							true
+441	19	CMC	CMC_PENN_060	Penn	Schizophrenia	F	CAUC	76		2002		1110							true
+442	19	CMC, EpiDiff	CMC_PENN_061	Penn	Schizophrenia	M	CAUC	86		2011		1366							true
+443	19	CMC, EpiDiff	CMC_PENN_062	Penn	Schizophrenia	M	CAUC	82		1988	Cardiovascular	1080	62	140					true
+444	19	CMC, EpiDiff	CMC_PENN_063	Penn	Schizophrenia	M	CAUC	83		2008		1458							true
+445	19	CMC	CMC_PENN_064	Penn	Schizophrenia	F	CAUC	76		1990	Infection and parasitic disease	1200	62	140					true
+446	19	CMC	CMC_PENN_065	Penn	Schizophrenia	F	CAUC	74		1993		1040							true
+447	19	CMC	CMC_PENN_066	Penn	Schizophrenia	F	CAUC	75		1993		1200							true
+448	19	CMC	CMC_PENN_067	Penn	Schizophrenia	F	CAUC	78		1994		1018							true
+449	19	CMC	CMC_PENN_068	Penn	Schizophrenia	M	CAUC	79		1993		1300							true
+450	19	CMC	CMC_PENN_070	Penn	Schizophrenia	F	CAUC	90+		2005		1100	60	163					true
+451	19	CMC, EpiDiff	CMC_PENN_071	Penn	Schizophrenia	F	CAUC	87		1993		1270							true
+452	19	CMC	CMC_PENN_072	Penn	Schizophrenia	F	CAUC	88		1994		1200							true
+453	19	CMC	CMC_PENN_073	Penn	Schizophrenia	F	CAUC	86		1994		1100							true
+454	19	CMC, EpiDiff	CMC_PENN_074	Penn	Schizophrenia	F	CAUC	72		1992		1020							true
+455	19	CMC, EpiDiff	CMC_PENN_075	Penn	Schizophrenia	M	CAUC	82		1995		1382							true
+456	19	CMC	CMC_PENN_076	Penn		M	AA	55		2010	Other	1448	67	400					
+457	19	CMC, EpiDiff	CMC_PENN_077	Penn	Control	M	CAUC	59		2012	Non-brain cancer	1502	70	210					true
+458	19	CMC	CMC_PENN_079	Penn	Control	F	AA	51		2012	Non-brain cancer	1143	69	130					true
+459	19	CMC, EpiDiff	CMC_PENN_080	Penn	Control	F	CAUC	67		2011	Other	1245	58	129					true
+460	19	CMC	CMC_PENN_081	Penn	Control	M	CAUC	70		2012		1755							true
+461	19	CMC	CMC_PENN_082	Penn	Schizophrenia	M	CAUC	77		2007		1338							true
+462	19	CMC	CMC_PENN_083	Penn	Schizophrenia	M	CAUC	84		2010		1380							
+463	19	CMC	CMC_PENN_084	Penn	Control	F	AA	89		1994		1000							true
+464	19	CMC	CMC_PENN_085	Penn	Control	F	CAUC	74		1993		1250							true
+465	19	CMC	CMC_PENN_086	Penn	Control	F	CAUC	85		1990		1080							true
+466	19	CMC	CMC_PENN_087	Penn	Control	M	AA	63		1993	Non-brain cancer	1360	64	190					true
+467	19	CMC	CMC_PENN_088	Penn	Control	M	CAUC	70		1996	Cardiovascular	1488	69	160					true
+468	19	CMC, EpiDiff	CMC_PENN_089	Penn	Schizophrenia	M	CAUC	81		2005		1100							true
+469	19	CMC	CMC_PENN_090	Penn	Schizophrenia	F	CAUC	81		1994		1325							true
+470	19	CMC	CMC_PENN_091	Penn	Schizophrenia	F	CAUC	90+		1995		976							true
+471	19	CMC	CMC_PENN_092	Penn	Schizophrenia	M	CAUC	90+		1993		1240							true
+472	19	CMC	CMC_PENN_093	Penn	Schizophrenia	M	CAUC	75		1996		1311							true
+473	19	CMC	CMC_PENN_094	Penn	Schizophrenia	F	CAUC	86		1996		1086							true
+474	19	CMC	CMC_PENN_095	Penn	Schizophrenia	F	CAUC	89		2003		978	59	140					true
+475	19	CMC	CMC_PENN_096	Penn	Schizophrenia	M	CAUC	71		1994		1188							true
+476	19	CMC	CMC_PENN_097	Penn	Schizophrenia	M	CAUC	70		1993		1200							true
+477	19	CMC	CMC_PENN_098	Penn	Schizophrenia	M	CAUC	90+		1994		1080							true
+478	19	CMC	CMC_PENN_099	Penn	Schizophrenia	M	CAUC	83		1992	Infection and parasitic disease	1200	68	85					true
+479	19	CMC	CMC_PENN_100	Penn	Schizophrenia	F	CAUC	82		1993		1100							true
+480	19	CMC, EpiDiff	CMC_PENN_101	Penn	Schizophrenia	M	CAUC	74		1993		1260							true
+481	19	CMC, EpiDiff	CMC_PITT_001	Pitt	Control	M	CAUC	49		2004	Other	1290	63	165					true
+482	19	CMC	CMC_PITT_002	Pitt	Control	M	CAUC	42		2004	Other	1500	74	278					true
+483	19	CMC	CMC_PITT_003	Pitt	Schizophrenia	M	CAUC	38		2004	Other	1500	68	130					true
+484	19	CMC	CMC_PITT_004	Pitt	Schizophrenia	F	AA	25		2004	Other	1100	61	171					true
+485	19	CMC	CMC_PITT_005	Pitt	Schizophrenia	M	AA	37		2004	Cardiovascular	1210	70	180					true
+486	19	CMC	CMC_PITT_006	Pitt	Schizophrenia	M	AA	52		2004	Cardiovascular	1365	68	148					true
+487	19	CMC, EpiDiff	CMC_PITT_007	Pitt	Schizophrenia	F	CAUC	46		2004	Other	1300	63	116					true
+488	19	CMC	CMC_PITT_008	Pitt	Control	M	CAUC	59		2002	Cardiovascular	1355	70	180					true
+489	19	CMC, EpiDiff	CMC_PITT_009	Pitt	Control	M	CAUC	43		2002	Cardiovascular	1410	72	217					true
+490	19	CMC, EpiDiff	CMC_PITT_010	Pitt	Control	M	CAUC	51		2003	Cardiovascular	1515	70	178					true
+491	19	CMC, EpiDiff	CMC_PITT_011	Pitt	Schizophrenia	M	CAUC	49		2003	Other	1530	71	194					true
+492	19	CMC	CMC_PITT_012	Pitt	Control	F	AA	40		2003	Cardiovascular	1255	62	215					true
+493	19	CMC	CMC_PITT_013	Pitt	Control	F	CAUC	24		2003	Cardiovascular	1240	67	116					true
+494	19	CMC	CMC_PITT_014	Pitt	Schizophrenia	M	CAUC	53		2003	Cardiovascular	1220	66	188					true
+495	19	CMC	CMC_PITT_015	Pitt	Control	M	CAUC	55		2003	Cardiovascular	1360	69	195					true
+496	19	CMC	CMC_PITT_017	Pitt	Schizophrenia	M	CAUC	62		2003	Cardiovascular	1315	71	164					true
+497	19	CMC	CMC_PITT_018	Pitt	Schizophrenia	F	AA	37		2003	Other	1200	70	218					true
+498	19	CMC, EpiDiff	CMC_PITT_019	Pitt	Schizophrenia	M	CAUC	58		2004	Cardiovascular	1575	69	117					true
+499	19	CMC	CMC_PITT_020	Pitt	Schizophrenia	F	CAUC	47		2004	Other	1285	66	234					true
+500	19	CMC	CMC_PITT_021	Pitt	Control	M	AA	59		2004	Cardiovascular	1525	71	292					true
+501	19	CMC, EpiDiff	CMC_PITT_022	Pitt	Control	F	CAUC	52		2004	Cardiovascular	1220	63	164					true
+502	19	CMC	CMC_PITT_023	Pitt	Schizophrenia	M	CAUC	35		2004	Other	1695	71	202					true
+503	19	CMC, EpiDiff	CMC_PITT_024	Pitt	Schizophrenia	F	CAUC	41		2004	Other	1365	64	189					true
+504	19	CMC, EpiDiff	CMC_PITT_025	Pitt	Schizophrenia	M	CAUC	32		2004	Other	1400	72	231					true
+505	19	CMC, EpiDiff	CMC_PITT_026	Pitt	Schizophrenia	M	CAUC	50		2004	Other	1550	64	186					true
+506	19	CMC	CMC_PITT_027	Pitt	Schizophrenia	F	AA	50		2004	Cardiovascular	985	67	285					true
+507	19	CMC	CMC_PITT_028	Pitt	Control	F	CAUC	58		2004	Cardiovascular	1315	70	250					true
+508	19	CMC, EpiDiff	CMC_PITT_029	Pitt	Schizophrenia	M	CAUC	34		2004	Other	1560	73	168					true
+509	19	CMC	CMC_PITT_030	Pitt	Schizophrenia	M	CAUC	62		2005	Other	1315	67	114					true
+510	19	CMC, EpiDiff	CMC_PITT_031	Pitt	Control	M	AA	49		2005	Cardiovascular	1430	68	178					true
+511	19	CMC	CMC_PITT_032	Pitt	Control	F	CAUC	73		2005	Other	1245	65	148					true
+512	19	CMC	CMC_PITT_033	Pitt	Control	F	CAUC	39		2005	Cardiovascular	1240	64	178					true
+513	19	CMC	CMC_PITT_034	Pitt	Control	M	CAUC	55		2005	Cardiovascular	1330	67	161					true
+514	19	CMC, EpiDiff	CMC_PITT_036	Pitt	Control	M	AA	32		2005	Cardiovascular	1620	71	268					true
+515	19	CMC	CMC_PITT_037	Pitt	Schizophrenia	M	CAUC	50		2005	Cardiovascular	1215	69	150					true
+516	19	CMC, EpiDiff	CMC_PITT_038	Pitt	Control	M	CAUC	43		2005	Cardiovascular	1310	70	212					true
+517	19	CMC	CMC_PITT_039	Pitt	Control	M	CAUC	58		2006	Cardiovascular	1515	68	211					true
+518	19	CMC, EpiDiff	CMC_PITT_040	Pitt	Control	M	CAUC	65		2006	Cardiovascular	1430	72	205					true
+519	19	CMC, EpiDiff	CMC_PITT_041	Pitt	Schizophrenia	F	CAUC	44		2006	Other	1175	65	115					true
+520	19	CMC	CMC_PITT_042	Pitt	Control	M	CAUC	21		2006	Other	1470	67	150					true
+521	19	CMC	CMC_PITT_043	Pitt	Schizophrenia	M	CAUC	63		2006	Cardiovascular	1335	69	181					true
+522	19	CMC, EpiDiff	CMC_PITT_044	Pitt	Schizophrenia	M	CAUC	47		2006	Other	1465	69	232					true
+523	19	CMC	CMC_PITT_045	Pitt	Control	M	CAUC	37		2006	Other	1505	73	289					true
+524	19	CMC, EpiDiff	CMC_PITT_046	Pitt	Control	M	CAUC	43		2006	Cardiovascular	1385	69	278					true
+525	19	CMC, EpiDiff	CMC_PITT_047	Pitt	Control	M	CAUC	46		2006	Cardiovascular	1450	70	200					true
+526	19	CMC, EpiDiff	CMC_PITT_048	Pitt	Control	F	CAUC	51		2006	Cardiovascular	1335	65	170					true
+527	19	CMC	CMC_PITT_049	Pitt	Schizophrenia	M	CAUC	47		2007	Other	1535	70	225					true
+528	19	CMC, EpiDiff	CMC_PITT_050	Pitt	Control	M	CAUC	65		2007	Other	1440	71	216					true
+529	19	CMC, EpiDiff	CMC_PITT_051	Pitt	Schizophrenia	M	CAUC	62		2007	Other	1500	72	172					true
+530	19	CMC, EpiDiff	CMC_PITT_052	Pitt	Schizophrenia	M	CAUC	59		2007	Other	1600	68	213					true
+531	19	CMC, EpiDiff	CMC_PITT_053	Pitt	Schizophrenia	M	CAUC	42		2007	Other	1550	68	185					true
+532	19	CMC	CMC_PITT_054	Pitt	Control	F	AA	64		2008	Other	1210	68	178					true
+533	19	CMC, EpiDiff	CMC_PITT_055	Pitt	Control	M	CAUC	61		2008	Other	1495	68	160					true
+534	19	CMC	CMC_PITT_056	Pitt	Schizophrenia	M	CAUC	37		2008	Other	1655	72	236					true
+535	19	CMC	CMC_PITT_057	Pitt	Schizophrenia	F	CAUC	47		2008	Other	1515	63	275					true
+536	19	CMC, EpiDiff	CMC_PITT_058	Pitt	Control	M	CAUC	50		2008	Cardiovascular	1355	70	175					true
+537	19	CMC	CMC_PITT_059	Pitt	Control	M	CAUC	66		2009	Other	1555	67	110					true
+538	19	CMC, EpiDiff	CMC_PITT_060	Pitt	Schizophrenia	M	CAUC	65		2009	Other	1550	72	220					true
+539	19	CMC	CMC_PITT_061	Pitt	Control	F	CAUC	45		2009	Other	1295	61	122					true
+540	19	CMC	CMC_PITT_062	Pitt	Control	M	CAUC	50		2009	Cardiovascular	1460	72	263					true
+541	19	CMC	CMC_PITT_063	Pitt	Control	M	CAUC	17		2009	Other	1460	78	178					true
+542	19	CMC, EpiDiff	CMC_PITT_064	Pitt	Control	M	CAUC	54		2009	Cardiovascular	1470	73	156					true
+543	19	CMC	CMC_PITT_065	Pitt	Schizophrenia	F	CAUC	69		2009	Cardiovascular	1315	61	119					true
+544	19	CMC	CMC_PITT_066	Pitt	Schizophrenia	M	CAUC	32		2009	Cardiovascular	1320	73	240					true
+545	19	CMC, EpiDiff	CMC_PITT_067	Pitt	Control	M	CAUC	58		2009	Other	1550	67	146					true
+546	19	CMC	CMC_PITT_068	Pitt	Control	M	CAUC	66		2010	Cardiovascular	1450	68	176					true
+547	19	CMC	CMC_PITT_069	Pitt	Schizophrenia	M	AA	17		2010	Other	1420	71	178					true
+548	19	CMC, EpiDiff	CMC_PITT_070	Pitt	Schizophrenia	M	AA	56		2011	Cardiovascular	1200	72	210					true
+549	19	CMC	CMC_PITT_071	Pitt	Schizophrenia	M	CAUC	51		2011	Other	1310	72	254					true
+550	19	CMC	CMC_PITT_072	Pitt	Schizophrenia	M	AA	60		2011	Infection and parasitic disease	1180	61	168					true
+551	19	CMC	CMC_PITT_073	Pitt	Schizophrenia	M	CAUC	63		2011	Cardiovascular	1370	73	251					true
+552	19	CMC, EpiDiff	CMC_PITT_074	Pitt	Schizophrenia	M	CAUC	54		2012	Other	1340	77	192				Kleinfelter (XXY)	true
+553	19	CMC	CMC_PITT_075	Pitt	Control	F	CAUC	36		2012	Other	1240	69	142					true
+554	19	CMC	CMC_PITT_076	Pitt	Control	M	AA	20		1995	Other	1380							true
+555	19	CMC, EpiDiff	CMC_PITT_077	Pitt	Schizophrenia	M	CAUC	40		1995	Other	1480							true
+556	19	CMC	CMC_PITT_078	Pitt	Schizophrenia	F	CAUC	37		1995	Other	1180							
+557	19	CMC, EpiDiff	CMC_PITT_079	Pitt	Schizophrenia	M	CAUC	50		1995	Other	1645							true
+558	19	CMC, EpiDiff	CMC_PITT_080	Pitt	Control	F	CAUC	37		1995	Cardiovascular	1190							true
+559	19	CMC, EpiDiff	CMC_PITT_081	Pitt	Schizophrenia	M	AA	27		1995	Other	1315							true
+560	19	CMC	CMC_PITT_082	Pitt	Control	M	CAUC	61		1995	Cardiovascular	1415							true
+561	19	CMC, EpiDiff	CMC_PITT_083	Pitt	Schizophrenia	M	CAUC	63		1995	Cardiovascular	1420	69	109					true
+562	19	CMC	CMC_PITT_084	Pitt		F	CAUC	46		1995	Cardiovascular	1425							
+563	19	CMC, EpiDiff	CMC_PITT_085	Pitt	Schizophrenia	M	CAUC	46		1996	Other	1390	65	158					true
+564	19	CMC, EpiDiff	CMC_PITT_086	Pitt	Schizophrenia	F	AA	38		1996	Cardiovascular	1155	68	252					true
+565	19	CMC	CMC_PITT_087	Pitt	Control	M	AA	41		1996	Cardiovascular	1285		215					true
+566	19	CMC, EpiDiff	CMC_PITT_088	Pitt	Control	M	CAUC	39		1996	Cardiovascular	1560							true
+567	19	CMC	CMC_PITT_089	Pitt	Schizophrenia	M	CAUC	83		1996	Other	1315	66	140					true
+568	19	CMC	CMC_PITT_090	Pitt	Schizophrenia	M	CAUC	58		1996	Other	1505	69	234					true
+569	19	CMC, EpiDiff	CMC_PITT_091	Pitt	Schizophrenia	M	AA	49		1996	Cardiovascular		71	135					true
+570	19	CMC	CMC_PITT_092	Pitt	Control	M	CAUC	65		1996	Cardiovascular	1325							true
+571	19	CMC, EpiDiff	CMC_PITT_093	Pitt	Control	M	CAUC	52		1996	Cardiovascular	1620							true
+572	19	CMC, EpiDiff	CMC_PITT_094	Pitt	Schizophrenia	M	CAUC	49		1996	Other	1260	74	240					true
+573	19	CMC, EpiDiff	CMC_PITT_095	Pitt	Schizophrenia	F	AA	47		1997	Other	1350	68	132					true
+574	19	CMC	CMC_PITT_096	Pitt	Schizophrenia	M	AA	59		1997	Other	1280	67	168					true
+575	19	CMC	CMC_PITT_097	Pitt	Control	M	CAUC	51		1997	Cardiovascular	1560	70	320					true
+576	19	CMC	CMC_PITT_098	Pitt	Control	M	CAUC	56		1997	Cardiovascular	1285		186					true
+577	19	CMC	CMC_PITT_099	Pitt	Control	F	CAUC	52		1997	Cardiovascular	1240		196					true
+578	19	CMC, EpiDiff	CMC_PITT_100	Pitt	Control	M	CAUC	38		1997	Other	1565							true
+579	19	CMC, EpiDiff	CMC_PITT_101	Pitt	Control	M	CAUC	42		1997	Cardiovascular	1670							true
+580	19	CMC, EpiDiff	CMC_PITT_102	Pitt	Schizophrenia	M	AA	45		1997	Other	1390	69	133					true
+581	19	CMC, EpiDiff	CMC_PITT_103	Pitt	Control	M	AA	19		1997	Other	1125		154					true
+582	19	CMC, EpiDiff	CMC_PITT_104	Pitt	Control	M	CAUC	40		1997	Cardiovascular	1450							true
+583	19	CMC	CMC_PITT_105	Pitt	Schizophrenia	M	AA	52		1998	Other	1500	70	147					true
+584	19	CMC	CMC_PITT_106	Pitt	Schizophrenia	M	AA	27		1998	Other	1310	72	256					true
+585	19	CMC, EpiDiff	CMC_PITT_107	Pitt	Schizophrenia	F	CAUC	63		1999	Cardiovascular	1315	67	161					true
+586	19	CMC	CMC_PITT_108	Pitt	Control	M	CAUC	57		1999	Other	1555							true
+587	19	CMC	CMC_PITT_109	Pitt	Control	F	CAUC	67		1999	Other	1285							true
+588	19	CMC, EpiDiff	CMC_PITT_110	Pitt	Control	M	AA	28		1999	Cardiovascular	1650	73	336					true
+589	19	CMC	CMC_PITT_111	Pitt	Schizophrenia	M	CAUC	25		1999	Other	1160	66	150					true
+590	19	CMC	CMC_PITT_112	Pitt	Control	M	CAUC	54		1999	Cardiovascular	1490							true
+591	19	CMC	CMC_PITT_113	Pitt	Control	M	CAUC	48		2000	Cardiovascular	1575							true
+592	19	CMC	CMC_PITT_114	Pitt		M	CAUC	28		2000	Other	1440							
+593	19	CMC	CMC_PITT_115	Pitt	Schizophrenia	M	CAUC	33		2000	Cardiovascular	1385	68	170					
+594	19	CMC	CMC_PITT_116	Pitt	Control	M	CAUC	60		2000	Cardiovascular	1680	69	171					true
+595	19	CMC	CMC_PITT_117	Pitt	Schizophrenia	M	CAUC	33		2000	Other	1565	71	275					true
+596	19	CMC, EpiDiff	CMC_PITT_118	Pitt	Schizophrenia	F	CAUC	71		2000	Cardiovascular	1150	65	153					true
+597	19	CMC, EpiDiff	CMC_PITT_120	Pitt	Schizophrenia	M	CAUC	44		2001	Cardiovascular	1495	72	336					true
+598	19	CMC	CMC_PITT_121	Pitt	Control	M	CAUC	42		2001	Cardiovascular	1500	70	199					true
+599	19	CMC, EpiDiff	CMC_PITT_122	Pitt	Control	F	CAUC	65		2001	Cardiovascular	1305	62	145					true
+600	19	CMC	CMC_PITT_123	Pitt	Control	M	CAUC	82		2001	Other	1440	67	189					true
+601	19	CMC	CMC_PITT_124	Pitt	Bipolar Disorder	F	CAUC	50		2004	Other	1200	64	123					true
+602	19	CMC	CMC_PITT_125	Pitt	Bipolar Disorder	F	CAUC	55		2004	Other	1200	66	167					true
+603	19	CMC	CMC_PITT_126	Pitt	Bipolar Disorder	M	CAUC	24		2004	Other	1450	69	210					true
+604	19	CMC	CMC_PITT_127	Pitt	Control	F	AA	41		2004	Cardiovascular	1055	63	216					true
+605	19	CMC	CMC_PITT_128	Pitt	Bipolar Disorder	M	CAUC	42		2002	Other	1375	78	284					true
+606	19	CMC	CMC_PITT_129	Pitt	Control	M	CAUC	53		2002	Cardiovascular	1460	69	236					true
+607	19	CMC	CMC_PITT_130	Pitt	Bipolar Disorder	F	CAUC	56		2002	Cardiovascular	1275	65	199					true
+608	19	CMC	CMC_PITT_131	Pitt	Bipolar Disorder	F	CAUC	51		2002	Other	1270	67	143					true
+609	19	CMC	CMC_PITT_132	Pitt	Bipolar Disorder	M	CAUC	48		2003	Cardiovascular	1445	67	206					true
+610	19	CMC	CMC_PITT_133	Pitt	Control	F	CAUC	57		2003	COPD	1435	62	147					true
+611	19	CMC	CMC_PITT_134	Pitt	Bipolar Disorder	M	CAUC	50		2003	Cardiovascular	1340	66	207					true
+612	19	CMC	CMC_PITT_135	Pitt	Bipolar Disorder	M	CAUC	40		2003	Other	1180	72	234					true
+613	19	CMC	CMC_PITT_136	Pitt	Bipolar Disorder	M	CAUC	65		2003	Non-brain cancer	1365	69	153					true
+614	19	CMC	CMC_PITT_137	Pitt	Control	M	CAUC	55		2003	Cardiovascular	1460	71	245					true
+615	19	CMC	CMC_PITT_138	Pitt	Bipolar Disorder	F	CAUC	28		2004	Other	1350	64	128					true
+616	19	CMC	CMC_PITT_139	Pitt	Bipolar Disorder	M	CAUC	28		2004	Other	1610	71	205					true
+617	19	CMC, EpiDiff	CMC_PITT_140	Pitt	Control	F	CAUC	36		2004	Other	1280	64	136					true
+618	19	CMC	CMC_PITT_141	Pitt	Bipolar Disorder	M	CAUC	48		2004	Cardiovascular	1445	73	227					true
+619	19	CMC	CMC_PITT_142	Pitt	Bipolar Disorder	M	CAUC	52		2004	Other	1410	69	142					true
+620	19	CMC	CMC_PITT_143	Pitt	Control	F	CAUC	65		2005	Other	1360	63	111					true
+621	19	CMC	CMC_PITT_144	Pitt	Control	M	CAUC	48		2005	Cardiovascular	1325	70	254					true
+622	19	CMC	CMC_PITT_145	Pitt	Bipolar Disorder	F	CAUC	49		2006	Cardiovascular	1260	69	155					true
+623	19	CMC	CMC_PITT_146	Pitt	Control	M	CAUC	45		2006	Cardiovascular	1475	65	140					true
+624	19	CMC	CMC_PITT_147	Pitt	Control	F	CAUC	45		2007	Cardiovascular	1345	68	148					true
+625	19	CMC	CMC_PITT_148	Pitt	Control	M	AA	44		2007	Cardiovascular	1555	70	251					true
+626	19	CMC	CMC_PITT_149	Pitt	Control	M	CAUC	46		2007	Other	1575	71	218					true
+627	19	CMC	CMC_PITT_150	Pitt	Bipolar Disorder	F	CAUC	57		2007	Cardiovascular	1280	68	193					true
+628	19	CMC	CMC_PITT_151	Pitt	Bipolar Disorder	M	CAUC	57		2008	Cardiovascular	1380	67	303					true
+629	19	CMC	CMC_PITT_152	Pitt	Bipolar Disorder	M	CAUC	51		2008	Other	1300	70	243					true
+630	19	CMC	CMC_PITT_153	Pitt	Control	M	CAUC	25		2008	Cardiovascular	1350	68	234					true
+631	19	CMC	CMC_PITT_154	Pitt	Bipolar Disorder	F	CAUC	56		2008	Other	1070	68	214					true
+632	19	CMC	CMC_PITT_155	Pitt	Control	M	CAUC	25		2008	Other	1575	68	123					true
+633	19	CMC	CMC_PITT_156	Pitt	Bipolar Disorder	F	CAUC	52		2009	Other	1320	71	205					true
+634	19	CMC	CMC_PITT_157	Pitt	Bipolar Disorder	M	CAUC	45		2009	Cardiovascular	1520	70	135					true
+635	19	CMC	CMC_PITT_158	Pitt	Bipolar Disorder	F	CAUC	27		2009	Other	1220	61	243					true
+636	19	CMC	CMC_PITT_159	Pitt	Bipolar Disorder	M	CAUC	46		2009	Other	1620	70	188					true
+637	19	CMC	CMC_PITT_160	Pitt	Bipolar Disorder	F	CAUC	25		2009	Other	1220	64	167					true
+638	19	CMC	CMC_PITT_161	Pitt	Control	M	CAUC	50		2010	Cardiovascular	1430	69	199					true
+639	19	CMC	CMC_PITT_162	Pitt	Bipolar Disorder	M	CAUC	31		2010	Other	1370	67	200					true
+640	19	CMC	CMC_PITT_163	Pitt	Control	F	CAUC	21		2010	Cardiovascular	1345	65	161					true
+641	19	CMC	CMC_PITT_164	Pitt	Bipolar Disorder	F	AA	31		2010	Other	1070	62	187					true
+642	19	CMC	CMC_PITT_165	Pitt	Control	M	CAUC	46		2010	Cardiovascular	1460	69	223					true
+643	19	CMC	CMC_PITT_166	Pitt	Control	F	CAUC	67		2011	Cardiovascular	1130	66	157					true
+644	19	CMC	CMC_PITT_167	Pitt	Bipolar Disorder	M	CAUC	33		2011	Other	1550	72	293					true
+645	19	CMC	CMC_PITT_168	Pitt	Control	M	CAUC	52		2012	Other	1600	74	234					true
+646	19	CMC	CMC_PITT_169	Pitt	Control	F	CAUC	23		2012	Other	1290	70	206					true
+647	19	CMC	CMC_PITT_170	Pitt	Control	F	CAUC	53		2012	Cardiovascular	1340	63	193					true
+648	19	CMC	CMC_PITT_171	Pitt	Bipolar Disorder	M	CAUC	39		1997	Other	1530							true
+649	19	CMC	CMC_PITT_172	Pitt	Bipolar Disorder	M	CAUC	58		1997	Other	1300							true
+650	19	CMC	CMC_PITT_173	Pitt	Control	M	CAUC	22		1998	Other	1505	77	197					true
+651	19	CMC	CMC_PITT_174	Pitt	Control	M	CAUC	68		1998	Cardiovascular	1400	70	200					true
+652	19	CMC	CMC_PITT_175	Pitt	Control	M	CAUC	58		1999	Cardiovascular	1440	71	173					true
+653	19	CMC	CMC_PITT_176	Pitt	Control	F	CAUC	41		1999	Cardiovascular	1400	64	152					true
+654	19	CMC	CMC_PITT_177	Pitt	Control	M	CAUC	70		1999	Cardiovascular	1215	68	175					true
+655	19	CMC	CMC_PITT_178	Pitt	Bipolar Disorder	M	CAUC	52		1999	Other	1280	70	182					true
+656	19	CMC	CMC_PITT_179	Pitt	Bipolar Disorder	M	CAUC	45		2000	Other	1250	70	144					true
+657	19	CMC	CMC_PITT_180	Pitt	Bipolar Disorder	F	CAUC	43		2001	Other	1240	61	103					true
+658	19	CMC	CMC_PITT_181	Pitt	Bipolar Disorder	F	CAUC	39		2001	Other	1275	68	134					true
+659	19	CMC	CMC_PITT_182	Pitt	Bipolar Disorder	M	CAUC	79		2001	Other	1325	68	137					true
+660	19	CMC	CMC_PITT_183	Pitt	Bipolar Disorder	F	CAUC	42		2001	Other	1390	69	257					true
+661	6	EpiGABA	H276	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	46			cardiac failure								
+662	6	EpiGABA	H286	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	44			sudden death								
+663	6	EpiGABA	H344	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	25			cardiac failure								
+664	6	EpiGABA	H372	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	22			cardiac failure								
+665	6	EpiGABA	H395	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	43			sudden death								
+666	6	EpiGABA	H406	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	19			electric shock								
+667	6	EpiGABA	H412	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	23			electric shock								
+668	6	EpiGABA	H427	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	38			sudden death								
+669	6	EpiGABA	H444	YasminHurd_BrainCollection_MSSM	Control	M	CAUC	24			sudden death								
+670	13	UCLA-ASD	1054-97	Oxford	Control	F		59			ovarian cancer								true
+671	13	UCLA-ASD	1085-93	Oxford	Control	M		67			adenocarcinoma of right lung								true
+672	13	UCLA-ASD	1127-93	Oxford	Control	M		64			myocardial infarction								true
+673	13	UCLA-ASD	1148-98	Oxford	Control	M		70			bronchopneumonia								true
+674	13	UCLA-ASD	1340-94	Oxford	Control	M		69			sudden artrial fibrillation/fatal collapse								true
+675	13	UCLA-ASD	A012-12	London Brain	Control	F		51			Cancer (lung)								true
+676	13	UCLA-ASD	A130-09	London Brain	Control	M		54			Cancer (colon)								true
+677	13	UCLA-ASD	A206-89	London Brain	Control	M		22			sudden accident/abdominal trauma								true
+678	13	UCLA-ASD	A246-93	London Brain	Control	M		41			acute pancreatitis								true
+679	13	UCLA-ASD	A247-92	London Brain	Control	M		40			lung cancer								true
+680	13	UCLA-ASD	A268-93	London Brain	Control	M		37			acute necrotic pancreatitis								true
+681	13	UCLA-ASD	A292-09	London Brain	Control	F		43			Severe obesity/Bronchopneumonia								true
+683	13	UCLA-ASD	AN00142	ATP	Control	M		44											true
+684	13	UCLA-ASD	AN00493	ATP	Autism Spectrum Disorder	M		27			Drowning								true
+685	13	UCLA-ASD	AN00544	ATP	Control	M		17											true
+686	13	UCLA-ASD	AN00764	ATP	Autism Spectrum Disorder	M		20			Accident								true
+687	13	UCLA-ASD	AN01093	ATP	Autism Spectrum Disorder	M		58			Anoxic Encephalopathy								true
+688	13	UCLA-ASD	AN01125	ATP	Control	M		56											true
+689	13	UCLA-ASD	AN01410	ATP	Control	M		41											true
+690	13	UCLA-ASD	AN01570	ATP	Autism Spectrum Disorder	F		18			Seizure Disorder								true
+691	13	UCLA-ASD	AN01971	ATP	Autism Spectrum Disorder	M		38			Aspiration								true
+692	13	UCLA-ASD	AN02987	ATP	Autism Spectrum Disorder	M		15			Head Trauma								true
+693	13	UCLA-ASD	AN03217	ATP	Control	M		19			Pneumonia								true
+694	13	UCLA-ASD	AN03345	ATP	Autism Spectrum Disorder	M		2			Drowning								true
+695	13	UCLA-ASD	AN03632	ATP	Autism Spectrum Disorder	F		49			Cancer								true
+696	13	UCLA-ASD	AN03935	ATP	Autism Spectrum Disorder	M		20			Cardiopulmonary Arrest								true
+697	13	UCLA-ASD	AN04479	ATP	Control	M		44											true
+698	13	UCLA-ASD	AN04682	ATP	Autism Spectrum Disorder	M		15			Asphyxia								true
+699	13	UCLA-ASD	AN05983	ATP	Autism Spectrum Disorder	M		24			Sudden Unexpected Death								true
+700	13	UCLA-ASD	AN06133	Harvard-ATP	Autism Spectrum Disorder	M		81			Cerebrovascular Accident								
+701	13	UCLA-ASD	AN06365	ATP	Autism Spectrum Disorder	M		10			epilepsy								true
+702	13	UCLA-ASD	AN06420	ATP	Autism Spectrum Disorder	M		39			Cardiac Tamponade								true
+703	13	UCLA-ASD	AN06875	Harvard-ATP	Autism Spectrum Disorder	M		68			Heart Attack								
+704	13	UCLA-ASD	AN07176	ATP	Control	M		21			Accident								true
+705	13	UCLA-ASD	AN07444	ATP	Control	M		17			Asphyxia								true
+706	13	UCLA-ASD	AN08043	ATP	Autism Spectrum Disorder	F		52											true
+707	13	UCLA-ASD	AN08161	ATP	Control	F		36			Multisystem Failure								true
+708	13	UCLA-ASD	AN08166	ATP	Control	F		36			Seizure Suspected								true
+709	13	UCLA-ASD	AN08677	ATP	Control	M		38											true
+710	13	UCLA-ASD	AN08792	ATP	Autism Spectrum Disorder	M		30			Gastrointestinal Bleeding								true
+711	13	UCLA-ASD	AN08873	ATP	Autism Spectrum Disorder	M		5			Drowning								true
+712	13	UCLA-ASD	AN09402	ATP	Autism Spectrum Disorder	M		11			Seizure Disorder								true
+713	13	UCLA-ASD	AN09714	ATP	Autism Spectrum Disorder	M		60			Pancreatic Cancer								true
+714	13	UCLA-ASD	AN09730	ATP	Autism Spectrum Disorder	M		22			Aspiration								true
+715	13	UCLA-ASD	AN10028	ATP	Control	M		36											true
+716	13	UCLA-ASD	AN10679	ATP	Control	F		41											true
+717	13	UCLA-ASD	AN10723	ATP	Control	M		60			Heart Attack								true
+718	13	UCLA-ASD	AN10833	ATP	Control	M		22											true
+719	13	UCLA-ASD	AN11864	ATP	Control	M		57											true
+720	13	UCLA-ASD	AN11931	ATP	Autism Spectrum Disorder	F		39			epilepsy								true
+721	13	UCLA-ASD	AN11989	ATP	Autism Spectrum Disorder	M		30			Congestive Heart Failure								true
+722	13	UCLA-ASD	AN12137	ATP	Control	M		31			Asphyxia								true
+723	13	UCLA-ASD	AN12240	ATP	Control	M		51			Heart Attack								true
+724	13	UCLA-ASD	AN12457	ATP	Autism Spectrum Disorder	F		29			Seizure Disorder								true
+725	13	UCLA-ASD	AN13295	ATP	Control	M		56											true
+726	13	UCLA-ASD	AN13872	ATP	Autism Spectrum Disorder	F		5			Drowning								true
+727	13	UCLA-ASD	AN14757	ATP	Control	M		24			Heart Attack								true
+728	13	UCLA-ASD	AN14762	ATP	Autism Spectrum Disorder	M		9			Cardiac Arrest								true
+729	13	UCLA-ASD	AN14829	ATP	Autism Spectrum Disorder	F		26			Asphyxia								true
+730	13	UCLA-ASD	AN15088	ATP	Control	F		52			Heart Attack								true
+731	13	UCLA-ASD	AN15451	ATP	Autism Spectrum Disorder	M		16			Respiratory arrest								true
+732	13	UCLA-ASD	AN15566	ATP	Control	F		32											true
+733	13	UCLA-ASD	AN16115	ATP	Autism Spectrum Disorder	F		11			Drowning								true
+734	13	UCLA-ASD	AN16641	ATP	Autism Spectrum Disorder	M		9			Seizure Disorder								true
+735	13	UCLA-ASD	AN17138	ATP	Autism Spectrum Disorder	M		16			Seizure Disorder								true
+736	13	UCLA-ASD	AN17254	ATP	Autism Spectrum Disorder	M		51			Heart Attack								true
+737	13	UCLA-ASD	AN17425	ATP	Control	M		16			Heart Attack								true
+738	13	UCLA-ASD	AN17515	ATP	Autism Spectrum Disorder	M		54			Cancer								true
+739	13	UCLA-ASD	AN17678	ATP	Autism Spectrum Disorder	M		11			Sudden Unexpected Death								
+740	13	UCLA-ASD	AN17777	Harvard-ATP	Control	F		49			Cardiopulmonary Arrest								true
+741	13	UCLA-ASD	AN19442	ATP	Control	M		50											true
+742	13	UCLA-ASD	AN19511	ATP	Autism Spectrum Disorder	M		8			Cancer								true
+743	13	UCLA-ASD	AN19760	ATP	Control	M		28			Unknown								true
+744	13	UCLA-ASD	NP024-10	Oxford	Control	M		62			status epilepticus and myocardial infarct								true
+745	13	UCLA-ASD	NP053-06	Oxford	Control	M		71			throat cancer								true
+746	13	UCLA-ASD	NP071-10	Oxford	Control	M		68			hypoxic ishaemic damage								true
+747	13	UCLA-ASD	NP115-09	Oxford	Control	M		71			pulmonary fibrosis								true
+748	13	UCLA-ASD	NP121-11	Oxford	Autism Spectrum Disorder	M		33			SUDEP								
+749	13	UCLA-ASD	NP122-11	Oxford	Control	F		65			chronic obstructive pulmonary disease								true
+750	13	UCLA-ASD	NP167-08	Oxford	Autism Spectrum Disorder	F		44			Cardiac arrest								
+751	13	UCLA-ASD	NP168-08	Oxford	Control	M		71			metastic bladder cancer								true
+752	13	UCLA-ASD	NP26-11	Oxford	Autism Spectrum Disorder	M		22			aspiration of gastral material								true
+753	13	UCLA-ASD	NP27-11	Oxford	Autism Spectrum Disorder	M		14			cardiac arrest due to inhalation of volatile arrythmogenic substances								true
+754	13	UCLA-ASD	NP56-10	Oxford	Autism Spectrum Disorder	M		44			non-hodgkins lymphoma								
+755	13	UCLA-ASD	NP72-11	Oxford	Autism Spectrum Disorder	M		15			seizure								
+756	13	UCLA-ASD	NP81-11	Oxford	Control	M		56			stomach cancer								true
+757	13	UCLA-ASD	NP90-09	Oxford	Autism Spectrum Disorder	M		50			pulmonary embolus following eye surgery								
+758	13	UCLA-ASD	NP92-11	Oxford	Control	M		63			congestive cardiac failure								true
+759	13	UCLA-ASD	NP94-11	Oxford	Control	F		62			endometrial cancer								true
+760	13	UCLA-ASD	NP99-11	Oxford	Control	F		41			rheumatoid arthritis/Bells palsy								true
+761	13	UCLA-ASD	UMB1185	NICHD	Control	M		5			Drowning								true
+762	13	UCLA-ASD	UMB1376	NICHD	Control	M		37			Arteriosclerotic cardiovascular disease								true
+763	13	UCLA-ASD	UMB1407	NICHD	Control	F		9			Asthma								true
+764	13	UCLA-ASD	UMB1499	NICHD	Control	F		4			Lymphocytic myocarditis								true
+765	13	UCLA-ASD	UMB1578	NICHD	Control	M		53			Arteriosclerotic cardiovascular disease								true
+766	13	UCLA-ASD	UMB1670	NICHD	Control	M		13			Asphyxia by hanging								
+767	13	UCLA-ASD	UMB1714	NICHD	Control	M		12			Cardiac arrhytmia								true
+768	13	UCLA-ASD	UMB1793	NICHD	Control	M		12			Drowning								
+769	13	UCLA-ASD	UMB1860	NICHD	Control	M		8			Cardiac arrhytmia								
+770	13	UCLA-ASD	UMB1908	NICHD	Control	M		14			Asphyxia by hanging								true
+771	13	UCLA-ASD	UMB4334	NICHD	Autism Spectrum Disorder	M		11			Acute Hemorrhagic Tracheobronchitis								true
+772	13	UCLA-ASD	UMB4337	NICHD	Control	M		8			Motor vehicle accident								true
+773	13	UCLA-ASD	UMB4590	NICHD	Control	M		20			Cardiac Arrest								true
+774	13	UCLA-ASD	UMB4670	NICHD	Control	M		5			Commotio Cordis								true
+775	13	UCLA-ASD	UMB4722	NICHD	Control	M		15			Multiple injuries								
+776	13	UCLA-ASD	UMB4787	NICHD	Control	M		13			Asthma								true
+777	13	UCLA-ASD	UMB4842	NICHD	Control	M		47			Airway obstruction								true
+778	13	UCLA-ASD	UMB4849	NICHD	Autism Spectrum Disorder	M		7			Drowning								true
+779	13	UCLA-ASD	UMB4999	NICHD	Autism Spectrum Disorder	M		21			Cardiac Arrhythmia								true
+780	13	UCLA-ASD	UMB5023	NICHD	Autism Spectrum Disorder	M		46			Hypertensive atherosclerotic cardiovascular disease, fall down stairs								true
+781	13	UCLA-ASD	UMB5027	NICHD	Autism Spectrum Disorder	M		38			Obstruction Of Bowel Due To Adhesion								true
+782	13	UCLA-ASD	UMB5079	NICHD	Control	M		33			Drowning								true
+783	13	UCLA-ASD	UMB5115	NICHD	Autism Spectrum Disorder	M		46			Complications Of Pseuodmyxoma Peritonei								true
+784	13	UCLA-ASD	UMB5144	NICHD	Autism Spectrum Disorder	M		7			Cancer								true
+785	13	UCLA-ASD	UMB5163	NICHD	Control	M		15			Drowning								true
+786	13	UCLA-ASD	UMB5168	NICHD	Control	F		16			Cardiac Arrhythmia								true
+787	13	UCLA-ASD	UMB5176	NICHD	Autism Spectrum Disorder	M		23			Sudural hemorrhage								true
+788	13	UCLA-ASD	UMB5242	NICHD	Control	M		15			Cardiac arrhythmia due to conduction system								true
+789	13	UCLA-ASD	UMB5278	NICHD	Autism Spectrum Disorder	F		16			Drowning								true
+790	13	UCLA-ASD	UMB5282	NICHD	Control	M		3			Asphyxia, by choking								
+791	13	UCLA-ASD	UMB5297	NICHD	Control	M		33			Asphyxia								true
+792	13	UCLA-ASD	UMB5302	NICHD	Autism Spectrum Disorder	M		16			Diabetic Ketoacidosis								true
+793	13	UCLA-ASD	UMB5303	NICHD	Autism Spectrum Disorder	M		67			Cardiac Arrest								true
+794	13	UCLA-ASD	UMB5308	NICHD	Autism Spectrum Disorder	M		5			Blunt head injury, hit by a car while walking								true
+795	13	UCLA-ASD	UMB5309	NICHD	Control	F		14			Toxic shock syndrome								true
+796	13	UCLA-ASD	UMB5340	NICHD	Autism Spectrum Disorder	M		53			Unresponsive in bed								true
+797	13	UCLA-ASD	UMB5342	NICHD	Control	M		23			Motorcycle accident								true
+798	13	UCLA-ASD	UMB5391	NICHD	Control	M		9			Drowning								true
+799	13	UCLA-ASD	UMB5558	NICHD	Control	M		6			Anomalous left coronary artery with complications								true
+800	15	Yale-ASD	HSB100	A. Einstein College of Medicine, Bronx	Control	F	AA	21 gestation weeks											
+801	15	Yale-ASD	HSB102	Yale Pathology	Control	F	CAUC	23 gestation weeks											
+802	15	Yale-ASD	HSB123	NIMH		M	AA	37											true
+803	15	Yale-ASD	HSB126	NIMH	Control	F	CAUC	30											true
+804	15	Yale-ASD	HSB1296	University of Maryland brain bank	Control	M	AA	98 days											
+805	15	Yale-ASD	HSB136	NIMH	Control	M	AA	23											true
+806	15	Yale-ASD	HSB1472	University of Maryland brain bank	Control	M	CAUC	118 days											
+807	15	Yale-ASD	HSB152	Advanced Biosciences Resources	Control	M		16 PCW		2010									true
+808	15	Yale-ASD	HSB179	University of Maryland brain bank	Control	M		48											true
+809	15	Yale-ASD	HSB187	Yale Pathology	Control	F	HAITI	37											
+810	15	Yale-ASD	HSB221	Yale Pathology	Control	F		19 PCW		2011									true
+811	15	Yale-ASD	HSB222	University of Washington, Seattle	Control	F	CAUC	14.85 PCW		2011									true
+812	15	Yale-ASD	HSB240	University of Maryland brain bank	Control		CAUC	19 gestation weeks											
+813	15	Yale-ASD	HSB248	University of Washington, Seattle	Control	M		20 PCW		2012									true
+814	15	Yale-ASD	HSB260	University of Washington, Seattle	Control	F		17.1 PCW		2012									true
+815	15	Yale-ASD	HSB261	StemExpress	Control	M	AA	15.2 PCW		2012									true
+816	15	Yale-ASD	HSB265	Yale Pathology	Control	F		21 PCW		2012									true
+817	15	Yale-ASD	HSB266	Yale Pathology	Control	M		85		2012									true
+818	15	Yale-ASD	HSB269	National Disease Research Interchange	Control	F	CAUC	49		2012	Abdominal aortic anerysm		63	170					true
+819	15	Yale-ASD	HSB270	Novogenix	Control			15.5 PCW 		2013									true
+820	15	Yale-ASD	HSB271	University of Washington, Seattle	Control	F	CAUC	16.4 PCW		2013									true
+821	15	Yale-ASD	HSB272	University of Washington, Seattle	Control	M		6.1 PCW		2013									true
+822	15	Yale-ASD	HSB275	Yale Pathology	Control			19 PCW		2013									true
+823	15	Yale-ASD	HSB278	University of Washington, Seattle	Control	M		15.4 PCW		2013									true
+824	15	Yale-ASD	HSB283	Yale Pathology	Control	M	CAUC	41		2013									true
+825	15	Yale-ASD	HSB285	National Disease Research Interchange	Control	F	CAUC	37		2013	probable MI		64	300					true
+826	15	Yale-ASD	HSB292	Novogenix	Control			11.1 PCW		2014									true
+827	15	Yale-ASD	HSB317	Yale Pathology	Control	M	CAUC	47		2015									true
+828	15	Yale-ASD	HSB332	Yale Pathology	Control			25 PCW		2015									true
+829	15	Yale-ASD	HSB340	University of Maryland brain bank	Control	M	AA	18.9			Pending	1330							
+830	15	Yale-ASD	HSB366	University of Maryland brain bank	Autism Spectrum Disorder	M	CAUC	5.6			Drowning	1620							
+831	15	Yale-ASD	HSB367	University of Maryland brain bank	Autism Spectrum Disorder	F	CAUC	20.8			Seizure disorder								
+832	15	Yale-ASD	HSB368	University of Maryland brain bank	Autism Spectrum Disorder	M	AA	8.8	2		Drowning	1570							
+833	15	Yale-ASD	HSB370	University of Maryland brain bank	Autism Spectrum Disorder	F	AA	4.5			Multiple injuries, fall	1320							
+834	15	Yale-ASD	HSB371	University of Maryland brain bank	Autism Spectrum Disorder	M	AA	8.8			Drowning	1200							
+835	15	Yale-ASD	HSB373	University of Maryland brain bank	Autism Spectrum Disorder	M	CAUC	14.4			Drowning	1450							
+836	15	Yale-ASD	HSB380	University of Maryland brain bank	Autism Spectrum Disorder	M	CAUC	19.1			Suicide, hanging	1560							true
+837	15	Yale-ASD	HSB384	University of Maryland brain bank	Autism Spectrum Disorder	M	CAUC	16.7			Cardiac arrythmia	1777							true
+838	15	Yale-ASD	HSB385	University of Maryland brain bank	Autism Spectrum Disorder	F	CAUC	20			Natural/epilepsy	1260							true
+839	15	Yale-ASD	HSB388	University of Maryland brain bank	Control	F	CAUC	18.4			Multiple injuries								true
+840	15	Yale-ASD	HSB389	University of Maryland brain bank	Control	F	CAUC	15.9			Multiple injuries	1250							true
+841	15	Yale-ASD	HSB395	University of Maryland brain bank	Control	M	CAUC	15.3			cardiac arrythmia due to conduction system								
+842	15	Yale-ASD	HSB398	University of Maryland brain bank	Control	M	CAUC	15.8			accident, multiple injuries 								true
+843	15	Yale-ASD	HSB401	University of Maryland brain bank	Control	F	AA	9.6			asphyxia								
+844	15	Yale-ASD	HSB403	University of Maryland brain bank	Control	M	CAUC	4.7			commotio cordis	1470							
+845	15	Yale-ASD	HSB405	University of Maryland brain bank	Control	M	CAUC	5.4			accident, drowning 								
+846	15	Yale-ASD	HSB872	University of Maryland brain bank	Control	F	AA	0 days											
+847	16	BrainGVEX	2014-2200	SMRI "New"	Bipolar Disorder	M	CAUC	48	25	2002	CARDIAC	1330	67	322					true
+848	16	BrainGVEX	2014-2201	SMRI "New"	Schizophrenia	M	CAUC	43	20	2003	SUIC:JUMPED	1286	66	219					true
+849	16	BrainGVEX	2014-2621	SMRI "New"	Control	M	CAUC	56		1997	CARDIAC	1980	72	199					true
+850	16	BrainGVEX	2014-2622	SMRI "New"	Schizophrenia	M	CAUC	53	28	1998	SUIC:JUMPED	1530	70	154					true
+851	16	BrainGVEX	2014-2624	SMRI "New"	Bipolar Disorder	F	CAUC	55	25	2002	SUIC:OD	1360	67	178					true
+852	16	BrainGVEX	2014-2625	SMRI "New"	Schizophrenia	F	AA	52	30	2002	COPD	1265	65	162					true
+853	16	BrainGVEX	2014-2626	SMRI "New"	Control	M	CAUC	49		2002	CARDIAC	1490	72	240					true
+854	16	BrainGVEX	2014-2627	SMRI "New"	Control	M	HiSP	51		2002	CARDIAC	1505	67	246					true
+855	16	BrainGVEX	2014-2628	SMRI "New"	Schizophrenia	F	CAUC	53	30	2002	CARDIAC	1375	64	260					true
+856	16	BrainGVEX	2015-1	SMRI "New"	Schizophrenia	F	CAUC		20	2002	CARDIAC	1300	66	160					true
+857	16	BrainGVEX	2015-17	SMRI "New"	Control	M	CAUC	48		1995	CARDIAC	1600	72	268					true
+858	16	BrainGVEX	2015-18	SMRI "New"	Control	M	HiSP	48		1995	CARDIAC	1410	65	296					true
+859	16	BrainGVEX	2015-19	SMRI "New"	Control	M	CAUC	34		1995	CARDIAC	1700	72	265					true
+860	16	BrainGVEX	2015-20	SMRI "New"	Control	M	CAUC	56		1996	CARDIAC	1500		258					true
+861	16	BrainGVEX	2015-21	SMRI "New"	Schizophrenia	M	CAUC	37	20	1996	SUIC:JUMPED	1320	66	147					true
+862	16	BrainGVEX	2015-22	SMRI "New"	Schizophrenia	M	CAUC	46	20	1996	SUIC:OD	1510	75	266					true
+863	16	BrainGVEX	2015-23	SMRI "New"	Control	M	AS	70		1997	CARDIAC	1420	61	165					true
+864	16	BrainGVEX	2015-24	SMRI "New"	Control	M	AS	55		1997	CARDIAC	1370	71	196					true
+865	16	BrainGVEX	2015-2572	SMRI "Array"	Control	M	CAUC	60		1998	CARDIAC	1460	68	180					true
+866	16	BrainGVEX	2015-2573	SMRI "Array"	Bipolar Disorder	M	CAUC	64	19	1999	PNEUMONIA	1340	68	90					true
+867	16	BrainGVEX	2015-2574	SMRI "Array"	Schizophrenia	F	CAUC	32	29	1999	SUIC:JUMPED	1340	66	160					true
+868	16	BrainGVEX	2015-2575	SMRI "Array"	Schizophrenia	M	CAUC	44	9	1999	CARDIAC	1560	68	145					true
+869	16	BrainGVEX	2015-2576	SMRI "Array"	Control	M	CAUC	34		1999	CARDIAC	1480	72	200					true
+870	16	BrainGVEX	2015-2577	SMRI "Array"	Bipolar Disorder	F	CAUC	63	43	2000	CARDIAC	1290	69	116					true
+871	16	BrainGVEX	2015-2578	SMRI "Array"	Schizophrenia	F	CAUC	59	14	2002	CARDIAC	1515	59	156					true
+872	16	BrainGVEX	2015-2579	SMRI "Array"	Control	M	CAUC	49		2000	CARDIAC	1390	68	224					true
+873	16	BrainGVEX	2015-2580	SMRI "Array"	Schizophrenia	M	CAUC	45	15	2000	CARDIAC	1390	67	148					true
+874	16	BrainGVEX	2015-2581	SMRI "Array"	Control	M	CAUC	35		2000	CARDIAC	1415	70	280					true
+875	16	BrainGVEX	2015-2582	SMRI "Array"	Control	M	CAUC	55		2000	CARDIAC	1515	71	194					true
+876	16	BrainGVEX	2015-2583	SMRI "Array"	Bipolar Disorder	F	CAUC	49	20	2000	OD	1190		238					true
+877	16	BrainGVEX	2015-2584	SMRI "Array"	Bipolar Disorder	F	CAUC	33	15	2000	SUIC:HANGING	1450	66	120					true
+878	16	BrainGVEX	2015-2585	SMRI "Array"	Schizophrenia	F	CAUC	54	17	2000	PNEUMONIA	1170	68	195					true
+879	16	BrainGVEX	2015-2586	SMRI "Array"	Schizophrenia	M	CAUC	39	34	2001	SUIC:HANGING	1470	75	218					true
+880	16	BrainGVEX	2015-2587	SMRI "Array"	Control	M	CAUC	32		2001	CARDIAC	1410	66	390					true
+881	16	BrainGVEX	2015-2588	SMRI "Array"	Control	M	CAUC	47		2001	CARDIAC	1495	71	207					true
+882	16	BrainGVEX	2015-2589	SMRI "Array"	Schizophrenia	M	CAUC	41	20	2001	CARDIAC	1629	73	225					true
+883	16	BrainGVEX	2015-2590	SMRI "Array"	Schizophrenia	M	CAUC	43	25	2001	SUIC:HANGING	1490	70	189					true
+884	16	BrainGVEX	2015-2591	SMRI "Array"	Control	M	CAUC	51		2001	CARDIAC	1900	74	204					true
+885	16	BrainGVEX	2015-2592	SMRI "Array"	Schizophrenia	M	CAUC	42	24	2001	SUIC:JUMPED	1410	68	150					true
+886	16	BrainGVEX	2015-2593	SMRI "Array"	Control	M	CAUC	48		2002	CARDIAC	1321	70	174					true
+887	16	BrainGVEX	2015-2594	SMRI "Array"	Schizophrenia	M	CAUC	46	22	2002	PNEUMONIA	1630	72	246					true
+888	16	BrainGVEX	2015-2595	SMRI "Array"	Bipolar Disorder	M	CAUC	56	28	2002	SUIC:OD	1670	75	303					true
+889	16	BrainGVEX	2015-2603	SMRI "Array"	Bipolar Disorder	M	CAUC	29	17	1995	SUIC:CO	1430	72	182					true
+890	16	BrainGVEX	2015-2604	SMRI "Array"	Bipolar Disorder	M	CAUC	45	35	1996	CARDIAC	1480	67	200					true
+891	16	BrainGVEX	2015-2605	SMRI "Array"	Bipolar Disorder	M	Non-White	41	22	1996	SUIC:OD	1625	70	162					true
+892	16	BrainGVEX	2015-2606	SMRI "Array"	Schizophrenia	M	CAUC	31	22	1996	CARDIAC	1480	73	251					true
+893	16	BrainGVEX	2015-2607	SMRI "Array"	Bipolar Disorder	M	CAUC	44	33	1996	SUIC:HANGING	1660	68	184					true
+894	16	BrainGVEX	2015-2608	SMRI "Array"	Schizophrenia	F	CAUC	45	34	1996	SUIC:JUMPED	1510	67	180					true
+895	16	BrainGVEX	2015-2609	SMRI "Array"	Schizophrenia	M	CAUC	40	21	1996	PNEUMONIA	1480	71	198					true
+896	16	BrainGVEX	2015-2610	SMRI "Array"	Schizophrenia	M	CAUC	19	18	1997	OD	1465	67	174					true
+897	16	BrainGVEX	2015-2623	SMRI "Array"	Bipolar Disorder	F	CAUC	48	33	1997	CARDIAC	1205	67	130					true
+898	16	BrainGVEX	2015-2625	SMRI "Array"	Schizophrenia	M	CAUC	37	13	1997	CARDIAC	1550	70	220					true
+899	16	BrainGVEX	2015-2626	SMRI "Array"	Bipolar Disorder	F	CAUC	35	21	1997	SUIC:CO	1250	67	130					true
+900	16	BrainGVEX	2015-2627	SMRI "Array"	Schizophrenia	M	CAUC	52	28	1998	CARDIAC	1450							true
+901	16	BrainGVEX	2015-2628	SMRI "Array"	Schizophrenia	M	CAUC	24	20	1998	SUIC:OD	1505	71	206					true
+902	16	BrainGVEX	2015-2629	SMRI "Array"	Control	M	CAUC	53		1998	CARDIAC	1340	67	172					true
+903	16	BrainGVEX	2015-2630	SMRI "Array"	Schizophrenia	M	CAUC	44	19	1998	EXHAUSTIVE MANIA/NMS	1415	68	302					true
+904	16	BrainGVEX	2015-2881	SMRI "Array"	Bipolar Disorder	F	CAUC	58	27	1998	SUIC:GSW	1440	61	149					true
+905	16	BrainGVEX	2015-2882	SMRI "Array"	Control	F	CAUC	38		1998	CARDIAC	1350	69	224					true
+906	16	BrainGVEX	2015-2884	SMRI "Array"	Schizophrenia	M	CAUC	39	17	1998	MVA	1355	68	260					true
+907	16	BrainGVEX	2015-2885	SMRI "Array"	Schizophrenia	M	CAUC	33	19	1999	CARDIAC	1470	70	292					true
+908	16	BrainGVEX	2015-2886	SMRI "Array"	Schizophrenia	M	CAUC	43	18	1999	CIRRHOSIS	1520	74	266					true
+909	16	BrainGVEX	2015-2887	SMRI "Array"	Control	M	CAUC	35		1999	MYOCARDITIS	1700	74	260					true
+910	16	BrainGVEX	2015-2888	SMRI "Array"	Schizophrenia	M	CAUC	35	14	1999	CARDIAC	1370	66	308					true
+911	16	BrainGVEX	2015-2917	SMRI "Array"	Bipolar Disorder	M	CAUC	59	25	1999	SLEEP APNEA	1300		254					true
+912	16	BrainGVEX	2015-2918	SMRI "Array"	Control	M	CAUC	47		2000	CARDIAC	1550	68	182					true
+913	16	BrainGVEX	2015-2919	SMRI "Array"	Control	M	CAUC	45		2000	CARDIAC	1405	73	201					true
+914	16	BrainGVEX	2015-2921	SMRI "Array"	Control	M	CAUC	42		2000	CARDIAC	1340	68	141					true
+915	16	BrainGVEX	2015-2922	SMRI "Array"	Schizophrenia	M	CAUC	47	20	2000	ACUTE PANCREAT	1310	69	150					true
+916	16	BrainGVEX	2015-2923	SMRI "Array"	Control	F	CAUC	44		2000	CARDIAC	1305	70	152					true
+917	16	BrainGVEX	2015-2924	SMRI "Array"	Bipolar Disorder	M	CAUC	51	23	2000	CARDIAC	1590	70	183					true
+918	16	BrainGVEX	2015-2945	SMRI "Array"	Bipolar Disorder	F	CAUC	44	26	2000	MYOCARDITIS	1200	69	226					true
+919	16	BrainGVEX	2015-2946	SMRI "Array"	Bipolar Disorder	F	CAUC	56	14	2000	DROWNING	1170	66	226					true
+920	16	BrainGVEX	2015-2947	SMRI "Array"	Bipolar Disorder	F	CAUC	43	25	2000	SUIC:OD	1505	65	138					true
+921	16	BrainGVEX	2015-2948	SMRI "Array"	Bipolar Disorder	M	CAUC	35	14	2000	DROWNING	1390	65	163					true
+922	16	BrainGVEX	2015-2949	SMRI "Array"	Schizophrenia	F	CAUC	36	33	2000	SUIC:HANGING	1480	66	144					true
+923	16	BrainGVEX	2015-2950	SMRI "Array"	Bipolar Disorder	F	CAUC	50	25	2000	SUIC:OD	1400							true
+924	16	BrainGVEX	2015-2951	SMRI "Array"	Control	F	CAUC	33		2001	ASTHMA	1360	59	210					true
+925	16	BrainGVEX	2015-2952	SMRI "Array"	Schizophrenia	M	Non-White	38	17	2001	OD	1210	69	250					true
+926	16	BrainGVEX	2015-3	SMRI "New"	Bipolar Disorder	M	AS	49	34	2002	SUIC:HANGING	1440	69	230					true
+927	16	BrainGVEX	2015-3079	SMRI "Array"	Control	M	CAUC	46		2001	CARDIAC	1360	72	172					true
+928	16	BrainGVEX	2015-3080	SMRI "Array"	Bipolar Disorder	F	CAUC	43	29	2001	OD	1340	64	177					true
+929	16	BrainGVEX	2015-3081	SMRI "Array"	Control	M	CAUC	40		2001	CARDIAC	1498	72	267					true
+930	16	BrainGVEX	2015-3082	SMRI "Array"	Schizophrenia	F	CAUC	47	20	2002	CARDIAC	1575	69	336					true
+931	16	BrainGVEX	2015-3083	SMRI "Array"	Control	M	CAUC	31		2002	PULM EMBOL	1335	69	228					true
+932	16	BrainGVEX	2015-3084	SMRI "Array"	Control	F	CAUC	39		2002	CARDIAC	1260	69	209					true
+933	16	BrainGVEX	2015-3085	SMRI "Array"	Bipolar Disorder	M	CAUC	48	31	2002	SUIC:HANGING	1466	70	202					true
+934	16	BrainGVEX	2015-3086	SMRI "Array"	Control	M	CAUC	47		2002	CARDIAC	1535	69	183					true
+935	16	BrainGVEX	2015-3164	SMRI "Array"	Bipolar Disorder	F	CAUC	29	18	1996	OD	1330	65	233					true
+936	16	BrainGVEX	2015-3165	SMRI "Array"	Schizophrenia	F	CAUC	53	29	1997	CARDIAC	1345	62	198					true
+937	16	BrainGVEX	2015-3166	SMRI "Array"	Control	M	CAUC	49		1997	CARDIAC	1605	73	220					true
+938	16	BrainGVEX	2015-3167	SMRI "Array"	Control	M	CAUC	48		2001	CARDIAC	1580	71	220					true
+939	16	BrainGVEX	2015-3168	SMRI "Array"	Bipolar Disorder	F	CAUC	42	20	2002	OD	1335	65	140					true
+940	16	BrainGVEX	2015-3169	SMRI "Array"	Control	M	CAUC	45		2000	CARDIAC	1585	72	181					true
+941	16	BrainGVEX	2015-3170	SMRI "Array"	Control	F	CAUC	49		2000	CARDIAC	1435	65	235					true
+942	16	BrainGVEX	2015-3227	SMRI "Array"	Schizophrenia	M	CAUC	53	23	2000	CARDIAC	1400	73	134					true
+943	16	BrainGVEX	2015-3228	SMRI "Array"	Bipolar Disorder	F	CAUC	41	14	2001	CARDIAC	1360	63	367					true
+944	16	BrainGVEX	2015-3229	SMRI "Array"	Schizophrenia	M	CAUC	50	31	1999	CARDIAC	1400	77	350					true
+945	16	BrainGVEX	2015-3230	SMRI "Array"	Bipolar Disorder	F	CAUC	59	48	1997	SUIC:OD	1410	63	181					true
+946	16	BrainGVEX	2015-3231	SMRI "Array"	Control	M	CAUC	50		2001	CARDIAC	1645	71	176					true
+947	16	BrainGVEX	2015-3232	SMRI "Array"	Schizophrenia	F	CAUC	47	23	2001	OD	1430	65	119					true
+948	16	BrainGVEX	2015-3233	SMRI "Array"	Schizophrenia	M	CAUC	42	18	2002	CARDIAC	1310	72	289					true
+949	16	BrainGVEX	2015-3234	SMRI "Array"	Bipolar Disorder	M	CAUC	29	22	1994	SUIC:JUMPED	1570	70	190					true
+950	16	BrainGVEX	2015-3235	SMRI "Array"	Schizophrenia	M	CAUC	51	23	1997	CARDIAC	1390		158					true
+951	16	BrainGVEX	2015-3236	SMRI "Array"	Bipolar Disorder	F	CAUC	49	22	1997	SUIC:MVA	1380	64	158					true
+952	16	BrainGVEX	2015-3237	SMRI "Array"	Control	F	CAUC	44		1997	CARDIAC	1330	65	150					true
+953	16	BrainGVEX	2015-3238	SMRI "Array"	Bipolar Disorder	M	CAUC	35	19	1997	CARDIAC	1490	73	419					true
+954	16	BrainGVEX	2015-3275	SMRI "Array"	Control	M	CAUC	53		1997	CARDIAC	1500	69	190					true
+955	16	BrainGVEX	2015-3276	SMRI "Array"	Control	M	CAUC	51		1998	CARDIAC	1400	70	167					true
+956	16	BrainGVEX	2015-3277	SMRI "Array"	Control	F	CAUC	38		1998	CARDIAC	1120	67	131					true
+957	16	BrainGVEX	2015-3278	SMRI "Array"	Bipolar Disorder	M	CAUC	54	45	1997	SUIC:OD	1510	67	139					true
+958	16	BrainGVEX	2015-3279	SMRI "Array"	Control	F	CAUC	34		2000	CARDIAC	1255	66	229					true
+959	16	BrainGVEX	2015-3280	SMRI "Array"	Schizophrenia	M	CAUC	43	21	1995	PNEUMONIA	1620	69	248					true
+960	16	BrainGVEX	2015-3281	SMRI "Array"	Control	M	CAUC	37		1998	CARDIAC	1600	74	415					true
+961	16	BrainGVEX	2015-3282	SMRI "Array"	Schizophrenia	M	CAUC	52	19	2002	PNEUMONIA	1340	69	175					true
+962	16	BrainGVEX	2015-3283	SMRI "Array"	Bipolar Disorder	M	CAUC	19	17	2002	OD	1484	70	200					true
+963	16	BrainGVEX	2015-3284	SMRI "Array"	Control	F	CAUC	41		2002	CARDIAC	1290							true
+964	16	BrainGVEX	2015-35	SMRI "New"	Bipolar Disorder	F	CAUC	19	14	2003	SUIC:INHALED HELIUM	1390	66	140					true
+965	16	BrainGVEX	2015-36	SMRI "New"	Bipolar Disorder	M	CAUC	24	18	2003	OD	1415	69	208					true
+966	16	BrainGVEX	2015-37	SMRI "New"	Control	M	CAUC	41		2003	CARDIAC	1390	72	185					true
+967	16	BrainGVEX	2015-38	SMRI "New"	Schizophrenia	F	CAUC	40	16	2003	CARDIAC	1379	68	246					true
+968	16	BrainGVEX	2015-39	SMRI "New"	Bipolar Disorder	M	CAUC	64	32	2003	SUIC:OD	1363	65	240					true
+969	16	BrainGVEX	2015-4	SMRI "New"	Bipolar Disorder	F	CAUC	49	21	2002	SUIC:JUMPED	1080		180					true
+970	16	BrainGVEX	2015-40	SMRI "New"	Control	M	CAUC	45		2003	CARDIAC	1423	68	374					true
+971	16	BrainGVEX	2015-41	SMRI "New"	Bipolar Disorder	F	CAUC	42		2003	CARDIAC	1520	69	262					true
+972	16	BrainGVEX	2015-42	SMRI "New"	Schizophrenia	M	CAUC	28	25	2003	SUIC:JUMPED	1670	74	226					true
+973	16	BrainGVEX	2015-43	SMRI "New"	Schizophrenia	M	CAUC	47	25	2003	OD	1140	73	164					true
+974	16	BrainGVEX	2015-45	SMRI "New"	Bipolar Disorder	F	CAUC	29	28	2003	SUIC:OD	1233	62	206					true
+975	16	BrainGVEX	2015-46	SMRI "New"	Schizophrenia	F	CAUC	28	18	2003	OD	1338	69	180					true
+976	16	BrainGVEX	2015-6	SMRI "New"	Control	M	CAUC	44		2003	CARDIAC	1545	73	259					true
+977	16	BrainGVEX	2015-7	SMRI "New"	Schizophrenia	F	CAUC	61	23	2003	PNEUMONIA	1305	66	132					true
+978	16	BrainGVEX	2015-8	SMRI "New"	Bipolar Disorder	F	CAUC	56	35	2003	CARDIAC	1376	69	250					true
+979	16	BrainGVEX	2015-854	SMRI "New"	Bipolar Disorder	F	CAUC	53	33	2003	SUIC:OD	1227	61	192					true
+980	16	BrainGVEX	2015-855	SMRI "New"	Bipolar Disorder	M	CAUC	46	20	2003	SUIC:STABBED	1594	68	174					true
+981	16	BrainGVEX	2015-856	SMRI "New"	Schizophrenia	F	CAUC	49	22	2004	TRAUMA--INTERNAL BLEEDING	1360	63	226					true
+982	16	BrainGVEX	2015-857	SMRI "New"	Control	M	CAUC	38		2004	CARDIAC	1625	73	201					true
+983	16	BrainGVEX	2015-858	SMRI "New"	Bipolar Disorder	F	CAUC	44	25	2004	OD	1404	70	220					true
+984	16	BrainGVEX	2015-859	SMRI "New"	Schizophrenia	M	CAUC	45	32	2004	UNDETERMINED	1350	72	185					true
+985	16	BrainGVEX	2015-860	SMRI "New"	Bipolar Disorder	F	CAUC	36	15	2004	OD	1310	63	218					true
+986	16	BrainGVEX	2015-861	SMRI "New"	Schizophrenia	F	CAUC	45	23	2004	CARDIAC	1380	69	292					true
+987	16	BrainGVEX	2015-862	SMRI "New"	Control	M	CAUC	57		2004	CARDIAC	1360	73	201					true
+988	16	BrainGVEX	2015-863	SMRI "New"	Control	M	CAUC	54		2004	CARDIAC	1410	70	210					true
+989	16	BrainGVEX	2015-864	SMRI "New"	Bipolar Disorder	M	CAUC	63	26	2004	SUIC:OD	1540	64	129					true
+990	16	BrainGVEX	2015-865	SMRI "New"	Schizophrenia	M	CAUC	44	16	2005	CARDIAC	1340	69	263					true
+991	16	BrainGVEX	2015-891	SMRI "New"	Schizophrenia	F	CAUC	59	21	2003	ASPHYXIA	1099	63	196					true
+992	16	BrainGVEX	2015-892	SMRI "New"	Control	M	CAUC	54		2004	PULM EMBOL	1551	68	226					true
+993	16	BrainGVEX	2015-893	SMRI "New"	Control	M	CAUC	63		2004	CARDIAC	1470	69	220					true
+994	16	BrainGVEX	2015-894	SMRI "New"	Schizophrenia	M	CAUC	52	23	2005	CARDIAC	1380	74	343					true
+995	16	BrainGVEX	2015-895	SMRI "New"	Control	M	CAUC	57		2005	CARDIAC	1510							true
+996	16	BrainGVEX	2015-896	SMRI "New"	Control	M	CAUC	57		2005	CARDIAC	1460		240					true
+997	16	BrainGVEX	2015-897	SMRI "New"	Schizophrenia	M	CAUC	46	16	2005	OD	1540	71	210					true
+998	16	BrainGVEX	2015-898	SMRI "New"	Bipolar Disorder	M	CAUC	63	22	2005	CARDIAC	1600	75	348					true
+999	16	BrainGVEX	2015-899	SMRI "New"	Bipolar Disorder	M	CAUC	48	23	2005	SUIC:DROWNED	1570	70	173					true
+1000	16	BrainGVEX	2014-2194	BSHRI	Control	M	CAUC	82		2005		1240	72	150					true
+1001	16	BrainGVEX	2014-2195	BSHRI	Control	M	CAUC	90+		2006		1160	67	124					true
+1002	16	BrainGVEX	2014-2196	BSHRI	Control	F	CAUC	75		2007		1110	63	160					true
+1003	16	BrainGVEX	2014-2197	BSHRI	Control	M	CAUC	86		2007		1400	74	197					true
+1004	16	BrainGVEX	2014-2198	BSHRI	Control	F	CAUC	76		2007		1190	63	124					true
+1005	16	BrainGVEX	2014-2199	BSHRI	Control	M	CAUC	87		2008		1225	73	135					true
+1006	16	BrainGVEX	2015-1332	BSHRI	Control	F	CAUC	78		2004		1160	59	151					true
+1007	16	BrainGVEX	2015-1333	BSHRI	Control	M	CAUC	90+		2007		1100	70	116					true
+1008	16	BrainGVEX	2015-1334	BSHRI	Control	F	CAUC	87		2005		1120	64	150					true
+1009	16	BrainGVEX	2015-1335	BSHRI	Control	F	CAUC	82		2006		1160	62	123					true
+1010	16	BrainGVEX	2015-1336	BSHRI	Control	F	CAUC	87		2007		1120	69	127					true
+1011	16	BrainGVEX	2015-1337	BSHRI	Control	F	CAUC	90+		2003		1060	65	148					true
+1012	16	BrainGVEX	2015-1338	BSHRI	Control	M	CAUC	84		2006		1380	75	196					true
+1013	16	BrainGVEX	2015-1339	BSHRI	Control	F	CAUC	90+		2007		1112							true
+1014	16	BrainGVEX	2015-1340	BSHRI	Control	M	CAUC	90+		2007		1260	65	139					true
+1015	16	BrainGVEX	2015-1341	BSHRI	Control	M	CAUC	89		2004		1140	72	155					true
+1016	16	BrainGVEX	2015-1342	BSHRI	Control	F	CAUC	90+		2006		1180	68	190					true
+1017	16	BrainGVEX	2015-1343	BSHRI	Control	M	CAUC	86		2007		1280	68	155					true
+1018	16	BrainGVEX	2015-1397	BSHRI	Control	M	CAUC	76		1992		1230							true
+1019	16	BrainGVEX	2015-1398	BSHRI	Control	M	CAUC	76		1993		1170							true
+1020	16	BrainGVEX	2015-1399	BSHRI	Control	M	CAUC	79		1995		1260							true
+1021	16	BrainGVEX	2015-1400	BSHRI	Control	M	CAUC	90		1996		1098							true
+1022	16	BrainGVEX	2015-1401	BSHRI	Control	F	CAUC	82		1996		1160	65	132					true
+1023	16	BrainGVEX	2015-1402	BSHRI	Control	M	CAUC	79		1997		1100	70	110					true
+1024	16	BrainGVEX	2015-1403	BSHRI	Control	F	CAUC	88		1997		1050	63	158					true
+1025	16	BrainGVEX	2015-1404	BSHRI	Control	M	CAUC	90+		1997		1320		160					true
+1026	16	BrainGVEX	2015-1405	BSHRI	Control	M	CAUC	84		1999		1225							true
+1027	16	BrainGVEX	2015-1406	BSHRI	Control	M	CAUC	63		1998		1420							true
+1028	16	BrainGVEX	2015-1407	BSHRI	Control	F	CAUC	87		2006		1340	62	119					true
+1029	16	BrainGVEX	2015-1408	BSHRI	Control	M	CAUC	90+		2006		1120	66	129					true
+1030	16	BrainGVEX	2015-1425	BSHRI	Control	M	CAUC	89		2007		1275	67	155					true
+1031	16	BrainGVEX	2015-1426	BSHRI	Control	F	CAUC	90		2007		975	62	167					true
+1032	16	BrainGVEX	2015-1427	BSHRI	Control	M	CAUC	85		2004		1240	65	130					true
+1033	16	BrainGVEX	2015-1428	BSHRI	Control	F	CAUC	83		2003		1180	59	128					true
+1034	16	BrainGVEX	2015-1429	BSHRI	Control	M	CAUC	84		2004		1360	74	229					true
+1035	16	BrainGVEX	2015-1431	BSHRI	Control	F	CAUC	77		1995		950	64	132					true
+1036	16	BrainGVEX	2015-1432	BSHRI	Control	M	CAUC	75		2009		1262	70	170					true
+1037	16	BrainGVEX	2015-1433	BSHRI	Control	M	CAUC	63		1996		1517							true
+1038	16	BrainGVEX	2015-1434	BSHRI	Control	M	CAUC	69		1996		1190	71	231					true
+1039	16	BrainGVEX	2015-1435	BSHRI	Control	F	CAUC	82		2008		1120	67	125					true
+1040	16	BrainGVEX	2015-1436	BSHRI	Control	M	CAUC	80		2003		1140	71	187					true
+1041	16	BrainGVEX	2015-1443	BSHRI	Control	M	CAUC	88		2006		1100	68	170					true
+1042	16	BrainGVEX	2015-1444	BSHRI	Control	F	CAUC	87		2002		1225	61	98					true
+1043	16	BrainGVEX	2015-1445	BSHRI	Control	F	CAUC	88		2001		1030							true
+1044	16	BrainGVEX	2015-1446	BSHRI	Control	M	CAUC	90		2003		1180							true
+1045	16	BrainGVEX	2015-1447	BSHRI	Control	M	CAUC	86		2002		1055	69	129					true
+1046	16	BrainGVEX	2015-1448	BSHRI	Control	M	CAUC	84		2006		1200	70	165					true
+1047	16	BrainGVEX	2015-1449	BSHRI	Control	M	CAUC	90+		2006		1160	69	205					true
+1048	16	BrainGVEX	2015-1450	BSHRI	Control	M	CAUC	90+		1999		1050							true
+1049	16	BrainGVEX	2015-1451	BSHRI	Control	M	CAUC	85		2008		1000	70	178					true
+1050	16	BrainGVEX	2015-1452	BSHRI	Control	M	CAUC	89		2006		1220	67	175					true
+1051	16	BrainGVEX	2015-1453	BSHRI	Control	F	CAUC	90		2007		966	66	115					true
+1052	16	BrainGVEX	2015-1454	BSHRI	Control	M	CAUC	90+		2009		1116	65	154					true
+1053	16	BrainGVEX	2015-1467	BSHRI	Control	M	CAUC	81		1997		1290							true
+1054	16	BrainGVEX	2015-1468	BSHRI	Control	F	CAUC	86		1999		1150							true
+1055	16	BrainGVEX	2015-1469	BSHRI	Control	M	CAUC	78		1999		1460							true
+1056	16	BrainGVEX	2015-1470	BSHRI	Control	F	CAUC	90+		2000		1150	62	111					true
+1057	16	BrainGVEX	2015-1471	BSHRI	Control	M	CAUC	90+		2002		1215	67	195					true
+1058	16	BrainGVEX	2015-1472	BSHRI	Control	M	CAUC	90+		2002		1165	68	137					true
+1059	16	BrainGVEX	2015-1473	BSHRI	Control	M	CAUC	87		2002		1420	71	247					true
+1060	16	BrainGVEX	2015-1474	BSHRI	Control	M	CAUC	73		2004		1360	74	213					true
+1061	16	BrainGVEX	2015-1475	BSHRI	Control	F	CAUC	88		2006		1120	57	113					true
+1062	16	BrainGVEX	2015-1476	BSHRI	Control	M	CAUC	90+		2009		1225	68	225					true
+1063	16	BrainGVEX	2015-1477	BSHRI	Control	M	CAUC	90+		1996		1165							true
+1064	16	BrainGVEX	2015-1478	BSHRI	Control	M	CAUC	78		1996		1265							true
+1065	16	BrainGVEX	2015-1502	BSHRI	Control	F	CAUC	90		2004		980	60	95					true
+1066	16	BrainGVEX	2015-1503	BSHRI	Control	M	CAUC	83		1996		1310	67	153					true
+1067	16	BrainGVEX	2015-1504	BSHRI	Control	M	CAUC	82		1992		1100							true
+1068	16	BrainGVEX	2015-1505	BSHRI	Control	F	CAUC	87		1998		1145	64	131					true
+1069	16	BrainGVEX	2015-1506	BSHRI	Control	F	CAUC	78		1994		1165							true
+1070	16	BrainGVEX	2015-1507	BSHRI	Control	M	CAUC	78		1995		1240							true
+1071	16	BrainGVEX	2015-1508	BSHRI	Control	M	CAUC	65		2008		1400	62	178					true
+1072	16	BrainGVEX	2015-1509	BSHRI	Control	F	CAUC	90+		1995		985							true
+1073	16	BrainGVEX	2015-1510	BSHRI	Control	F	CAUC	85		1996		1020	63	112					true
+1074	16	BrainGVEX	2015-1511	BSHRI	Control	M	CAUC	82		2008		1175	66	177					true
+1075	16	BrainGVEX	2015-1512	BSHRI	Control	M	CAUC	90+		2005		1300	71	159					true
+1076	16	BrainGVEX	2015-1513	BSHRI	Control	F	CAUC	73		1996		890	62	109					true
+1077	16	BrainGVEX	2015-243	BSHRI	Control	M	CAUC	74		1999		1340							true
+1078	16	BrainGVEX	2015-244	BSHRI	Control	M	CAUC	80		2010		1162	68	198					true
+1079	16	BrainGVEX	2015-245	BSHRI	Control	F	CAUC	70		1999		1100							true
+1080	16	BrainGVEX	2015-246	BSHRI	Control	M	CAUC	78		1993		1300							true
+1081	16	BrainGVEX	2015-247	BSHRI	Control	M	CAUC	90+		1994		1200							true
+1082	16	BrainGVEX	2015-248	BSHRI	Control	M	CAUC	78		1997		1240		154					true
+1083	16	BrainGVEX	2015-249	BSHRI	Control	M	CAUC	78		1998		1225							true
+1084	16	BrainGVEX	2015-250	BSHRI	Control	F	CAUC	85		1999		1055							true
+1085	16	BrainGVEX	2015-251	BSHRI	Control	M	CAUC	72		1996		1330							true
+1086	16	BrainGVEX	2015-280	BSHRI	Control	F	CAUC	76		1992		1240							true
+1087	16	BrainGVEX	2015-281	BSHRI	Control	M	CAUC	80		2009		1300	72	165					true
+1088	16	BrainGVEX	2015-282	BSHRI	Control	F	CAUC	90+		1992		1250							true
+1089	16	BrainGVEX	2015-283	BSHRI	Control	F	CAUC	81		1995		1225							true
+1090	16	BrainGVEX	2015-284	BSHRI	Control	M	CAUC	90+		2008		1050	69	140					true
+1091	16	BrainGVEX	2015-285	BSHRI	Control	F	CAUC	90+		2009		1300	62	123					true
+1092	16	BrainGVEX	2015-286	BSHRI	Control	M	CAUC	76		2008		1375	72	171					true
+1093	16	BrainGVEX	2015-287	BSHRI	Control	M	CAUC	76		1997		1340							true
+1094	16	BrainGVEX	2015-350	BSHRI	Control	F	CAUC	90+		2008		1150	60	162					true
+1095	16	BrainGVEX	2015-351	BSHRI	Control	M	CAUC	83		1998		1250							true
+1096	16	BrainGVEX	2015-352	BSHRI	Control	M	CAUC	86		2003		1220	70	143					true
+1097	16	BrainGVEX	2015-353	BSHRI	Control	M	CAUC	82		2005		1160	67	165					true
+1098	16	BrainGVEX	2015-354	BSHRI	Control	M	CAUC	84		1996		1220	69	184					true
+1099	16	BrainGVEX	2015-355	BSHRI	Control	F	CAUC	81		1997		1275	67	100					true
+1100	16	BrainGVEX	2015-477	BSHRI	Control	M	CAUC	90+		2010		1298	69	154					true
+1101	16	BrainGVEX	2015-479	BSHRI	Control	M	CAUC	87		1997		1230		154					true
+1102	16	BrainGVEX	2015-480	BSHRI	Control	F	CAUC	66		1994		1150							true
+1103	16	BrainGVEX	2015-481	BSHRI	Control	M	CAUC	75		1995		1560							true
+1104	16	BrainGVEX	2015-482	BSHRI	Control	M	CAUC	71		2008		1300	72	215					true
+1105	16	BrainGVEX	2015-483	BSHRI	Control	M	CAUC	38		2009		1350	69	206					true
+1106	16	BrainGVEX	2015-509	BSHRI	Control	F	CAUC	76		1999		1070							true
+1107	16	BrainGVEX	2015-510	BSHRI	Control	F	CAUC	90+		2009		1125	61	124					true
+1108	16	BrainGVEX	2015-511	BSHRI	Control	M	CAUC	83		1997		1385	70	160					true
+1109	16	BrainGVEX	2015-512	BSHRI	Control	M	CAUC	79		1997		1135	66	126					true
+1110	16	BrainGVEX	2015-513	BSHRI	Control	F	CAUC	90+		2008		1100							true
+1111	16	BrainGVEX	2015-514	BSHRI	Control	F	CAUC	90		2008		1150	63	115					true
+1112	16	BrainGVEX	2015-515	BSHRI	Control	M	CAUC	86		1997		1280	71	144					true
+1113	16	BrainGVEX	2015-516	BSHRI	Control	F	CAUC	84		1994		1200							true
+1114	16	BrainGVEX	2015-517	BSHRI	Control	M	CAUC	89		2010		1264	72	155					true
+1115	16	BrainGVEX	2015-518	BSHRI	Control	F	CAUC	90+		2008		1100	60	115					true
+1116	16	BrainGVEX	2015-519	BSHRI	Control	M	CAUC	84		1999		1385							true
+1117	16	BrainGVEX	2015-520	BSHRI	Control	F	CAUC	77		1997		1235							true
+1118	16	BrainGVEX	2015-733	BSHRI	Control	M	CAUC	90		1998		1250	69	170					true
+1119	16	BrainGVEX	2015-734	BSHRI	Control	M	CAUC	90+		2009		1225	71	152					true
+1120	16	BrainGVEX	2015-735	BSHRI	Control	M	CAUC	63		1995		1370							true
+1121	16	BrainGVEX	2015-736	BSHRI	Control	M	CAUC	70		1995		1265							true
+1122	16	BrainGVEX	2015-737	BSHRI	Control	F	CAUC	88		2005		1160	66	142					true
+1123	16	BrainGVEX	2015-738	BSHRI	Control	M	CAUC	90+		2006		1220	68	126					true
+1124	16	BrainGVEX	2015-739	BSHRI	Control	M	Unknown	53		2009		1456	66	146					true
+1125	16	BrainGVEX	2015-740	BSHRI	Control	M	CAUC	81		2008		1275	69	222					true
+1126	16	BrainGVEX	2015-766	BSHRI	Control	F	CAUC	86		2004		1070	58	111					true
+1127	16	BrainGVEX	2015-767	BSHRI	Control	F	CAUC	90+		2005		1160	65	101					true
+1128	16	BrainGVEX	2015-768	BSHRI	Control	M	CAUC	84		1997		1390							true
+1129	16	BrainGVEX	2015-769	BSHRI	Control	F	CAUC	88		2004		1000	59	100					true
+1130	16	BrainGVEX	2015-770	BSHRI	Control	F	CAUC	82		2004		940	62	114					true
+1131	16	BrainGVEX	2015-771	BSHRI	Control	F	CAUC	85		2003		1100							true
+1132	16	BrainGVEX	2015-772	BSHRI	Control	M	CAUC	74		2007		1375	70	157					true
+1133	16	BrainGVEX	2015-773	BSHRI	Control	M	CAUC	86		2003		1180	67	131					true
+1134	16	BrainGVEX	2015-774	BSHRI	Control	M	CAUC	78		2006		1200	68	162					true
+1135	16	BrainGVEX	2015-775	BSHRI	Control	F	CAUC	90		2004		1080	59	90					true
+1136	16	BrainGVEX	2015-776	BSHRI	Control	M	CAUC	89		2003		1120							true
+1137	16	BrainGVEX	2015-777	BSHRI	Control	M	CAUC	80		2007		1200	71	174					true
+1138	16	BrainGVEX	2015-802	BSHRI	Control	F	CAUC	90+		2009		975	63	133					true
+1139	16	BrainGVEX	2015-803	BSHRI	Control	F	CAUC	77		2006		1060	63	117					true
+1140	16	BrainGVEX	2015-804	BSHRI	Control	M	CAUC	82		2004		1160							true
+1141	16	BrainGVEX	2015-805	BSHRI	Control	F	CAUC	88		2007		1020	58	73					true
+1142	16	BrainGVEX	2015-806	BSHRI	Control	M	CAUC	86		2002		1240	67	195					true
+1143	16	BrainGVEX	2015-807	BSHRI	Control	M	CAUC	90+		2005		1440	73	161					true
+1144	16	BrainGVEX	2015-808	BSHRI	Control	M	CAUC	90+		2003		1120	68	150					true
+1145	16	BrainGVEX	2015-809	BSHRI	Control	F	CAUC	90		2005		1160	64	96					true
+1146	16	BrainGVEX	2015-810	BSHRI	Control	F	CAUC	89		2003		1200	62	89					true
+1147	16	BrainGVEX	2015-811	BSHRI	Control	F	CAUC	87		2006		1260	69	134					true
+1148	16	BrainGVEX	2015-812	BSHRI	Control	F	CAUC	83		2004		1185	63	112					true
+1149	16	BrainGVEX	2015-813	BSHRI	Control	M	CAUC	75		2005		1340	70	165					true
+1150	16	BrainGVEX	2015-900	BSHRI	Control	M	CAUC	85		1992		1100							true
+1151	16	BrainGVEX	2015-901	BSHRI	Control	M	CAUC	85		2000		1280	66	223					true
+1152	16	BrainGVEX	2015-902	BSHRI	Control	F	CAUC	77		1994		1300							true
+1153	16	BrainGVEX	2015-916	BSHRI	Control	F	CAUC	80		2000		1125	63	89					true
+1154	16	BrainGVEX	2015-917	BSHRI	Control	F	CAUC	90+		2000		1160	60	106					true
+1155	16	BrainGVEX	2015-918	BSHRI	Control	F	CAUC	86		2000		1145	65	116					true
+1156	16	BrainGVEX	2015-919	BSHRI	Control	F	CAUC	90+		2001		1090	59	113					true
+1157	16	BrainGVEX	2015-920	BSHRI	Control	F	CAUC	88		2002		1090	58	104					true
+1158	16	BrainGVEX	2015-921	BSHRI	Control	M	CAUC	78		2006		1060	67	160					true
+1159	16	BrainGVEX	2015-922	BSHRI	Control	F	CAUC	90+		1992		970							true
+1160	16	BrainGVEX	2015-923	BSHRI	Control	M	CAUC	68		1998		1240	65	119					true
+1161	16	BrainGVEX	2015-924	BSHRI	Control	F	CAUC	80		2002		1285	59	110					true
+1162	16	BrainGVEX	2015-925	BSHRI	Control	M	CAUC	89		2003		1440	65	172					true
+1163	16	BrainGVEX	2015-926	BSHRI	Control	F	CAUC	88		2005		1080	61	90					true
+1164	16	BrainGVEX	2015-927	BSHRI	Control	F	CAUC	90+		2002		1200	61	119					true
+1165	16	BrainGVEX	2015-1557	BSHRI	Control	F	CAUC	83		2000		1220	63	122					true
+1166	16	BrainGVEX	2015-1558	BSHRI	Control	M	CAUC	80		2003		1280	69	190					true
+1167	16	BrainGVEX	2015-1535	BSHRI	Control	M	CAUC	85		2006		1140	70	202					true
+1168	16	BrainGVEX	2015-1552	BSHRI	Control	M	CAUC	90+		2007		1330	65	184					true
+1169	16	BrainGVEX	2015-1543	BSHRI	Control	M	CAUC	90+		2008		1150	69	204					true
+1170	16	BrainGVEX	2015-1553	BSHRI	Control	F	CAUC	68		2008		1140	61	129					true
+1171	16	BrainGVEX	2015-1555	BSHRI	Control	F	CAUC	84		2009		1190	59	100					true
+1172	16	BrainGVEX	2015-1533	BSHRI	Control	M	CAUC	89		1993		1150							true
+1173	16	BrainGVEX	2015-1532	BSHRI	Control	M	CAUC	90+		1994		1160							true
+1174	16	BrainGVEX	2015-1539	BSHRI	Control	M	CAUC	82		1995		1310							true
+1175	16	BrainGVEX	2015-1541	BSHRI	Control	M	CAUC	68		1995		1515							true
+1176	16	BrainGVEX	2015-1554	BSHRI	Control	M	CAUC	74		1995		1230							true
+1177	16	BrainGVEX	2015-1534	BSHRI	Control	M	CAUC	82		1996		1280							true
+1178	16	BrainGVEX	2015-1536	BSHRI	Control	F	CAUC	90+		1996		1120							true
+1179	16	BrainGVEX	2015-1538	BSHRI	Control	F	CAUC	85		1996		1085							true
+1180	16	BrainGVEX	2015-1537	BSHRI	Control	F	CAUC	82		1998		1185							true
+1181	16	BrainGVEX	2015-1556	BSHRI	Control	M	CAUC	77		1999		1190							true
+1182	16	BrainGVEX	2015-478	BSHRI	Control	F	CAUC	88		1999		1170							true
+1183	16	BrainGVEX	2015-1540	BSHRI	Control	F	CAUC	90+		1999		1185							true
+1184	16	BrainGVEX	2016-885	SMRI "Array"	Bipolar Disorder	M	CAUC	42	18	1997	DROWNING	1470	72	183					true
+1185	16	BrainGVEX	2015-2883	SMRI "Array"	BP (not BP)	M	CAUC	40				1375	67	160					true
+1186	16	BrainGVEX	2016-831	SMRI "Consortium"	Schizophrenia	M	CAUC	44	17	1995	CARDIAC	1640	68	172					true
+1187	16	BrainGVEX	2016-832	SMRI "Consortium"	Bipolar Disorder	F	CAUC	61	18	1995	SUIC:OD	1415	63	146					true
+1188	16	BrainGVEX	2016-833	SMRI "Consortium"	Schizophrenia	M	CAUC	44	21	1996	COPD	1500	71	260					true
+1189	16	BrainGVEX	2016-834	SMRI "Consortium"	Schizophrenia	M	CAUC	35	19	1996	CARDIAC	1380	76	333					true
+1190	16	BrainGVEX	2016-862	SMRI "Consortium"	Control	M	CAUC	52		1996	CARDIAC	1330	70	156					true
+1191	16	BrainGVEX	2016-863	SMRI "Consortium"	Control	M	CAUC	53		1996	CARDIAC	1400	67	133					true
+1192	16	BrainGVEX	2016-864	SMRI "Consortium"	Control	M	CAUC	44		1996	CARDIAC	1510	71	198					true
+1193	16	BrainGVEX	2016-865	SMRI "Consortium"	Bipolar Disorder	M	CAUC	50	17	1996	SUIC:JUMPED	1380	66	208					true
+1194	16	BrainGVEX	2016-790	SMRI "Consortium"	Schizophrenia	F	CAUC	30	22	1994	SUIC:JUMPED	1430	64	141					true
+1195	16	BrainGVEX	2016-888	SMRI "Consortium"	Control	F	CAUC	35		1996	CARDIAC	1340	64	126					true
+1196	16	BrainGVEX	2016-866	SMRI "Consortium"	Bipolar Disorder	F	CAUC	50	25	1996	PULM EMBOL	1320	70	265					true
+1197	16	BrainGVEX	2016-867	SMRI "Consortium"	Control	M	CAUC	42		1996	CARDIAC	1500	74	280					true
+1198	16	BrainGVEX	2016-868	SMRI "Consortium"	Control	F	CAUC	68		1996	PULM EMBOL	1360	63	136					true
+1199	16	BrainGVEX	2016-869	SMRI "Consortium"	Control	M	CAUC	58		1996	CARDIAC	1780	71	186					true
+1200	16	BrainGVEX	2016-870	SMRI "Consortium"	Schizophrenia	F	CAUC	49	25	1997	UNKNOWN	1440	65	215					true
+1201	16	BrainGVEX	2016-871	SMRI "Consortium"	Control	F	CAUC	29		1997	MVA	1440	65	186					true
+1202	16	BrainGVEX	2016-872	SMRI "Consortium"	Control	F	CAUC	57		1900		1400							true
+1203	16	BrainGVEX	2016-791	SMRI "Consortium"	Schizophrenia	M	CAUC	52	20	1994	CARDIAC	1530	68	174					true
+1204	16	BrainGVEX	2016-887	SMRI "Consortium"	Schizophrenia	M	CAUC	30	13	1994	PNEUMONIA	1620	65	199					true
+1205	16	BrainGVEX	2016-792	SMRI "Consortium"	Bipolar Disorder	F	CAUC	25	19	1994	SUIC:HANGING	1540	71	157					true
+1206	16	BrainGVEX	2016-793	SMRI "Consortium"	Schizophrenia	F	CAUC	60	15	1995	CARDIAC	1395	64	264					true
+1207	16	BrainGVEX	2016-794	SMRI "Consortium"	Bipolar Disorder	F	CAUC	37	14	1995	SUIC:OD	1130	64	106					true
+1208	16	BrainGVEX	2016-795	SMRI "Consortium"	Bipolar Disorder	M	CAUC	54	39	1995	FALL	1690	71	168					true
+1209	16	BrainGVEX	2016-796	SMRI "Consortium"	Control	M	CAUC	52		1995	CARDIAC	1700	69	190					true
+1210	16	BrainGVEX	2016-797	SMRI "Consortium"	Bipolar Disorder	M	CAUC	30	22	1995	PNEUMONIA	1350	65	241					true
+1211	16	BrainGVEX	2016-798	SMRI "Consortium"	Schizophrenia	M	CAUC	60	27	1995	DROWNING	1340	64	158					true
+1212	16	BrainGVEX	2016-799	SMRI "Consortium"	Bipolar Disorder	M	CAUC	30	7	1995	SUIC:CO	1580	75	239					true
+1213	16	BrainGVEX	2016-800	SMRI "Consortium"	Control	F	CAUC	44		1995	CARDIAC	1490	67	259					true
+1214	16	BrainGVEX	2016-801	SMRI "Consortium"	Bipolar Disorder	M	CAUC	57	30	1995	CARDIAC	1440	72	193					true
+1215	16	BrainGVEX	2016-823	SMRI "Consortium"	Control	M	CAUC	59		1995	CARDIAC	1560	69	176					true
+1216	16	BrainGVEX	2016-824	SMRI "Consortium"	Bipolar Disorder	M	CAUC	34	19	1995	SUIC:JUMPED	1523	69	184					true
+1217	16	BrainGVEX	2016-825	SMRI "Consortium"	Schizophrenia	M	CAUC	31	18	1995	SUIC:JUMPED	1555	75	284					true
+1218	16	BrainGVEX	2016-826	SMRI "Consortium"	Bipolar Disorder	M	CAUC	48	27	1995	SUIC:BURNED	1540	69	173					true
+1219	16	BrainGVEX	2016-827	SMRI "Consortium"	Control	M	CAUC	52		1995	CARDIAC	1840	75	188					true
+1220	16	BrainGVEX	2016-828	SMRI "Consortium"	Bipolar Disorder	M	CAUC	31	21	1995	SUIC:JUMPED	1680	73	210					true
+1221	16	BrainGVEX	2016-829	SMRI "Consortium"	Bipolar Disorder	M	CAUC	30	14	1995	OD	1590	70	142					true
+1222	16	BrainGVEX	2016-830	SMRI "Consortium"	Schizophrenia	M	CAUC	25	20	1995	SUIC:HANGING	1555	72	132					true
+1223	16	BrainGVEX	2016-889	SMRI "Extra"	Bipolar Disorder	M	CAUC	46	20	1994	SUIC:CO	1620	75	239					true
+1224	16	BrainGVEX	2016-890	SMRI "Extra"	Schizophrenia	M	CAUC	25	25	1994	STRANGULATION	1440	68	126					true
+1225	16	BrainGVEX	2016-891	SMRI "Extra"	Control	M	CAUC	28		1994	CARDIAC	1455	72	186					true
+1226	16	BrainGVEX	2016-892	SMRI "Extra"	Schizophrenia	M	CAUC	32	20	1995	SUIC:STABBED	1550	73	158					true
+1227	16	BrainGVEX	2016-893	SMRI "Extra"	Bipolar Disorder	F	CAUC	32	27	1995	SUIC:GSW	1320	68	127					true
+1228	16	BrainGVEX	2016-894	SMRI "Extra"	Schizophrenia	M	CAUC	47	12	1995	SUIC:OD	1495	70	176					true
+1229	16	BrainGVEX	2016-895	SMRI "Extra"	Bipolar Disorder	M	CAUC	21	16	1995	SUIC:GSW	1305	69	222					true
+1230	16	BrainGVEX	2016-896	SMRI "Extra"	Schizophrenia	M	CAUC	25	23	1995	SUIC:HIT BY TRAIN	1520	74	128					true
+1231	16	BrainGVEX	2016-922	SMRI "Extra"	Bipolar Disorder	M	CAUC	47	18	1995	ASPHYXIA	1617	71	174					true
+1232	16	BrainGVEX	2016-923	SMRI "Extra"	Bipolar Disorder	F	CAUC	52	32	1995	SUIC:GSW	1570	67	134					true
+1233	16	BrainGVEX	2016-924	SMRI "Extra"	Control	M	CAUC	48		1995	CARDIAC	1370	75	234					true
+1234	16	BrainGVEX	2016-925	SMRI "Extra"	Bipolar Disorder	M	CAUC	48	21	1996	CARDIAC	1605	76	202					true
+1235	16	BrainGVEX	2016-926	SMRI "Extra"	Control	M	CAUC	54		1996	CARDIAC	1510	74	212					true
+1236	16	BrainGVEX	2016-927	SMRI "Extra"	Control	F	CAUC	20		1996	CARDIAC	1475	67	145					true
+1237	16	BrainGVEX	2016-928	SMRI "Extra"	Schizophrenia	M	CAUC	40	19	1996	CARDIAC	1500	72	188					true
+1238	16	BrainGVEX	2016-929	SMRI "Extra"	Schizophrenia	M	CAUC	57	20	1997	CARDIAC	1590	77	222					true
+1239	16	BrainGVEX	2016-930	SMRI "Extra"	Schizophrenia	F	CAUC	44	21	1997	CARDIAC	1480	61	148					true
+1240	16	BrainGVEX	2016-931	SMRI "Extra"	Bipolar Disorder	F	CAUC	37	32	1997	SUIC:OD	1130	65	200					true
+1241	16	BrainGVEX	2016-932	SMRI "Extra"	Schizophrenia	M	CAUC	35	16	1997	SUIC:OD	1415	69	128					true
+1242	16	BrainGVEX	2016-933	SMRI "Extra"	Bipolar Disorder	M	CAUC	32	21	1997	SUIC:JUMPED	1455	73	196					true
+1243	16	BrainGVEX	2016-934	SMRI "Extra"	Control	M	CAUC	53		1998	MVA	1565	69	192					true
+1244	16	BrainGVEX	2016-935	SMRI "Extra"	Bipolar Disorder	M	CAUC	36	19	1999	SUIC:JUMPED	1475	69	246					true
+1245	16	BrainGVEX	2016-936	SMRI "Extra"	Schizophrenia	M	CAUC	34		1999	CARDIAC	1640	72	364					true
+1246	16	BrainGVEX	2016-937	SMRI "Extra"	Schizophrenia	F	CAUC	44	20	2001	SUIC:OD	1090	63	220					true
+1247	16	BrainGVEX	2016-938	SMRI "Extra"	Control	M	CAUC	67		2001	CARDIAC	1575	71	218					true
+1248	16	BrainGVEX	2016-939	SMRI "Extra"	Schizophrenia	F	CAUC	46	23	2002	PNEUMONIA	1313	66	230					true
+1249	16	BrainGVEX	2016-940	SMRI "Extra"	Bipolar Disorder	F	CAUC	53		2002	OD	1309	68	282					true
+1250	16	BrainGVEX	2016-941	SMRI "Extra"	Schizophrenia	M	CAUC	59	38	2002	OD	1479	70	298					true
+1251	16	BrainGVEX	2016-942	SMRI "Extra"	Bipolar Disorder	F	CAUC	48		2002	PNEUMONIA	1531	68	187					true
+1252	16	BrainGVEX	2016-943	SMRI "Extra"	Schizophrenia	M	CAUC	21	14	2002	SUIC:HANGING	1530	65	133					true
+1253	16	BrainGVEX	2016-944	SMRI "Extra"	Schizophrenia	F	CAUC	55	40	2002	OD	1292	64	116					true
+1254	16	BrainGVEX	2016-945	SMRI "Extra"	Schizophrenia	M	CAUC	47		2002	SUIC:OD	1480	72	227					true
+1255	16	BrainGVEX	2016-946	SMRI "Extra"	Schizophrenia	M	CAUC	43	20	2002	CARDIAC	1430	74	354					true
+1256	16	BrainGVEX	2016-947	SMRI "Extra"	Schizophrenia	M	CAUC	61	30	2002	CARDIAC	1514		140					true
+1257	16	BrainGVEX	2016-948	SMRI "Extra"	Schizophrenia	M	CAUC	31	19	2003	CARDIAC	1480	68	248					true
+1258	16	BrainGVEX	2016-949	SMRI "Extra"	Schizophrenia	M	CAUC	18	14	2003	PNEUMONIA	1480	72	204					true
+1259	16	BrainGVEX	2016-950	SMRI "Extra"	Bipolar Disorder	F	CAUC	41	17	2003	SUIC:HANGING	1303	71	140					true
+1260	16	BrainGVEX	2016-951	SMRI "Extra"	Schizophrenia	M	CAUC	18	17	2003	SUIC:ASPHYXIA	1575	73	148					true
+1261	16	BrainGVEX	2016-952	SMRI "Extra"	Schizophrenia	M	CAUC	34	24	2003	SUIC:HANGING	1500	72	220					true
+1262	16	BrainGVEX	2016-953	SMRI "Extra"	Schizophrenia	M	CAUC	50		2003	CARDIAC	1460	70	246					true
+1263	16	BrainGVEX	2016-954	SMRI "Extra"	Schizophrenia	F	CAUC	53	20	2003	OD	1310	65	192					true
+1264	16	BrainGVEX	2016-955	SMRI "Extra"	Schizophrenia	F	CAUC	46	18	2003	CARDIAC	1230	68	204					true
+1265	16	BrainGVEX	2016-956	SMRI "Extra"	Schizophrenia	M	CAUC	32	26	2003	PNEUMONIA	1460	66	180					true
+1266	16	BrainGVEX	2016-957	SMRI "Extra"	Schizophrenia	M	CAUC	53	32	2003	SUIC:OD	1590	67	226					true
+1267	16	BrainGVEX	2016-958	SMRI "Extra"	Schizophrenia	F	CAUC	53	25	2003	PNEUMONIA	1300	62	136					true
+1268	16	BrainGVEX	2016-959	SMRI "Extra"	Control	M	CAUC	53		2004	CARDIAC	1340	63	198					true
+1269	16	BrainGVEX	2016-960	SMRI "Extra"	Schizophrenia	M	CAUC	42	17	2004	SUBARACHNOID HEMORRHAGE	1600	71	195					true
+1270	16	BrainGVEX	2016-961	SMRI "Extra"	Schizophrenia	M	CAUC	45	21	2004	GI HEMORRHAGE	1420	71	172					true
+1271	16	BrainGVEX	2016-962	SMRI "Extra"	Schizophrenia	M	CAUC	31	21	2004	SUIC:OD	1450	73	223					true
+1272	16	BrainGVEX	2016-963	SMRI "Extra"	Schizophrenia	F	CAUC	45	16	2004	CARDIAC	1300	63	235					true
+1273	16	BrainGVEX	2016-964	SMRI "Extra"	Control	M	CAUC	36		2005	ASTHMA	1240	71	185					true
+1274	16	BrainGVEX	2016-965	SMRI "Extra"	Control	M	CAUC	53		2005	CARDIAC	1550	74	229					true
+1275	17	BrainSpan	HSB174		Control	M	AA	8											
+1276	11	iPSC	310		Control	M		15w4d											
+1277	11	iPSC	313		Control	M		16w1d											
+1278	11	iPSC	320		Control	M		17w4d											
+1279	22	CMC_HBCC, LIBD_szControl	Br831	NIMH_HBCC	Control	M	AA	85		1993	Cardiovascular	1250	68	154					true
+1280	22	CMC_HBCC	Br2539	NIMH_HBCC	Control	M	AA	84		2012	Other	1260	66	252					true
+1281	22	CMC_HBCC, LIBD_szControl	Br2026	NIMH_HBCC	Control	M	CAUC	83		2008	Cardiovascular	1220		140					true
+1282	22	CMC_HBCC	Br1646	NIMH_HBCC	Schizophrenia	M	CAUC	81		2004	Cardiovascular	1350	66	144					true
+1283	22	CMC_HBCC, LIBD_szControl	Br1684	NIMH_HBCC	Schizophrenia	F	CAUC	81	27	2005	Cardiovascular	1140	59	160					true
+1284	22	CMC_HBCC, BipSeq	Br1437	NIMH_HBCC	Bipolar Disorder	M	CAUC	79	53	2001		1460	74	239					true
+1285	22	CMC_HBCC	Br1690	NIMH_HBCC	Schizophrenia	M	HISP	79		2005	Cardiovascular	1170	68	136					true
+1286	22	CMC_HBCC	Br1107	NIMH_HBCC	Control	F	AS	78		1997	Other	1220	53	100					true
+1287	22	CMC_HBCC, LIBD_szControl	Br1613	NIMH_HBCC	Control	M	CAUC	78		2004	Other	1790	68	185					true
+1288	22	CMC_HBCC, BipSeq	Br1413	NIMH_HBCC	Bipolar Disorder	M	AA	76	45	2001	Other	1340	65	168					true
+1289	22	CMC_HBCC, LIBD_szControl	Br1067	NIMH_HBCC	Schizophrenia	M	AA	75	34	1996	Cardiovascular	1270	71	216					true
+1290	22	CMC_HBCC, BipSeq	Br1601	NIMH_HBCC	Bipolar Disorder	M	CAUC	75	17	2004	Non-brain cancer	1460	72	180					true
+1291	22	CMC_HBCC	Br1160	NIMH_HBCC	Control	M	AA	73		1997	Cardiovascular	1350	63	182					true
+1292	22	CMC_HBCC, LIBD_szControl	Br2003	NIMH_HBCC	Control	M	AA	73		2008	Other	1420	66	234					true
+1293	22	CMC_HBCC	Br2065	NIMH_HBCC	Bipolar Disorder	M	CAUC	72		2009	Other	1590	68	173					true
+1294	22	CMC_HBCC, LIBD_szControl	Br943	NIMH_HBCC	Control	M	AA	71		1994	Cardiovascular	1430	69	150					true
+1295	22	CMC_HBCC, LIBD_szControl	Br1093	NIMH_HBCC	Schizophrenia	F	CAUC	71	17	1996	Cardiovascular	1260	68	122					true
+1296	22	CMC_HBCC, LIBD_szControl	Br1615	NIMH_HBCC	Control	F	AA	71		2004	Other	1320	66	228					true
+1297	22	CMC_HBCC, LIBD_szControl	Br1693	NIMH_HBCC	Schizophrenia	M	AA	71	16	2005	Infection and parasitic disease	1260	73	158					true
+1298	22	CMC_HBCC	Br1529	NIMH_HBCC	Schizophrenia	M	CAUC	70		2003	Non-brain cancer	1550	65	114					true
+1299	22	CMC_HBCC, LIBD_szControl	Br1594	NIMH_HBCC	Schizophrenia	M	CAUC	69	12	2004	Infection and parasitic disease	1260	75	142					true
+1300	22	CMC_HBCC, LIBD_szControl	Br1137	NIMH_HBCC	Control	M	AA	68		1997	Cardiovascular	1220	71	266					true
+1301	22	CMC_HBCC, LIBD_szControl	Br1265	NIMH_HBCC	Schizophrenia	M	AA	68	36	1999	Cardiovascular	1310	65	166					true
+1302	22	CMC_HBCC, LIBD_szControl	Br1676	NIMH_HBCC	Schizophrenia	M	CAUC	68	31	2005	Cardiovascular	1280	65	130					true
+1303	22	CMC_HBCC, LIBD_szControl	Br1099	NIMH_HBCC	Control	F	AA	67		1996	Cardiovascular	1170	67	186					true
+1304	22	CMC_HBCC, LIBD_szControl	Br1552	NIMH_HBCC	Schizophrenia	F	AA	67	38	2003	Cardiovascular	890	65	170					true
+1305	22	CMC_HBCC, LIBD_szControl	Br1427	NIMH_HBCC	Schizophrenia	M	CAUC	66	31	2001	Cardiovascular	1420	67	160					true
+1306	22	CMC_HBCC, LIBD_szControl	Br1576	NIMH_HBCC	Schizophrenia	F	AA	66	25	2003	Cardiovascular	1000	58	156					true
+1307	22	CMC_HBCC, BipSeq	Br2013	NIMH_HBCC	Bipolar Disorder	F	CAUC	66	22	2008	Other	1270	63	146					true
+1308	22	CMC_HBCC, LIBD_szControl	Br1150	NIMH_HBCC	Control	F	AA	65		1997	Cardiovascular	1170	63	132					true
+1309	22	CMC_HBCC, LIBD_szControl	Br1371	NIMH_HBCC	Schizophrenia	M	AA	65	18	2001	Cardiovascular	1430	68	242					true
+1310	22	CMC_HBCC, LIBD_szControl	Br1494	NIMH_HBCC	Control	F	AA	65		2002	Cardiovascular	1340	67	186					true
+1311	22	CMC_HBCC, EpiMap, LIBD_szControl	Br2053	NIMH_HBCC	Control	M	AA	65		2009	Cardiovascular	1240	66	188					true
+1312	22	CMC_HBCC	Br2569	NIMH_HBCC	Control	M	AA	65		2013		1190	67	214					true
+1313	22	CMC_HBCC, LIBD_szControl	Br1504	NIMH_HBCC	Control	M	AA	64		2002	Cardiovascular	1610	72	158					true
+1314	22	CMC_HBCC, LIBD_szControl	Br1522	NIMH_HBCC	Control	F	AA	64		2003	Cardiovascular	1380	66	213					true
+1315	22	CMC_HBCC, LIBD_szControl	Br1315	NIMH_HBCC	Schizophrenia	F	AA	63	26	2000	Cardiovascular	1190	60	108					true
+1316	22	CMC_HBCC	Br2078	NIMH_HBCC	Bipolar Disorder	F	CAUC	63		2009	Other	1260	67	166					true
+1317	22	CMC_HBCC	Br2322	NIMH_HBCC	Control	M	CAUC	63		2010	Cardiovascular	1810	71	231					true
+1318	22	CMC_HBCC, EpiMap	Br2333	NIMH_HBCC	Control	F	CAUC	63		2010		1270	65	296					true
+1319	22	CMC_HBCC, LIBD_szControl	Br938	NIMH_HBCC	Schizophrenia	F	AA	62	34	1994	Other	1150	66	270					true
+1320	22	CMC_HBCC, LIBD_szControl	Br963	NIMH_HBCC	Schizophrenia	F	AA	62	43	1995	Cardiovascular	1370	68	128					true
+1321	22	CMC_HBCC, LIBD_szControl	Br1280	NIMH_HBCC	Schizophrenia	F	AA	62	22	1999	Cardiovascular	1350	65	135					true
+1322	22	CMC_HBCC	Br1654	NIMH_HBCC	Control	M	CAUC	62		2004	Other	1490	71	213					true
+1323	22	CMC_HBCC	Br2309	NIMH_HBCC	Bipolar Disorder	M	CAUC	62		2010	Other	1440	70	198					true
+1324	22	CMC_HBCC, LIBD_szControl	Br1214	NIMH_HBCC	Control	M	CAUC	61		1998	Cardiovascular	1600	70	180					true
+1325	22	CMC_HBCC, LIBD_szControl	Br1721	NIMH_HBCC	Schizophrenia	M	AA	61	35	2005	Cardiovascular	1220	71	316					true
+1326	22	CMC_HBCC, LIBD_szControl	Br855	NIMH_HBCC	Schizophrenia	F	AA	60	40	1993	Cardiovascular	1350	60	196					true
+1327	22	CMC_HBCC, LIBD_szControl	Br1275	NIMH_HBCC	Control	M	AA	60		1999	Cardiovascular	1170	68	162					true
+1328	22	CMC_HBCC, LIBD_szControl	Br1298	NIMH_HBCC	Schizophrenia	M	AA	60	41	2000	Cardiovascular	1420	62	182					true
+1329	22	CMC_HBCC, LIBD_szControl	Br1585	NIMH_HBCC	Schizophrenia	F	AA	60	18	2004	Cardiovascular	1370	61	186					true
+1330	22	CMC_HBCC, LIBD_szControl	Br1700	NIMH_HBCC	Schizophrenia	M	AA	60	20	2005	Cardiovascular	1450	72	122					true
+1331	22	CMC_HBCC, BipSeq	Br1992	NIMH_HBCC	Bipolar Disorder	M	CAUC	60	21	2008	Other	1470	69	153					true
+1332	22	CMC_HBCC	Br2423	NIMH_HBCC	Schizophrenia	M	CAUC	60		2011	Cardiovascular	1550	68	205					true
+1333	22	CMC_HBCC	Br2454	NIMH_HBCC	Control	F	CAUC	60		2011	Cardiovascular	1310	67	197					true
+1334	22	CMC_HBCC	Br2532	NIMH_HBCC	Bipolar Disorder	M	CAUC	60		2012		1490	74	215					true
+1335	22	CMC_HBCC, LIBD_szControl	Br873	NIMH_HBCC	Schizophrenia	F	AA	59	18	1993	Cardiovascular	1050							true
+1336	22	CMC_HBCC, LIBD_szControl	Br1069	NIMH_HBCC	Control	F	AA	59		1996	Other	1240	67	178					true
+1337	22	CMC_HBCC, BipSeq	Br1395	NIMH_HBCC	Bipolar Disorder	F	AA	59	28	2001	Infection and parasitic disease	1200	64	456					true
+1338	22	CMC_HBCC, LIBD_szControl	Br1740	NIMH_HBCC	Schizophrenia	F	AA	59	10	2006	Cardiovascular	1225	62	297					true
+1339	22	CMC_HBCC, LIBD_szControl	Br1989	NIMH_HBCC	Schizophrenia	M	AA	59	30	2008	Cardiovascular	1300	68	153					true
+1340	22	CMC_HBCC, EpiMap, LIBD_szControl	Br2257	NIMH_HBCC	Control	M	CAUC	59		2009	Cardiovascular	1460	69	198					true
+1341	22	CMC_HBCC, EpiMap	Br2474	NIMH_HBCC	Control	M	CAUC	59		2011	Cardiovascular	1510	72	226					true
+1342	22	CMC_HBCC, LIBD_szControl	Br846	NIMH_HBCC	Control	M	AA	58		1993	Cardiovascular	1450	67	196					true
+1343	22	CMC_HBCC, LIBD_szControl	Br894	NIMH_HBCC	Control	F	AA	58		1993	Non-brain cancer								true
+1344	22	CMC_HBCC	Br1054	NIMH_HBCC	Control	M	AA	58		1996	Cardiovascular	1440	65	130					true
+1345	22	CMC_HBCC, LIBD_szControl	Br1081	NIMH_HBCC	Schizophrenia	M	AA	58	11	1996	Cardiovascular	1160	75	192					true
+1346	22	CMC_HBCC	Br1096	NIMH_HBCC	Control	M	AS	58		1996	Other	1440	68	174					true
+1347	22	CMC_HBCC	Br2348	NIMH_HBCC	Schizophrenia	F	AA	58		2010	Cardiovascular	1250	62	299					true
+1348	22	CMC_HBCC	Br2574	NIMH_HBCC	Bipolar Disorder	F	CAUC	58		2013		1480	66	409					true
+1349	22	CMC_HBCC, LIBD_szControl	Br1006	NIMH_HBCC	Control	M	AA	57		1995	Cardiovascular	1270	66	114					true
+1350	22	CMC_HBCC, LIBD_szControl	Br1034	NIMH_HBCC	Control	M	CAUC	57		1995	Cardiovascular	1500	72	230					true
+1351	22	CMC_HBCC, BipSeq	Br1415	NIMH_HBCC	Bipolar Disorder	M	CAUC	57	27	2001	Other	1650	69	210					true
+1352	22	CMC_HBCC	Br1505	NIMH_HBCC	Schizophrenia	F	AS	57		2002	Cardiovascular	1200	60	178					true
+1353	22	CMC_HBCC	Br1751	NIMH_HBCC	Schizophrenia	M	AA	57		2006	Other	1250	70	228					true
+1354	22	CMC_HBCC	Br2001	NIMH_HBCC	Schizophrenia	F	CAUC	57		2008		1430	72	187					true
+1355	22	CMC_HBCC	Br2421	NIMH_HBCC	Schizophrenia	M	CAUC	57		2011	Cardiovascular	1830	280	79					true
+1356	22	CMC_HBCC	Br2605	NIMH_HBCC	Control	F	AA	57		2013		1240	36	120					true
+1357	22	CMC_HBCC	Br977	NIMH_HBCC	Control	M	AA	56		1995		1400	69	212					true
+1358	22	CMC_HBCC, LIBD_szControl	Br1580	NIMH_HBCC	Schizophrenia	F	CAUC	56	26	2004	Cardiovascular	1300	65	182					true
+1359	22	CMC_HBCC	Br2027	NIMH_HBCC	Schizophrenia	M	CAUC	56		2008		1550	65	176					true
+1360	22	CMC_HBCC	Br2377	NIMH_HBCC	Control	F	AA	56		2010	Other	1100	64	197					true
+1361	22	CMC_HBCC, LIBD_szControl	Br1443	NIMH_HBCC	Control	M	CAUC	55		2002	Cardiovascular	1810	67	212					true
+1362	22	CMC_HBCC, LIBD_szControl	Br1960	NIMH_HBCC	Control	M	CAUC	55		2008	Cardiovascular	1290	69	218					true
+1363	22	CMC_HBCC, LIBD_szControl	Br2009	NIMH_HBCC	Schizophrenia	M	CAUC	55	15	2008	Cardiovascular	1550	73	224					true
+1364	22	CMC_HBCC, EpiMap, LIBD_szControl	Br2044	NIMH_HBCC	Control	M	CAUC	55		2009	Cardiovascular	1410	74	248					true
+1365	22	CMC_HBCC, LIBD_szControl	Br1185	NIMH_HBCC	Control	F	AA	54		1998	Cardiovascular	1390	69	130					true
+1366	22	CMC_HBCC, LIBD_szControl	Br1539	NIMH_HBCC	Control	F	AA	54		2003	Cardiovascular	1320	62	140					true
+1367	22	CMC_HBCC	Br1652	NIMH_HBCC	Bipolar Disorder	M	CAUC	54		2004	Other	1550	72	210					true
+1368	22	CMC_HBCC, LIBD_szControl	Br1672	NIMH_HBCC	Schizophrenia	F	AA	54	21	2005	Infection and parasitic disease	1240	66	220					true
+1369	22	CMC_HBCC, LIBD_szControl	Br1832	NIMH_HBCC	Control	M	AA	54		2007	Other	1420	70	294					true
+1370	22	CMC_HBCC	Br2295	NIMH_HBCC	Schizophrenia	F	AA	54		2010	Other	1230	64	168					true
+1371	22	CMC_HBCC, EpiMap	Br2305	NIMH_HBCC	Control	F	AA	54		2010		1140	66	265					true
+1372	22	CMC_HBCC	Br2353	NIMH_HBCC	Schizophrenia	M	CAUC	54		2010	Other	1320	70	227					true
+1373	22	CMC_HBCC	Br2513	NIMH_HBCC	Control	M	AA	54		2012		1200	67	174					true
+1374	22	CMC_HBCC, EpiMap	Br2542	NIMH_HBCC	Control	M	CAUC	54		2012	Cardiovascular	1270	69	183					true
+1375	22	CMC_HBCC, LIBD_szControl	Br910	NIMH_HBCC	Control	F	AA	53		1994	Other	1190	63	176					true
+1376	22	CMC_HBCC, LIBD_szControl	Br1320	NIMH_HBCC	Schizophrenia	M	AA	53	19	2000	Non-brain cancer	1500	64	110					true
+1377	22	CMC_HBCC, LIBD_szControl	Br1536	NIMH_HBCC	Control	M	AA	53		2003		1360	72	190					true
+1378	22	CMC_HBCC, LIBD_szControl	Br1611	NIMH_HBCC	Control	F	AA	53		2004	Cardiovascular	1110	63	210					true
+1379	22	CMC_HBCC, EpiMap, LIBD_szControl	Br2285	NIMH_HBCC	Control	M	CAUC	53		2010	Cardiovascular	1590	71	194					true
+1380	22	CMC_HBCC	Br2294	NIMH_HBCC	Bipolar Disorder	M	CAUC	53		2010	Other	1310	72	174					true
+1381	22	CMC_HBCC	Br2509	NIMH_HBCC	Schizophrenia	M	AA	53		2012	Cardiovascular	1470	75	231					true
+1382	22	CMC_HBCC	Br1003	NIMH_HBCC	Control	F	AA	52		1995	Cardiovascular	1310	62	202					true
+1383	22	CMC_HBCC, BipSeq	Br1760	NIMH_HBCC	Bipolar Disorder	M	CAUC	52	15	2006	Other	1500	74	148					true
+1384	22	CMC_HBCC, LIBD_szControl	Br1936	NIMH_HBCC	Control	M	CAUC	52		2007	Cardiovascular	1620	71	202					true
+1385	22	CMC_HBCC, LIBD_szControl	Br2020	NIMH_HBCC	Schizophrenia	M	AA	52	8	2008	Cardiovascular	1500	71	212					true
+1386	22	CMC_HBCC, EpiMap	Br2266	NIMH_HBCC	Control	M	AS	52		2009	Cardiovascular	1530	69	211					true
+1387	22	CMC_HBCC	Br2272	NIMH_HBCC	Bipolar Disorder	F	CAUC	52		2009	Other	1200	57	101					true
+1388	22	CMC_HBCC, LIBD_szControl	Br2298	NIMH_HBCC	Schizophrenia	M	AA	52	23	2010	Other	1430	72	201					true
+1389	22	CMC_HBCC	Br2448	NIMH_HBCC	Schizophrenia	M	AA	52		2011		1150	66	295					true
+1390	22	CMC_HBCC	Br2534	NIMH_HBCC	Control	M	CAUC	52		2012		1600	73	244					true
+1391	22	CMC_HBCC, LIBD_szControl	Br922	NIMH_HBCC	Control	M	CAUC	51		1994	Other		75	210					true
+1392	22	CMC_HBCC, LIBD_szControl	Br1039	NIMH_HBCC	Control	F	AA	51		1996	Cardiovascular	1500	65	138					true
+1393	22	CMC_HBCC, LIBD_szControl	Br1111	NIMH_HBCC	Control	M	AA	51		1997	Cardiovascular	1415	69	196					true
+1394	22	CMC_HBCC, LIBD_szControl	Br1384	NIMH_HBCC	Control	M	CAUC	51		2001	Cardiovascular	1260	67	178					true
+1395	22	CMC_HBCC, LIBD_szControl	Br1424	NIMH_HBCC	Control	M	AA	51		2001	Other	1450	68	182					true
+1396	22	CMC_HBCC	Br1431	NIMH_HBCC	Control	M	AS	51		2001	Cardiovascular	1110	66	157					true
+1397	22	CMC_HBCC	Br1565	NIMH_HBCC	Control	M	CAUC	51		2003	Cardiovascular	1370	66	192					true
+1398	22	CMC_HBCC, BipSeq	Br1838	NIMH_HBCC	Bipolar Disorder	M	AS	51	17	2007	Other	1560	66	176					true
+1399	22	CMC_HBCC, BipSeq	Br2042	NIMH_HBCC	Bipolar Disorder	F	CAUC	51	39	2009	Other	1150	68	134					true
+1400	22	CMC_HBCC, LIBD_szControl	Br2261	NIMH_HBCC	Schizophrenia	M	AA	51	19	2009	Cardiovascular	1530	73	217					true
+1401	22	CMC_HBCC, LIBD_szControl	Br2351	NIMH_HBCC	Schizophrenia	M	AA	51	18	2010	Cardiovascular	1310	69	146					true
+1402	22	CMC_HBCC	Br2521	NIMH_HBCC	Control	M	CAUC	51		2012	Cardiovascular	1320	71	213					true
+1403	22	CMC_HBCC, BipSeq	Br1430	NIMH_HBCC	Bipolar Disorder	F	CAUC	50	14	2001	Other	1250	61	150					true
+1404	22	CMC_HBCC, LIBD_szControl	Br1706	NIMH_HBCC	Control	M	CAUC	50		2005	Cardiovascular	1510	70	180					true
+1405	22	CMC_HBCC, LIBD_szControl	Br1994	NIMH_HBCC	Schizophrenia	M	AA	50	17	2008	Cardiovascular	1450	73	188					true
+1406	22	CMC_HBCC, LIBD_szControl	Br2271	NIMH_HBCC	Schizophrenia	M	CAUC	50	18	2009	Other	1465	72	160					true
+1407	22	CMC_HBCC, EpiMap	Br2538	NIMH_HBCC	Control	M	CAUC	50		2012	Cardiovascular	1550	68	237					true
+1408	22	CMC_HBCC, EpiMap	Br2543	NIMH_HBCC	Control	M	AA	50		2012	Cardiovascular	1300	67	241					true
+1409	22	CMC_HBCC	Br2587	NIMH_HBCC	Control	M	AA	50		2013		1440	71	234					true
+1410	22	CMC_HBCC	Br2641	NIMH_HBCC	Bipolar Disorder	F	AA	50		2013		1240	72	153					true
+1411	22	CMC_HBCC	Br2655	NIMH_HBCC	Schizophrenia	M	AA	50		2014		1380	72	289					true
+1412	22	CMC_HBCC, LIBD_szControl	Br891	NIMH_HBCC	Schizophrenia	M	AA	49	20	1993	Cardiovascular	1380	69	136					true
+1413	22	CMC_HBCC, LIBD_szControl	Br1084	NIMH_HBCC	Schizophrenia	F	AA	49	16	1996	Infection and parasitic disease	1320	68	132					true
+1414	22	CMC_HBCC, LIBD_szControl	Br1193	NIMH_HBCC	Control	M	AA	49		1998	Cardiovascular	1380	67	192					true
+1415	22	CMC_HBCC, LIBD_szControl	Br1927	NIMH_HBCC	Control	M	AA	49		2007	Cardiovascular	1240	65	180					true
+1416	22	CMC_HBCC, BipSeq	Br1969	NIMH_HBCC	Bipolar Disorder	M	HISP	49	25	2008	Other	1360	68	162					true
+1417	22	CMC_HBCC	Br2477	NIMH_HBCC	Bipolar Disorder	F	CAUC	49		2011	Other	1320	69	227					true
+1418	22	CMC_HBCC, LIBD_szControl	Br1056	NIMH_HBCC	Control	M	AA	48		1996	Cardiovascular	1240	68	190					true
+1419	22	CMC_HBCC, LIBD_szControl	Br1122	NIMH_HBCC	Control	M	AA	48		1997	Cardiovascular	1330	69	268					true
+1420	22	CMC_HBCC, LIBD_szControl	Br1164	NIMH_HBCC	Control	F	AA	48		1997	Other	1130	64	164					true
+1421	22	CMC_HBCC, LIBD_szControl	Br1425	NIMH_HBCC	Schizophrenia	M	CAUC	48	20	2001	Other	1480	72	153					true
+1422	22	CMC_HBCC, LIBD_szControl	Br1485	NIMH_HBCC	Schizophrenia	M	AA	48	28	2002	Cardiovascular	1350	66	204					true
+1423	22	CMC_HBCC	Br1560	NIMH_HBCC	Control	M	HISP	48		2003	Cardiovascular	1250	70	250					true
+1424	22	CMC_HBCC	Br1667	NIMH_HBCC	Schizophrenia	M	HISP	48		2005	Other	1350	71	186					true
+1425	22	CMC_HBCC, LIBD_szControl	Br1703	NIMH_HBCC	Schizophrenia	M	AA	48	18	2005	Non-brain cancer	1390	68	166					true
+1426	22	CMC_HBCC, LIBD_szControl	Br1722	NIMH_HBCC	Control	M	AA	48		2005	COPD	1500	69	129					true
+1427	22	CMC_HBCC, EpiMap, LIBD_szControl	Br2084	NIMH_HBCC	Control	M	CAUC	48		2009	Cardiovascular	1350	64	198					true
+1428	22	CMC_HBCC	Br2364	NIMH_HBCC	Bipolar Disorder	M	CAUC	48		2010	Other	1360	67	219					true
+1429	22	CMC_HBCC, EpiMap	Br2573	NIMH_HBCC	Control	M	CAUC	48		2013		1380	71	202					true
+1430	22	CMC_HBCC	Br2580	NIMH_HBCC	Schizophrenia	F	AA	48		2013		1200	60	220					true
+1431	22	CMC_HBCC, LIBD_szControl	Br856	NIMH_HBCC	Schizophrenia	M	AA	47	32	1993	Other	1450							true
+1432	22	CMC_HBCC, BipSeq	Br1511	NIMH_HBCC	Bipolar Disorder	F	CAUC	47	14	2003	Cardiovascular	1455	68	163					true
+1433	22	CMC_HBCC, LIBD_szControl	Br1605	NIMH_HBCC	Schizophrenia	M	AA	47	28	2004	Cardiovascular	1360	72	170					true
+1434	22	CMC_HBCC	Br2470	NIMH_HBCC	Schizophrenia	F	CAUC	47		2011	Other	1220	62	185					true
+1435	22	CMC_HBCC, LIBD_szControl	Br1102	NIMH_HBCC	Schizophrenia	M	AA	46	22	1997	Cardiovascular	1540	72	226					true
+1436	22	CMC_HBCC, LIBD_szControl	Br1271	NIMH_HBCC	Control	M	CAUC	46		1999	Cardiovascular	1520	72	206					true
+1437	22	CMC_HBCC, BipSeq	Br1423	NIMH_HBCC	Bipolar Disorder	F	AA	46	38	2001	Other	1140	62	166					true
+1438	22	CMC_HBCC, LIBD_szControl	Br1532	NIMH_HBCC	Control	M	CAUC	46		2003	Cardiovascular	1400	68	216					true
+1439	22	CMC_HBCC, LIBD_szControl	Br1581	NIMH_HBCC	Control	M	CAUC	46		2004	Cardiovascular	1450	72	229					true
+1440	22	CMC_HBCC	Br1637	NIMH_HBCC	Schizophrenia	M	CAUC	46		2004	Other	1350	67	164					true
+1441	22	CMC_HBCC	Br1691	NIMH_HBCC	Control	F	AA	46		2005	Cardiovascular	1260	59	292					true
+1442	22	CMC_HBCC, LIBD_szControl	Br1750	NIMH_HBCC	Control	M	CAUC	46		2006	Cardiovascular	1400	69	140					true
+1443	22	CMC_HBCC, LIBD_szControl	Br1905	NIMH_HBCC	Control	M	AA	46		2007	Other	1400	66	185					true
+1444	22	CMC_HBCC, LIBD_szControl	Br1918	NIMH_HBCC	Control	F	AA	46		2007	Cardiovascular	1440	68	248					true
+1445	22	CMC_HBCC, BipSeq	Br2022	NIMH_HBCC	Bipolar Disorder	M	CAUC	46	22	2008	Other	1680	74	200					true
+1446	22	CMC_HBCC	Br2321	NIMH_HBCC	Bipolar Disorder	M	AA	46		2010	Other	1380	74	214					true
+1447	22	CMC_HBCC	Br2476	NIMH_HBCC	Control	M	CAUC	46		2011	Cardiovascular	1670	74	368					true
+1448	22	CMC_HBCC, LIBD_szControl	Br1179	NIMH_HBCC	Control	F	AA	45		1997	Cardiovascular	1250	67	140					true
+1449	22	CMC_HBCC	Br1327	NIMH_HBCC	Bipolar Disorder	M	CAUC	45		2000	Other	1500	69	218					true
+1450	22	CMC_HBCC, LIBD_szControl	Br1399	NIMH_HBCC	Schizophrenia	F	AA	45	18	2001	Infection and parasitic disease	1160	67	146					true
+1451	22	CMC_HBCC, LIBD_szControl	Br1432	NIMH_HBCC	Control	M	CAUC	45		2001	Cardiovascular	1510	72	204					true
+1452	22	CMC_HBCC, BipSeq	Br1554	NIMH_HBCC	Bipolar Disorder	F	CAUC	45	14	2003	Other	1220	66	209					true
+1453	22	CMC_HBCC, LIBD_szControl	Br1644	NIMH_HBCC	Control	M	AA	45		2004	Cardiovascular	1330	75	552					true
+1454	22	CMC_HBCC, LIBD_szControl	Br1664	NIMH_HBCC	Schizophrenia	M	AA	45	18	2005	Cardiovascular	1460	71	230					true
+1455	22	CMC_HBCC, BipSeq	Br1677	NIMH_HBCC	Bipolar Disorder	M	CAUC	45	19	2005	Other	1450	71	180					true
+1456	22	CMC_HBCC	Br1729	NIMH_HBCC	Schizophrenia	M	AS	45		2006	Other	1350	66	125					true
+1457	22	CMC_HBCC, BipSeq	Br1821	NIMH_HBCC	Bipolar Disorder	M	CAUC	45	16	2007	Other	1580	73	220					true
+1458	22	CMC_HBCC, LIBD_szControl	Br1883	NIMH_HBCC	Control	M	AA	45		2007	Cardiovascular	1200	74	264					true
+1459	22	CMC_HBCC, BipSeq	Br1896	NIMH_HBCC	Bipolar Disorder	M	CAUC	45	18	2007	Other	1780	68	214					true
+1460	22	CMC_HBCC, BipSeq	Br1947	NIMH_HBCC	Bipolar Disorder	F	CAUC	45	22	2008	Other	1470	68	164					true
+1461	22	CMC_HBCC, LIBD_szControl	Br2015	NIMH_HBCC	Control	M	CAUC	45		2008	Cardiovascular	1380	68	223					true
+1462	22	CMC_HBCC, LIBD_szControl	Br1139	NIMH_HBCC	Schizophrenia	F	CAUC	44	18	1997	Infection and parasitic disease	1200	66	245					true
+1463	22	CMC_HBCC, BipSeq	Br1163	NIMH_HBCC	Bipolar Disorder	F	CAUC	44	25	1997	Other	1220	67	186					true
+1464	22	CMC_HBCC, LIBD_szControl	Br1473	NIMH_HBCC	Control	M	AA	44		2002	Other	1440	69	186					true
+1465	22	CMC_HBCC, LIBD_szControl	Br1517	NIMH_HBCC	Control	F	AA	44		2003	Cardiovascular	1056	64	314					true
+1466	22	CMC_HBCC	Br1931	NIMH_HBCC	Bipolar Disorder	M	CAUC	44		2007	Other	1550	69	187					true
+1467	22	CMC_HBCC, LIBD_szControl	Br2038	NIMH_HBCC	Schizophrenia	M	AA	44	19	2009	Cardiovascular	1240	70	243					true
+1468	22	CMC_HBCC, LIBD_szControl	Br2046	NIMH_HBCC	Control	M	AA	44		2009	Cardiovascular	1350	69	176					true
+1469	22	CMC_HBCC	Br2355	NIMH_HBCC	Bipolar Disorder	F	CAUC	44		2010	Other	1230	66	145					true
+1470	22	CMC_HBCC	Br2588	NIMH_HBCC	Bipolar Disorder	M	CAUC	44		2013		1560	73	232					true
+1471	22	CMC_HBCC	Br2653	NIMH_HBCC	Schizophrenia	F	AS	44		2014		1450	64	112					true
+1472	22	CMC_HBCC, LIBD_szControl	Br863	NIMH_HBCC	Control	M	AA	43		1993	Cardiovascular	1480	69	240					true
+1473	22	CMC_HBCC, LIBD_szControl	Br1303	NIMH_HBCC	Schizophrenia	F	AA	43	13	2000	Cardiovascular	1240	62	324					true
+1474	22	CMC_HBCC, LIBD_szControl	Br1418	NIMH_HBCC	Schizophrenia	M	AA	43	16	2001	Other	1150	63	142					true
+1475	22	CMC_HBCC, LIBD_szControl	Br1591	NIMH_HBCC	Schizophrenia	M	CAUC	43	16	2004	Non-brain cancer	1500		190					true
+1476	22	CMC_HBCC, LIBD_szControl	Br1663	NIMH_HBCC	Schizophrenia	M	AA	43	19	2004	Other	1400	68	194					true
+1477	22	CMC_HBCC	Br924	NIMH_HBCC	Control	M	AA	42		1994		1450	67	138					true
+1478	22	CMC_HBCC, LIBD_szControl	Br1245	NIMH_HBCC	Schizophrenia	M	CAUC	42	19	1996	Other	1520	71	188					true
+1479	22	CMC_HBCC, LIBD_szControl	Br1442	NIMH_HBCC	Control	M	AA	42		2002	Cardiovascular	1470	68	210					true
+1480	22	CMC_HBCC, BipSeq	Br1450	NIMH_HBCC	Bipolar Disorder	F	AS	42	13	2002	Other	1230	63	190					true
+1481	22	CMC_HBCC, LIBD_szControl	Br1578	NIMH_HBCC	Schizophrenia	M	CAUC	42	16	2003	Cardiovascular	1400	75	209					true
+1482	22	CMC_HBCC, LIBD_szControl	Br1674	NIMH_HBCC	Control	M	CAUC	42		2005	Cardiovascular	1330	71	140					true
+1483	22	CMC_HBCC	Br1836	NIMH_HBCC	Control	M	CAUC	42		2007	Cardiovascular	1720	70	198					true
+1484	22	CMC_HBCC	Br2589	NIMH_HBCC	Schizophrenia	M	CAUC	42		2013		1450	71	180					true
+1485	22	CMC_HBCC, LIBD_szControl	Br973	NIMH_HBCC	Control	M	AA	41		1995	Cardiovascular	1470	71	308					true
+1486	22	CMC_HBCC, LIBD_szControl	Br1263	NIMH_HBCC	Control	F	AA	41		1999	Cardiovascular	1370	67	344					true
+1487	22	CMC_HBCC, LIBD_szControl	Br1378	NIMH_HBCC	Control	M	CAUC	41		2001	Cardiovascular	1540	74	297					true
+1488	22	CMC_HBCC, LIBD_szControl	Br1682	NIMH_HBCC	Schizophrenia	M	CAUC	41	17	2005	Other	1470	76	186					true
+1489	22	CMC_HBCC, LIBD_szControl	Br1998	NIMH_HBCC	Control	F	CAUC	41		2008	Cardiovascular	1370	68	231					true
+1490	22	CMC_HBCC	Br2039	NIMH_HBCC	Schizophrenia	M	CAUC	41		2009		1550	68	229					true
+1491	22	CMC_HBCC	Br2582	NIMH_HBCC	Control	M	CAUC	41		2013		1180	66	169					true
+1492	22	CMC_HBCC, LIBD_szControl	Br898	NIMH_HBCC	Control	M	AA	40		1994	Other	1300	65	135					true
+1493	22	CMC_HBCC, LIBD_szControl	Br1053	NIMH_HBCC	Control	F	AA	40		1996	Cardiovascular	1475	65	226					true
+1494	22	CMC_HBCC, LIBD_szControl	Br1178	NIMH_HBCC	Schizophrenia	F	AA	40	22	1997	Other	1120	64	193					true
+1495	22	CMC_HBCC, BipSeq	Br1404	NIMH_HBCC	Bipolar Disorder	M	CAUC	40	16	2001	Other	1340	74	186					true
+1496	22	CMC_HBCC, LIBD_szControl	Br1459	NIMH_HBCC	Control	F	AA	40		2002	Cardiovascular	1550	66	271					true
+1497	22	CMC_HBCC, BipSeq	Br1630	NIMH_HBCC	Bipolar Disorder	M	CAUC	40	17	2004	Other	1510	69	160					true
+1498	22	CMC_HBCC, EpiMap	Br2052	NIMH_HBCC	Control	M	CAUC	40		2009	Cardiovascular	1550	73	228					true
+1499	22	CMC_HBCC, LIBD_szControl	Br2064	NIMH_HBCC	Control	M	AA	40		2009	Cardiovascular	1540	70	565					true
+1500	22	CMC_HBCC, LIBD_szControl	Br2263	NIMH_HBCC	Control	F	AA	40		2009	Cardiovascular	1300	63	324					true
+1501	22	CMC_HBCC, EpiMap	Br2557	NIMH_HBCC	Control	M	CAUC	40		2012	Cardiovascular	1510	73	251					true
+1502	22	CMC_HBCC, BipSeq	Br1309	NIMH_HBCC	Bipolar Disorder	M	AA	39	30	2000	Other	1340	68	159					true
+1503	22	CMC_HBCC, LIBD_szControl	Br1436	NIMH_HBCC	Schizophrenia	M	CAUC	39	16	2001	Other	1280	70	166					true
+1504	22	CMC_HBCC, BipSeq	Br1470	NIMH_HBCC	Bipolar Disorder	F	CAUC	39	19	2002	Other	1250	65	130					true
+1505	22	CMC_HBCC, BipSeq	Br1752	NIMH_HBCC	Bipolar Disorder	F	CAUC	39	16	2006	Other	1250	68	160					true
+1506	22	CMC_HBCC	Br2541	NIMH_HBCC	Bipolar Disorder	M	CAUC	39		2012	Other	1450							true
+1507	22	CMC_HBCC, LIBD_szControl	Br978	NIMH_HBCC	Schizophrenia	M	AA	38	16	1995	Infection and parasitic disease	1460	73	192					true
+1508	22	CMC_HBCC, LIBD_szControl	Br1324	NIMH_HBCC	Control	F	AA	38		2000	Cardiovascular	1480	62	262					true
+1509	22	CMC_HBCC, LIBD_szControl	Br1474	NIMH_HBCC	Control	F	CAUC	38		2002	Other	1380	65	132					true
+1510	22	CMC_HBCC, BipSeq	Br2083	NIMH_HBCC	Bipolar Disorder	F	CAUC	38	25	2009	Other	1200	65	124					true
+1511	22	CMC_HBCC	Br2595	NIMH_HBCC	Bipolar Disorder	M	CAUC	38		2013		1730	76	284					true
+1512	22	CMC_HBCC	Br2626	NIMH_HBCC	Bipolar Disorder	M	CAUC	38		2013		1540							true
+1513	22	CMC_HBCC, LIBD_szControl	Br989	NIMH_HBCC	Control	M	AA	37		1995	Other	1480	73	230					true
+1514	22	CMC_HBCC, LIBD_szControl	Br1548	NIMH_HBCC	Control	M	AA	37		2003	Cardiovascular	1550		168					true
+1515	22	CMC_HBCC, LIBD_szControl	Br1579	NIMH_HBCC	Schizophrenia	M	AA	37	27	2004	Cardiovascular	1560	65	225					true
+1516	22	CMC_HBCC	Br2301	NIMH_HBCC	Control	M	CAUC	37		2010	Cardiovascular	1340	73	261					true
+1517	22	CMC_HBCC	Br2328	NIMH_HBCC	Bipolar Disorder	M	CAUC	37		2010	Cardiovascular	1570	68	132					true
+1518	22	CMC_HBCC, LIBD_szControl	Br1041	NIMH_HBCC	Schizophrenia	F	AA	36	15	1996	Other	980	66	156					true
+1519	22	CMC_HBCC, LIBD_szControl	Br1134	NIMH_HBCC	Control	F	AA	36		1997	Other	1140	62	196					true
+1520	22	CMC_HBCC	Br1269	NIMH_HBCC	Schizophrenia	M	HISP	36		1999	Other	1320	63	156					true
+1521	22	CMC_HBCC, BipSeq	Br1562	NIMH_HBCC	Bipolar Disorder	M	CAUC	36	31	2003	Other	1480	71	192					true
+1522	22	CMC_HBCC, LIBD_szControl	Br2080	NIMH_HBCC	Control	M	CAUC	36		2009	Cardiovascular	1600	73	232					true
+1523	22	CMC_HBCC	Br2429	NIMH_HBCC	Control	M	HISP	36		2011	Cardiovascular	1220	64	154					true
+1524	22	CMC_HBCC, LIBD_szControl	Br884	NIMH_HBCC	Schizophrenia	M	AA	35	22	1993	Cardiovascular	1425	70	226					true
+1525	22	CMC_HBCC, LIBD_szControl	Br991	NIMH_HBCC	Control	M	AA	35		1995	Other	1250	64	160					true
+1526	22	CMC_HBCC	Br1385	NIMH_HBCC	Control	M	HISP	35		2001	Other	1530	70	253					true
+1527	22	CMC_HBCC	Br1434	NIMH_HBCC	Schizophrenia	M	AA	35		2001	Other	1340	71	228					true
+1528	22	CMC_HBCC, EpiMap	Br2405	NIMH_HBCC	Control	F	AA	35		2011		1270	66	281					true
+1529	22	CMC_HBCC	Br2612	NIMH_HBCC	Schizophrenia	F	CAUC	35		2013		1550	65	279					true
+1530	22	CMC_HBCC, BipSeq	Br1414	NIMH_HBCC	Bipolar Disorder	M	CAUC	34	28	2001	Other	1740	72	180					true
+1531	22	CMC_HBCC, LIBD_szControl	Br1665	NIMH_HBCC	Schizophrenia	F	AA	34	13	2005	Cardiovascular	1200	62	174					true
+1532	22	CMC_HBCC	Br1697	NIMH_HBCC	Control	M	CAUC	34		2005	Cardiovascular	1680	78	220					true
+1533	22	CMC_HBCC, LIBD_szControl	Br1898	NIMH_HBCC	Control	M	AA	34		2007	Cardiovascular	1350	72	278					true
+1534	22	CMC_HBCC, LIBD_szControl	Br2337	NIMH_HBCC	Schizophrenia	M	CAUC	33	31	2010	Other	1460	72	208					true
+1535	22	CMC_HBCC	Br2585	NIMH_HBCC	Schizophrenia	F	AA	33		2013		1220	67	300					true
+1536	22	CMC_HBCC	Br2607	NIMH_HBCC	Bipolar Disorder	M	CAUC	33		2013		1570	67	203					true
+1537	22	CMC_HBCC, LIBD_szControl	Br1453	NIMH_HBCC	Schizophrenia	F	CAUC	32	21	2002	Other	1380	68	133					true
+1538	22	CMC_HBCC, BipSeq	Br1724	NIMH_HBCC	Bipolar Disorder	M	CAUC	32	18	2005	Other	1850	70	230					true
+1539	22	CMC_HBCC	Br926	NIMH_HBCC	Control	M	AA	31		1994	Other	1400	68	192					true
+1540	22	CMC_HBCC	Br1405	NIMH_HBCC	Control	F	AA	31		2001	Other	1290	57	140					true
+1541	22	CMC_HBCC, LIBD_szControl	Br1507	NIMH_HBCC	Schizophrenia	M	CAUC	31	13	2002	Other	1470	62	150					true
+1542	22	CMC_HBCC, LIBD_szControl	Br1571	NIMH_HBCC	Control	M	AA	31		2003	Other	1420	66	178					true
+1543	22	CMC_HBCC, LIBD_szControl	Br1735	NIMH_HBCC	Control	M	CAUC	31		2006	Cardiovascular	1550	73	184					true
+1544	22	CMC_HBCC	Br2345	NIMH_HBCC	Schizophrenia	M	AA	31		2010	Cardiovascular	1280	71	220					true
+1545	22	CMC_HBCC, LIBD_szControl	Br993	NIMH_HBCC	Control	F	AA	30		1995	Cardiovascular	1200	59	190					true
+1546	22	CMC_HBCC, LIBD_szControl	Br1148	NIMH_HBCC	Control	M	AA	30		1997	Other	1550	79	445					true
+1547	22	CMC_HBCC, LIBD_szControl	Br1512	NIMH_HBCC	Control	F	CAUC	30		2003	Cardiovascular	1190	68	224					true
+1548	22	CMC_HBCC, LIBD_szControl	Br1556	NIMH_HBCC	Control	F	AA	30		2003	Cardiovascular	1170	63	272					true
+1549	22	CMC_HBCC	Br2652	NIMH_HBCC	Bipolar Disorder	M	CAUC	30		2014		1590	77	225					true
+1550	22	CMC_HBCC, BipSeq	Br931	NIMH_HBCC	Bipolar Disorder	M	CAUC	29	15	1994	Other	1570	72	171					true
+1551	22	CMC_HBCC, LIBD_szControl	Br1974	NIMH_HBCC	Control	M	AA	29		2008	Other	1400	70	208					true
+1552	22	CMC_HBCC	Br2469	NIMH_HBCC	Bipolar Disorder	F	CAUC	29		2011		1330	72	239					true
+1553	22	CMC_HBCC	Br2572	NIMH_HBCC	Bipolar Disorder	M	HISP	29		2013		1560	70	224					true
+1554	22	CMC_HBCC, LIBD_szControl	Br1389	NIMH_HBCC	Control	M	CAUC	28		2001	Other	1570	67	174					true
+1555	22	CMC_HBCC, LIBD_szControl	Br1469	NIMH_HBCC	Control	M	CAUC	28		2002	Cardiovascular	1520	68	145					true
+1556	22	CMC_HBCC, LIBD_szControl	Br1204	NIMH_HBCC	Control	M	CAUC	27		1998	Other	1400	70	172					true
+1557	22	CMC_HBCC, LIBD_szControl	Br1604	NIMH_HBCC	Control	M	AA	27		2004	Other	1300	64	192					true
+1558	22	CMC_HBCC	Br2530	NIMH_HBCC	Bipolar Disorder	M	CAUC	27		2012		1450	70	190					true
+1559	22	CMC_HBCC	Br2622	NIMH_HBCC	Bipolar Disorder	M	CAUC	27		2013		1560	73	257					true
+1560	22	CMC_HBCC	Br2623	NIMH_HBCC	Control	M	AA	27		2013		1320	63	254					true
+1561	22	CMC_HBCC, LIBD_szControl	Br822	NIMH_HBCC	Control	M	CAUC	26		1992	Cardiovascular	1500	65	148					true
+1562	22	CMC_HBCC, LIBD_szControl	Br1033	NIMH_HBCC	Control	F	CAUC	26		1995	Other	1600	71	166					true
+1563	22	CMC_HBCC, LIBD_szControl	Br1227	NIMH_HBCC	Control	F	AA	26		1998	Other	1300	64	194					true
+1564	22	CMC_HBCC, LIBD_szControl	Br1340	NIMH_HBCC	Control	F	AA	26		2000	Other	1390	63	300					true
+1565	22	CMC_HBCC, BipSeq	Br1734	NIMH_HBCC	Bipolar Disorder	M	CAUC	26	14	2006	Other	1520	68	124					true
+1566	22	CMC_HBCC	Br2444	NIMH_HBCC	Bipolar Disorder	M	AA	26		2011		1390	70	177					true
+1567	22	CMC_HBCC, LIBD_szControl	Br888	NIMH_HBCC	Schizophrenia	M	CAUC	25	15	1993	Other	1400	66	207					true
+1568	22	CMC_HBCC, LIBD_szControl	Br1657	NIMH_HBCC	Control	M	AA	25		2004	Other	1550	73	228					true
+1569	22	CMC_HBCC	Br2591	NIMH_HBCC	Bipolar Disorder	M	CAUC	25		2013		1640	73	191					true
+1570	22	CMC_HBCC, LIBD_szControl	Br845	NIMH_HBCC	Control	M	AA	24		1993	Other	1350	67	196					true
+1571	22	CMC_HBCC, LIBD_szControl	Br1281	NIMH_HBCC	Control	M	AA	24		1999	Other	1390	69	216					true
+1572	22	CMC_HBCC, LIBD_szControl	Br1350	NIMH_HBCC	Control	M	CAUC	24		2000	Other	1410	63	166					true
+1573	22	CMC_HBCC, LIBD_szControl	Br1518	NIMH_HBCC	Control	M	CAUC	24		2003	Other	1640	74	242					true
+1574	22	CMC_HBCC	Br2520	NIMH_HBCC	Bipolar Disorder	M	CAUC	24		2012		1690	73	263					true
+1575	22	CMC_HBCC	Br2636	NIMH_HBCC	Control	M	AA	24		2013		1400	69	142					true
+1576	22	CMC_HBCC	Br839	NIMH_HBCC	Schizophrenia	M	AA	23		1993		1200	65	187					true
+1577	22	CMC_HBCC	Br1133	NIMH_HBCC	Control	M	AA	23		1997	Cardiovascular	1430	71	127					true
+1578	22	CMC_HBCC	Br1558	NIMH_HBCC	Control	F	CAUC	23		2003	Cardiovascular	1230	67	154					true
+1579	22	CMC_HBCC, LIBD_szControl	Br1908	NIMH_HBCC	Control	M	AA	23		2007	Other	1440	68	126					true
+1580	22	CMC_HBCC, EpiMap	Br2371	NIMH_HBCC	Control	M	CAUC	23		2010		1800	72	156					true
+1581	22	CMC_HBCC	Br2427	NIMH_HBCC	Bipolar Disorder	M	CAUC	23		2011	Other	1490	66	149					true
+1582	22	CMC_HBCC, LIBD_szControl	Br848	NIMH_HBCC	Control	M	AA	22		1993	Other		72	200					true
+1583	22	CMC_HBCC, LIBD_szControl	Br852	NIMH_HBCC	Control	M	AA	22		1993	Other	1300	74	302					true
+1584	22	CMC_HBCC, BipSeq	Br871	NIMH_HBCC	Bipolar Disorder	M	AA	22	15	1993	Other	1500	71	217					true
+1585	22	CMC_HBCC, LIBD_szControl	Br959	NIMH_HBCC	Control	M	AA	22		1994	Cardiovascular	1620	75	278					true
+1586	22	CMC_HBCC, LIBD_szControl	Br1250	NIMH_HBCC	Control	M	AA	22		1999	Cardiovascular	1340	76	221					true
+1587	22	CMC_HBCC, BipSeq	Br1454	NIMH_HBCC	Bipolar Disorder	F	CAUC	22	12	2002	Other	1380	69	230					true
+1588	22	CMC_HBCC, LIBD_szControl	Br2005	NIMH_HBCC	Control	M	CAUC	22		2008	Cardiovascular	1500	67	282					true
+1589	22	CMC_HBCC, LIBD_szControl	Br1004	NIMH_HBCC	Control	M	AA	21		1995	Other	1410	68	158					true
+1590	22	CMC_HBCC, LIBD_szControl	Br1187	NIMH_HBCC	Control	F	AA	21		1998	Cardiovascular	1090	64	284					true
+1591	22	CMC_HBCC, BipSeq	Br1197	NIMH_HBCC	Bipolar Disorder	M	CAUC	21	18	1998	Other	1460	69	150					true
+1592	22	CMC_HBCC, LIBD_szControl	Br1563	NIMH_HBCC	Control	F	AA	21		2003	Other	1250	66	170					true
+1593	22	CMC_HBCC, BipSeq	Br2035	NIMH_HBCC	Bipolar Disorder	M	CAUC	21	10	2009	Other	1490	70	205					true
+1594	22	CMC_HBCC	Br2346	NIMH_HBCC	Schizophrenia	M	CAUC	21		2010	Other	1420	64	167					true
+1595	22	CMC_HBCC, LIBD_szControl	Br836	NIMH_HBCC	Control	M	AA	20		1993	Other		74	205					true
+1596	22	CMC_HBCC, LIBD_szControl	Br1016	NIMH_HBCC	Schizophrenia	M	CAUC	20	18	1995	Other	1560	70	210					true
+1597	22	CMC_HBCC, LIBD_szControl	Br1040	NIMH_HBCC	Control	M	AA	20		1996	Other	1350	63	124					true
+1598	22	CMC_HBCC	Br1331	NIMH_HBCC	Control	M	HISP	20		2000	Other	1550	62	152					true
+1599	22	CMC_HBCC	Br1713	NIMH_HBCC	Bipolar Disorder	M	CAUC	20		2005	Other	1690	70	165					true
+1600	22	CMC_HBCC, LIBD_szControl	Br2292	NIMH_HBCC	Schizophrenia	M	CAUC	20	14	2010	Other	1570	73	197					true
+1601	22	CMC_HBCC	Br2379	NIMH_HBCC	Bipolar Disorder	F	CAUC	20		2010	Other	1290	66	205					true
+1602	22	CMC_HBCC	Br1058	NIMH_HBCC	Control	M	HISP	19		1996	Other	1380	64	120					true
+1603	22	CMC_HBCC, LIBD_szControl	Br1524	NIMH_HBCC	Control	F	CAUC	19		2003	Cardiovascular	1350	69	122					true
+1604	22	CMC_HBCC, LIBD_szControl	Br887	NIMH_HBCC	Control	M	AA	18		1993	Other	1375	73	183					true
+1605	22	CMC_HBCC	Br890	NIMH_HBCC	Control	M	AA	18		1993	Other	1210	65	128					true
+1606	22	CMC_HBCC, LIBD_szControl	Br949	NIMH_HBCC	Control	M	AA	18		1994	Other	1430	71	153					true
+1607	22	CMC_HBCC, LIBD_szControl	Br1143	NIMH_HBCC	Control	M	AA	18		1997	Other	1410	60	148					true
+1608	22	CMC_HBCC, LIBD_szControl	Br1279	NIMH_HBCC	Control	M	CAUC	18		1999	Cardiovascular	1560	77	316					true
+1609	22	CMC_HBCC, LIBD_szControl	Br1407	NIMH_HBCC	Control	M	AA	18		2001	Other	1390	70	280					true
+1610	22	CMC_HBCC, LIBD_szControl	Br1860	NIMH_HBCC	Control	M	CAUC	18		2001	Other		70	215					true
+1611	22	CMC_HBCC, LIBD_szControl	Br1861	NIMH_HBCC	Control	M	CAUC	18		2001	Other		72	160					true
+1612	22	CMC_HBCC, LIBD_szControl	Br1880	NIMH_HBCC	Control	M	CAUC	18		2006	Other		66	154					true
+1613	22	CMC_HBCC, LIBD_szControl	Br2063	NIMH_HBCC	Control	M	CAUC	18		2009	Cardiovascular	1660	72	178					true
+1614	22	CMC_HBCC	Br2297	NIMH_HBCC	Bipolar Disorder	M	CAUC	18		2010	Other	1730	75	231					true
+1615	22	CMC_HBCC, LIBD_szControl	Br1531	NIMH_HBCC	Control	M	AA	17		2003		1200	66	120					true
+1616	22	CMC_HBCC, LIBD_szControl	Br1610	NIMH_HBCC	Schizophrenia	M	CAUC	17	14	2004		1630	74	164					true
+1617	22	CMC_HBCC, LIBD_szControl	Br1851	NIMH_HBCC	Control	F	CAUC	17		1999			68	130					true
+1618	22	CMC_HBCC, LIBD_szControl	Br1853	NIMH_HBCC	Control	M	CAUC	16		2000			71	215					true
+1619	22	CMC_HBCC, LIBD_szControl	Br1854	NIMH_HBCC	Control	M	CAUC	16		2000			71	252					true
+1620	22	CMC_HBCC, LIBD_szControl	Br1856	NIMH_HBCC	Control	F	CAUC	16		2000			60	117					true
+1621	22	CMC_HBCC, LIBD_szControl	Br1858	NIMH_HBCC	Control	M	CAUC	16		2001			72	180					true
+1622	22	CMC_HBCC	Br1859	NIMH_HBCC	Control	M	CAUC	16		2001			68	139					true
+1623	22	CMC_HBCC, LIBD_szControl	Br1874	NIMH_HBCC	Control	F	CAUC	16		2004			68	161					true
+1624	22	CMC_HBCC, LIBD_szControl	Br1879	NIMH_HBCC	Control	F	CAUC	16		2005			65	123					true
+1625	22	CMC_HBCC, LIBD_szControl	Br1881	NIMH_HBCC	Control	M	CAUC	16		2006			70	206					true
+1626	22	CMC_HBCC, LIBD_szControl	Br982	NIMH_HBCC	Control	M	AA	15		1995		1510	69	190					true
+1627	22	CMC_HBCC, LIBD_szControl	Br1412	NIMH_HBCC	Control	F	CAUC	15		2001		1460	64	145					true
+1628	22	CMC_HBCC, LIBD_szControl	Br1875	NIMH_HBCC	Control	F	CAUC	15		2005			66	147					true
+1629	22	CMC_HBCC, LIBD_szControl	Br1961	NIMH_HBCC	Control	M	CAUC	15		1993			74	167					true
+1630	22	CMC_HBCC, LIBD_szControl	Br1962	NIMH_HBCC	Control	M	CAUC	15		1995									true
+1631	22	CMC_HBCC, LIBD_szControl	Br1964	NIMH_HBCC	Control	M	AA	15		2001			67	138					true
+1632	22	CMC_HBCC, LIBD_szControl	Br1847	NIMH_HBCC	Control	M	CAUC	14		1998			68	117					true
+1633	22	CMC_HBCC, LIBD_szControl	Br1848	NIMH_HBCC	Control	M	CAUC	14		1999			61	168					true
+1634	22	CMC_HBCC, LIBD_szControl	Br1878	NIMH_HBCC	Control	M	CAUC	14		2005			60	138					true
+1635	22	CMC_HBCC, LIBD_szControl	Br1977	NIMH_HBCC	Control	M	CAUC	14		1996									true
+1636	22	CMC_HBCC, LIBD_szControl	Br1435	NIMH_HBCC	Control	F	AA	13		2001		1140	60	157					true
+1637	22	CMC_HBCC, LIBD_szControl	Br1670	NIMH_HBCC	Control	F	CAUC	13		2005		1550	69	145					true
+1638	22	CMC_HBCC, LIBD_szControl	Br1868	NIMH_HBCC	Control	M	CAUC	13		2003			69	140					true
+1639	22	CMC_HBCC, LIBD_szControl	Br1963	NIMH_HBCC	Control	M	AA	13		1998			61	81					true
+1640	22	CMC_HBCC, LIBD_szControl	Br1965	NIMH_HBCC	Control	F	AA	13		2003			61	110					true
+1641	22	CMC_HBCC, LIBD_szControl	Br1968	NIMH_HBCC	Control	M	AA	13		2007			70	161					true
+1642	22	CMC_HBCC, LIBD_szControl	Br1967	NIMH_HBCC	Control	M	AA	12		2006			63	119					true
+1643	22	CMC_HBCC	Br1975	NIMH_HBCC	Control	F	AA	10		1991			54	76					true
+1644	22	CMC_HBCC, LIBD_szControl	Br2002	NIMH_HBCC	Control	M	AA	8		2008		1460	62	134					true
+1645	22	CMC_HBCC, LIBD_szControl	Br1873	NIMH_HBCC	Control	F	CAUC	6		2004			68	152					true
+1646	22	CMC_HBCC, LIBD_szControl	Br1855	NIMH_HBCC	Control	M	CAUC	4		2000			37	49					true
+1647	22	CMC_HBCC, LIBD_szControl	Br1877	NIMH_HBCC	Control	M	CAUC	4		2005			43	41					true
+1648	22	CMC_HBCC, LIBD_szControl	Br1287	NIMH_HBCC	Control	M	CAUC	3		1999		1250	41	46					true
+1649	22	CMC_HBCC, LIBD_szControl	Br1342	NIMH_HBCC	Control	F	AA	2		2000		940	35	25					true
+1650	22	CMC_HBCC, LIBD_szControl	Br1866	NIMH_HBCC	Control	F	CAUC	2		2002			38	41					true
+1651	22	CMC_HBCC, LIBD_szControl	Br1872	NIMH_HBCC	Control	F	CAUC	2		2003			38	34					true
+1652	22	CMC_HBCC	Br1061	NIMH_HBCC	Control	F	AA	1		1996		800	27	18					true
+1653	22	CMC_HBCC, LIBD_szControl	Br1380	NIMH_HBCC	Control	F	CAUC	1		2001		1080	32	23					true
+1654	22	CMC_HBCC	Br1985	NIMH_HBCC	Control	M	AA	1		2008	Cardiovascular	810		21					true
+1655	22	CMC_HBCC, LIBD_szControl	Br826	NIMH_HBCC	Control	M	AA	0		1993		270	17	8					true
+1656	22	CMC_HBCC, LIBD_szControl	Br847	NIMH_HBCC	Control	F	AA	0		1993		875	28	22					true
+1657	22	CMC_HBCC, LIBD_szControl	Br906	NIMH_HBCC	Control	M	AA	0		1994		580	22	15					true
+1658	22	CMC_HBCC, LIBD_szControl	Br957	NIMH_HBCC	Control	M	AA	0		1994		750	25	18					true
+1659	22	CMC_HBCC, LIBD_szControl	Br1118	NIMH_HBCC	Control	M	AA	0		1997		450	20	7					true
+1660	22	CMC_HBCC, LIBD_szControl	Br1379	NIMH_HBCC	Control	M	CAUC	0		2001		740	25	14					true
+1661	22	CMC_HBCC	Br1490	NIMH_HBCC	Control	M	CAUC	0		2002		634	22	11					true
+1662	22	CMC_HBCC, LIBD_szControl	Br1708	NIMH_HBCC	Control	M	AA	0		2005		500	20	8					true
+1663	22	CMC_HBCC, LIBD_szControl	Br1845	NIMH_HBCC	Control	M	CAUC	0		1996			68	150					true
+1664	22	CMC_HBCC, LIBD_szControl	Br1852	NIMH_HBCC	Control	M	CAUC	0		1999			24	14					true
+1665	22	CMC_HBCC, LIBD_szControl	Br1981	NIMH_HBCC	Control	M	AA	0		2008		700		14					true
+1675	4	iPSC	1120-01		Control	M	Multi-Racial	47											
+1676	4	iPSC	1123-01		Control	M	CAUC	53											
+1677	5	iPSC	07-01		Control	M	CAUC	46											
+1678	21	LIBD_szControl	Br1499		Schizophrenia	F	CAUC	90+	29		Accident	1150							true
+1679	21	LIBD_szControl	Br1498		Schizophrenia	F	CAUC	90+	22		Natural	965							true
+1680	20	BipSeq	Br2381		Bipolar Disorder	F	CAUC	84.002299			Accident								true
+1681	21	LIBD_szControl	Br1669		Control	F	CAUC	83.586135			Accident	1340							true
+1682	21	LIBD_szControl	Br1590		Schizophrenia	M	AA	83.405432	21		Accident	1270							true
+1683	21	LIBD_szControl	Br1602		Schizophrenia	F	CAUC	83.139853	16		Natural	1290							true
+1684	21	LIBD_szControl	Br1420		Schizophrenia	F	AA	80.196583	29		Natural	1185							true
+1685	21	LIBD_szControl	Br1060		Control	F	CAUC	75.522943			Natural	1200							true
+1686	21	LIBD_szControl	Br763		Schizophrenia	M	AA	75.216296	29			1250							true
+1687	21	LIBD_szControl	Br1326		Schizophrenia	M	AA	74.561931	27		Natural	1240							true
+1688	21	LIBD_szControl	Br1492		Schizophrenia	M	AA	73.954112	30		Natural	1310							true
+1689	20	BipSeq	Br2109		Bipolar Disorder	M	CAUC	73.806264	49		Suicide								true
+1690	21	LIBD_szControl	Br1624		Schizophrenia	F	CAUC	72.752162	39		Suicide	1230							true
+1691	21	LIBD_szControl	Br1503		Schizophrenia	F	AA	71.117621	37		Natural	1110							true
+1692	21	LIBD_szControl	Br1756		Control	F	CAUC	71.062862			Natural	1450							true
+1693	21	LIBD_szControl	Br1189		Schizophrenia	F	CAUC	70.879421	27		Natural	1150							true
+1694	21	LIBD_szControl	Br1909		Control	M	CAUC	67.821158				1580							true
+1695	21	LIBD_szControl	Br1912		Schizophrenia	F	AA	66.939546	31		Natural	1240							true
+1696	21	LIBD_szControl	Br925		Control	F	CAUC	66.671229			Natural	1550							true
+1697	20	BipSeq	Br2179		Bipolar Disorder	M	CAUC	64.992881	32		Suicide								true
+1698	21	LIBD_szControl	Br858		Schizophrenia	F	AA	64.57124	24		Natural								true
+1699	20	BipSeq	Br2234		Bipolar Disorder	M	CAUC	63.804621	22		Natural								true
+1700	21	LIBD_szControl	Br2217		Control	M	CAUC	63.517139			Natural								true
+1701	21	LIBD_szControl	Br2108		Control	M	CAUC	63.429525			Natural								true
+1702	20	BipSeq	Br2222		Bipolar Disorder	M	CAUC	63.388456	26		Suicide								true
+1703	21	LIBD_szControl	Br1695		Control	M	CAUC	63.19954			Natural	1360							true
+1704	21	LIBD_szControl	Br1021		Schizophrenia	M	AA	63.183112	26		Natural	1300							true
+1705	21	LIBD_szControl	Br1023		Control	M	CAUC	63			Accident	1380							true
+1706	21	LIBD_szControl	Br1297		Control	M	AA	62.742306			Natural	1320							true
+1707	21	LIBD_szControl	Br1527		Schizophrenia	F	AA	62.684809	26		Natural	1250							true
+1708	21	LIBD_szControl	Br1988		Schizophrenia	M	CAUC	62.202935			Natural	1450							true
+1709	21	LIBD_szControl	Br942		Control	M	CAUC	61.915452			Natural	1500							true
+1710	21	LIBD_szControl	Br1487		Schizophrenia	M	CAUC	61.877121	14		Natural	1225							true
+1711	21	LIBD_szControl	Br2163		Schizophrenia	F	CAUC	61.518453	23		Natural								true
+1712	21	LIBD_szControl	Br2158		Schizophrenia	M	CAUC	61.466433	30		Natural								true
+1713	21	LIBD_szControl	Br1157		Control	M	AA	60.699813			Natural	1300							true
+1714	21	LIBD_szControl	Br1135		Control	M	AA	60.346621			Natural	1180							true
+1715	21	LIBD_szControl	Br2151		Schizophrenia	F	CAUC	60.135801	20		Natural								true
+1716	21	LIBD_szControl	Br1339		Schizophrenia	F	CAUC	60.075566	40			1290							true
+1717	21	LIBD_szControl	Br1538		Schizophrenia	F	AA	59.815463	24		Natural	1200							true
+1718	21	LIBD_szControl	Br2196		Schizophrenia	F	CAUC	59.804512	21		Accident								true
+1719	20	BipSeq	Br1901		Bipolar Disorder	M	CAUC	59.292519	18		Natural	1420							true
+1720	21	LIBD_szControl	Br1109		Control	F	CAUC	59.221333			Natural	1445							true
+1721	21	LIBD_szControl	Br1383		Schizophrenia	M	CAUC	58.963968	30		Suicide	1410							true
+1722	21	LIBD_szControl	Br1304		Control	M	CAUC	58.566969			Natural	1600							true
+1723	20	BipSeq	Br1823		Bipolar Disorder	F	CAUC	58.293177	18		Suicide	1420							true
+1724	21	LIBD_szControl	Br1285		Control	M	AA	58.194611			Natural	1470							true
+1725	21	LIBD_szControl	Br909		Control	F	AA	57.830467			Natural	1200							true
+1726	21	LIBD_szControl	Br2230		Control	M	CAUC	57.573102			Natural								true
+1727	21	LIBD_szControl	Br2227		Control	M	CAUC	57.474537			Natural								true
+1728	20	BipSeq	Br2238		Bipolar Disorder	F	CAUC	57.469061	20		Natural	1300							true
+1729	21	LIBD_szControl	Br1264		Control	F	CAUC	57.44442			Natural	1410							true
+1730	21	LIBD_szControl	Br2215		Control	M	CAUC	57.41704			Natural								true
+1731	21	LIBD_szControl	Br2102		Schizophrenia	F	CAUC	57.310261	35		Suicide								true
+1732	21	LIBD_szControl	Br2098		Schizophrenia	M	CAUC	57.14051	20		Natural								true
+1733	21	LIBD_szControl	Br1321		Schizophrenia	F	AA	57.132296	18		Natural	1220							true
+1734	20	BipSeq	Br2167		Bipolar Disorder	F	CAUC	56.888621	35		Natural								true
+1735	21	LIBD_szControl	Br2090		Schizophrenia	F	CAUC	56.524477	17		Natural								true
+1736	21	LIBD_szControl	Br2076		Control	M	AA	56.48067			Natural	1280							true
+1737	21	LIBD_szControl	Br2149		Control	F	CAUC	56.267112			Natural								true
+1738	21	LIBD_szControl	Br1764		Control	M	CAUC	56.053553			Natural	1330							true
+1739	21	LIBD_szControl	Br1464		Schizophrenia	F	AA	55.692147	26		Natural	1070							true
+1740	21	LIBD_szControl	Br2154		Schizophrenia	F	CAUC	55.683933	40		Accident								true
+1741	21	LIBD_szControl	Br1738		Schizophrenia	M	CAUC	55.681195	26		Natural	1580							true
+1742	20	BipSeq	Br2138		Bipolar Disorder	F	CAUC	55.653816	25		Suicide								true
+1743	21	LIBD_szControl	Br1840		Schizophrenia	M	AA	55.344431	22		Natural	1500							true
+1744	21	LIBD_szControl	Br2216		Control	M	CAUC	54.772204			Natural								true
+1745	21	LIBD_szControl	Br1595		Schizophrenia	F	CAUC	54.531267	19		Natural	1150							true
+1746	21	LIBD_szControl	Br1987		Control	M	CAUC	54.388894			Natural	1220							true
+1747	21	LIBD_szControl	Br2206		Control	M	CAUC	54.298543			Natural								true
+1748	21	LIBD_szControl	Br2194		Schizophrenia	M	CAUC	53.969992	32		Suicide								true
+1749	21	LIBD_szControl	Br1351		Control	M	CAUC	53.942613			Natural	1430							true
+1750	21	LIBD_szControl	Br2107		Schizophrenia	M	CAUC	53.926185	28		Suicide								true
+1751	21	LIBD_szControl	Br946		Control	M	AA	53.920709			Natural	1200							true
+1752	21	LIBD_szControl	Br2213		Schizophrenia	M	CAUC	53.890592	28		Natural								true
+1753	21	LIBD_szControl	Br1156		Control	F	AA	53.860475			Natural	1280							true
+1754	21	LIBD_szControl	Br2177		Schizophrenia	F	CAUC	53.559303	20		Accident								true
+1755	21	LIBD_szControl	Br2148		Schizophrenia	F	CAUC	53.39229	30		Natural								true
+1756	21	LIBD_szControl	Br1314		Control	F	AA	53.356696			Natural	1240							true
+1757	21	LIBD_szControl	Br1447		Schizophrenia	M	AA	53.238966	9		Natural	1360							true
+1758	20	BipSeq	Br2220		Bipolar Disorder	F	HISP	52.439491	33		Suicide								true
+1759	21	LIBD_szControl	Br2226		Schizophrenia	M	CAUC	52.313547	23		Natural								true
+1760	21	LIBD_szControl	Br2144		Schizophrenia	F	AA	52.223195	30		Natural								true
+1761	21	LIBD_szControl	Br2219		Schizophrenia	M	CAUC	52.132844	18		Natural								true
+1762	21	LIBD_szControl	Br859		Control	M	AA	52.130106			Natural								true
+1763	21	LIBD_szControl	Br1688		Schizophrenia	M	AA	52.020589	17		Natural	1320							true
+1764	21	LIBD_szControl	Br1113		Control	F	CAUC	51.905596			Natural	1275							true
+1765	21	LIBD_szControl	Br1941		Schizophrenia	M	AA	51.708465	21			1180							true
+1766	20	BipSeq	Br1661		Bipolar Disorder	M	CAUC	51.14719	20		Natural	1420							true
+1767	21	LIBD_szControl	Br827		Control	M	CAUC	50.865184			Natural	1500							true
+1768	21	LIBD_szControl	Br2242		Schizophrenia	F	CAUC	50.733764	10		Natural	1310							true
+1769	21	LIBD_szControl	Br1588		Schizophrenia	M	AA	50.572226	36		Natural	1530							true
+1770	21	LIBD_szControl	Br2103		Control	M	CAUC	50.325813			Natural								true
+1771	21	LIBD_szControl	Br1923		Schizophrenia	M	CAUC	50.172489	38		Suicide	1580							true
+1772	21	LIBD_szControl	Br823		Control	F	AA	50				1400							true
+1773	21	LIBD_szControl	Br1228		Control	M	AA	49.723469			Natural	1300							true
+1774	21	LIBD_szControl	Br1030		Schizophrenia	F	AA	49.652283	28		Natural	1350							true
+1775	21	LIBD_szControl	Br1463		Control	M	CAUC	49.529076			Natural	1495							true
+1776	21	LIBD_szControl	Br2236		Schizophrenia	M	CAUC	49.400394	19		Natural								true
+1777	21	LIBD_szControl	Br2267		Control	M	AA	49.39218			Natural	1340							true
+1778	21	LIBD_szControl	Br2201		Schizophrenia	F	CAUC	49.381228	22		Accident								true
+1779	21	LIBD_szControl	Br2229		Schizophrenia	M	AA	49.263497	25		Natural								true
+1780	21	LIBD_szControl	Br2097		Schizophrenia	M	CAUC	49.186836	22		Natural								true
+1781	21	LIBD_szControl	Br1243		Control	M	CAUC	49.178622			Natural	1540							true
+1782	21	LIBD_szControl	Br1356		Control	M	CAUC	49.16767			Natural	1420							true
+1783	20	BipSeq	Br2157		Bipolar Disorder	F	CAUC	49.038988	21		Suicide								true
+1784	20	BipSeq	Br2153		Bipolar Disorder	M	AS	49.000657	34		Suicide								true
+1785	21	LIBD_szControl	Br1753		Control	F	CAUC	48.989705			Natural	1450							true
+1786	21	LIBD_szControl	Br1092		Control	M	CAUC	48.945898			Natural	1670							true
+1787	21	LIBD_szControl	Br1017		Control	F	AA	48.420216			Natural	1270							true
+1788	21	LIBD_szControl	Br1235		Schizophrenia	F	AA	48.255941	24		Natural	1230							true
+1789	20	BipSeq	Br2152		Bipolar Disorder	M	CAUC	48.198444	25		Natural								true
+1790	20	BipSeq	Br2235		Bipolar Disorder	M	CAUC	48.190231	23		Suicide								true
+1791	21	LIBD_szControl	Br1441		Schizophrenia	M	AA	48.108093	28		Natural	1560							true
+1792	21	LIBD_szControl	Br1648		Schizophrenia	F	CAUC	48.094403	16		Accident	1290							true
+1793	21	LIBD_szControl	Br1526		Schizophrenia	M	CAUC	47.470156	20		Suicide	1560							true
+1794	21	LIBD_szControl	Br1288		Control	M	CAUC	47.453729			Natural	1400							true
+1795	20	BipSeq	Br1651		Bipolar Disorder	F	CAUC	47.092322	31		Suicide	1610							true
+1796	21	LIBD_szControl	Br2187		Schizophrenia	M	CAUC	47.075895	25		Accident								true
+1797	21	LIBD_szControl	Br1649		Control	M	CAUC	46.936261			Natural	1630							true
+1798	21	LIBD_szControl	Br869		Schizophrenia	F	CAUC	46.862337	19		Accident	1280							true
+1799	21	LIBD_szControl	Br1946		Schizophrenia	F	CAUC	46.533786	14		Suicide	1200							true
+1800	21	LIBD_szControl	Br2231		Schizophrenia	M	CAUC	46.492717	16		Accident								true
+1801	20	BipSeq	Br2198		Bipolar Disorder	M	CAUC	46.243565	20		Suicide								true
+1802	21	LIBD_szControl	Br2094		Schizophrenia	M	CAUC	46.243565	20		Suicide								true
+1803	21	LIBD_szControl	Br2137		Schizophrenia	F	CAUC	46.169641	23		Natural								true
+1804	21	LIBD_szControl	Br2185		Schizophrenia	F	CAUC	46.145	18		Natural								true
+1805	21	LIBD_szControl	Br1525		Control	F	AA	46.073814			Natural	1250							true
+1806	21	LIBD_szControl	Br2180		Control	M	CAUC	45.947869			Natural								true
+1807	21	LIBD_szControl	Br2221		Schizophrenia	M	CAUC	45.936918	15		Natural								true
+1808	21	LIBD_szControl	Br948		Control	M	AA	45.909538			Homicide	1300							true
+1809	21	LIBD_szControl	Br1167		Control	M	AA	45.860256			Natural	1330							true
+1810	21	LIBD_szControl	Br1325		Control	F	AA	45.750739			Natural	1300							true
+1811	21	LIBD_szControl	Br2173		Schizophrenia	M	CAUC	45.748001	16		Natural								true
+1812	21	LIBD_szControl	Br2184		Schizophrenia	F	AA	45.731573	25		Natural								true
+1813	21	LIBD_szControl	Br2104		Schizophrenia	M	CAUC	45.693242	21		Suicide								true
+1814	21	LIBD_szControl	Br2209		Schizophrenia	F	CAUC	45.35374	23		Natural								true
+1815	21	LIBD_szControl	Br2204		Schizophrenia	M	CAUC	45.126492	32										true
+1816	21	LIBD_szControl	Br2162		Control	M	CAUC	44.929361			Natural								true
+1817	21	LIBD_szControl	Br2074		Control	M	AA	44.819844			Natural	1380							true
+1818	21	LIBD_szControl	Br2288		Control	M	CAUC	44.702113			Natural	1575							true
+1819	21	LIBD_szControl	Br2099		Schizophrenia	F	CAUC	44.617237	21		Natural								true
+1820	20	BipSeq	Br2203		Bipolar Disorder	F	CAUC	44.576169	25		Accident								true
+1821	21	LIBD_szControl	Br2225		Schizophrenia	M	CAUC	44.548789	16		Natural								true
+1822	21	LIBD_szControl	Br2133		Schizophrenia	F	CAUC	44.381776	20		Suicide								true
+1823	21	LIBD_szControl	Br1105		Control	F	AA	44.140838			Natural	1190							true
+1824	21	LIBD_szControl	Br1497		Schizophrenia	M	CAUC	43.957397	27		Natural	1360							true
+1825	21	LIBD_szControl	Br2161		Schizophrenia	M	CAUC	43.908115	20		Suicide								true
+1826	21	LIBD_szControl	Br983		Schizophrenia	M	CAUC	43.382433	27			1500							true
+1827	21	LIBD_szControl	Br1358		Schizophrenia	M	AA	43.371481	19		Natural	1450							true
+1828	21	LIBD_szControl	Br2156		Schizophrenia	M	CAUC	43.083999	20		Natural								true
+1829	21	LIBD_szControl	Br1348		Control	F	AA	42.914248			Natural	1140							true
+1830	21	LIBD_szControl	Br1678		Schizophrenia	M	CAUC	42.714379	21		Natural	1760							true
+1831	21	LIBD_szControl	Br1390		Control	F	AA	42.681524			Natural	1200							true
+1832	20	BipSeq	Br2181		Bipolar Disorder	F	CAUC	42.656883	15		Natural								true
+1833	21	LIBD_szControl	Br2207		Schizophrenia	M	CAUC	42.344759	17		Natural								true
+1834	20	BipSeq	Br2237		Bipolar Disorder	M	AA	42.185959	30		Natural								true
+1835	21	LIBD_szControl	Br1890		Control	M	CAUC	42.038111			Natural	1350							true
+1836	20	BipSeq	Br2165		Bipolar Disorder	F	CAUC	41.78896	17		Suicide								true
+1837	21	LIBD_szControl	Br1025		Schizophrenia	F	AA	41.59183	17		Natural	1175							true
+1838	21	LIBD_szControl	Br1050		Schizophrenia	M	AA	41.246851	37		Natural	1430							true
+1839	21	LIBD_szControl	Br1221		Control	F	AA	41.170189			Natural	1240							true
+1840	21	LIBD_szControl	Br1958		Schizophrenia	F	CAUC	41.093527	13		Suicide	1340							true
+1841	21	LIBD_szControl	Br1900		Control	F	AA	40.899134			Natural	1380							true
+1842	21	LIBD_szControl	Br1409		Control	F	CAUC	40.578797			Natural	1440							true
+1843	21	LIBD_szControl	Br2200		Schizophrenia	M	CAUC	40.565107	15		Accident								true
+1844	21	LIBD_szControl	Br2178		Schizophrenia	F	CAUC	40.340597	16		Natural								true
+1845	21	LIBD_szControl	Br1568		Control	M	CAUC	39.636951			Natural	1630							true
+1846	21	LIBD_szControl	Br2224		Control	F	CAUC	39.628737			Natural								true
+1847	21	LIBD_szControl	Br2202		Control	M	CAUC	38.755338			Natural								true
+1848	21	LIBD_szControl	Br1509		Schizophrenia	M	AA	38.604753	15		Natural	1390							true
+1849	21	LIBD_szControl	Br1884		Control	M	AA	38.478808			Natural	1660							true
+1850	20	BipSeq	Br2056		Bipolar Disorder	F	CAUC	38.336436	12		Suicide	1400							true
+1851	21	LIBD_szControl	Br2092		Schizophrenia	M	CAUC	37.988719	20		Suicide								true
+1852	21	LIBD_szControl	Br1283		Schizophrenia	M	AA	37.304238	10		Natural	1270							true
+1853	21	LIBD_szControl	Br1408		Control	M	AA	37.167342			Natural	1200							true
+1854	21	LIBD_szControl	Br1416		Schizophrenia	M	CAUC	37.164604	21		Suicide	1430							true
+1855	20	BipSeq	Br2208		Bipolar Disorder	F	CAUC	36.756653	15		Accident								true
+1856	21	LIBD_szControl	Br1191		Control	M	AA	36.540357			Accident	1480							true
+1857	21	LIBD_szControl	Br2176		Schizophrenia	M	AA	36.537619	22		Natural								true
+1858	20	BipSeq	Br2232		Bipolar Disorder	F	CAUC	36.450005	17		Suicide								true
+1859	20	BipSeq	Br2269		Bipolar Disorder	M	CAUC	35.30829	22		Natural	1500							true
+1860	21	LIBD_szControl	Br1995		Control	M	CAUC	35.250793			Natural	1510							true
+1861	21	LIBD_szControl	Br2130		Control	M	CAUC	34.93867			Accident								true
+1862	21	LIBD_szControl	Br1446		Control	M	CAUC	34.443105			Natural	1410							true
+1863	20	BipSeq	Br2057		Bipolar Disorder	F	CAUC	34.374657	13		Suicide	1240							true
+1864	21	LIBD_szControl	Br1458		Control	M	CAUC	34.232285			Natural	1800							true
+1865	21	LIBD_szControl	Br2170		Schizophrenia	M	CAUC	34.057058	24		Suicide								true
+1866	21	LIBD_szControl	Br1980		Control	M	CAUC	33.238418			Natural	1570							true
+1867	21	LIBD_szControl	Br2186		Schizophrenia	M	CAUC	32.986529	26		Natural								true
+1868	21	LIBD_szControl	Br1142		Control	M	AA	32.975577			Natural	1300							true
+1869	21	LIBD_szControl	Br2091		Schizophrenia	M	AA	32.833205	16		Natural								true
+1870	21	LIBD_szControl	Br1225		Control	M	CAUC	32.674405			Natural	1340							true
+1871	21	LIBD_szControl	Br2159		Schizophrenia	M	CAUC	31.664111	19		Natural								true
+1872	20	BipSeq	Br2188		Bipolar Disorder	M	CAUC	31.324608	21		Suicide								true
+1873	21	LIBD_szControl	Br2212		Schizophrenia	M	CAUC	31.272587	21		Suicide								true
+1874	21	LIBD_szControl	Br1370		Schizophrenia	M	CAUC	30.856423	9		Natural	1480							true
+1875	21	LIBD_szControl	Br2233		Schizophrenia	M	AA	30.681195	25		Suicide								true
+1876	21	LIBD_szControl	Br1761		Control	M	CAUC	30.013142			Accident	1760							true
+1877	21	LIBD_szControl	Br2214		Schizophrenia	M	CAUC	29.920052	16		Suicide								true
+1878	20	BipSeq	Br2189		Bipolar Disorder	F	CAUC	29.835176	28		Suicide								true
+1879	21	LIBD_szControl	Br1410		Control	M	AA	29.807797			Natural	1320							true
+1880	21	LIBD_szControl	Br1346		Control	M	AA	29.509363			Natural	1450							true
+1881	21	LIBD_szControl	Br2228		Schizophrenia	M	CAUC	29.230095	16		Suicide								true
+1882	21	LIBD_szControl	Br2183		Schizophrenia	M	CAUC	28.592158	25		Suicide								true
+1883	21	LIBD_szControl	Br2192		Schizophrenia	F	CAUC	28.222538	18		Accident								true
+1884	20	BipSeq	Br1984		Bipolar Disorder	M	CAUC	27.674953	16		Accident	1550							true
+1885	21	LIBD_szControl	Br1745		Control	F	AA	27.576388			Natural	1470							true
+1886	20	BipSeq	Br1749		Bipolar Disorder	F	CAUC	27.250574	22		Accident	1390							true
+1887	20	BipSeq	Br1744		Bipolar Disorder	F	CAUC	27.212244	13		Suicide	1590							true
+1888	21	LIBD_szControl	Br1183		Schizophrenia	F	CAUC	26.065053	9		Suicide	1190							true
+1889	21	LIBD_szControl	Br1203		Schizophrenia	M	CAUC	24.334684	11		Suicide	1770							true
+1890	21	LIBD_szControl	Br1276		Control	M	AA	24.249808			Homicide	1200							true
+1891	21	LIBD_szControl	Br1842		Schizophrenia	M	CAUC	22.09506	13		Suicide	1400							true
+1892	21	LIBD_szControl	Br1455		Schizophrenia	M	AA	21.536523	17		Suicide	1540							true
+1893	21	LIBD_szControl	Br1306		Control	M	AA	21.459862			Homicide	1280							true
+1894	21	LIBD_szControl	Br2146		Schizophrenia	M	CAUC	21.240827	14		Suicide								true
+1895	21	LIBD_szControl	Br1550		Control	M	CAUC	20.849304			Natural	1580							true
+1896	21	LIBD_szControl	Br885		Control	M	AA	19.885554			Homicide	1450							true
+1897	21	LIBD_szControl	Br914		Control	F	AA	19.693899			Natural								true
+1898	21	LIBD_szControl	Br1865		Control	F	CAUC	18.746577			Accident								true
+1899	21	LIBD_szControl	Br1448		Schizophrenia	M	AA	18.565874	12		Accident	1440							true
+1900	21	LIBD_szControl	Br2166		Schizophrenia	M	CAUC	18.245537	17		Suicide								true
+1901	21	LIBD_szControl	Br2160		Schizophrenia	M	CAUC	18.004599	14		Natural								true
+1902	21	LIBD_szControl	Br1292		Control	M	AA	17.75271			Homicide	1220							true
+1903	21	LIBD_szControl	Br1289		Control	F	AA	17.268097			Homicide	1200							true
+1904	21	LIBD_szControl	Br1857		Control	F	CAUC	17.22429			Accident								true
+1905	21	LIBD_szControl	Br1876		Control	M	CAUC	16.342678			Accident								true
+1906	21	LIBD_szControl	Br1849		Control	M	CAUC	15.789617			Accident								true
+1907	21	LIBD_szControl	Br1282		Control	M	AA	15.48297			Homicide	1350							true
+1908	21	LIBD_szControl	Br1966		Control	M	CAUC	13.988062			Accident								true
+1909	21	LIBD_szControl	Br1553		Control	F	CAUC	13.024312			Natural	1400							true
+1910	21	LIBD_szControl	Br1244		Control	F	CAUC	12.274121			Accident	1560							true
+1911	21	LIBD_szControl	Br1870		Control	M	CAUC	5.341693			Accident								true
+1912	21	LIBD_szControl	Br1218		Control	M	AA	4.205453			Natural	1190							true
+1913	21	LIBD_szControl	Br1844		Control	M	CAUC	4.137005			Accident								true
+1914	21	LIBD_szControl	Br2036		Control	F	CAUC	2.724236			Accident	1110							true
+1915	21	LIBD_szControl	Br1846		Control	M	CAUC	1.338845			Accident								true
+1916	21	LIBD_szControl	Br1627		Control	F	CAUC	0.51473			Accident	950							true
+1917	21	LIBD_szControl	Br1623		Control	M	CAUC	0.402475			Accident	780							true
+1918	21	LIBD_szControl	Br1863		Control	M	CAUC	0.353192			Natural								true
+1919	21	LIBD_szControl	Br1647		Control	M	CAUC	0.325813			Natural	840							true
+1920	21	LIBD_szControl	Br905		Control	F	AA	0.303909			Natural	550							true
+1921	21	LIBD_szControl	Br1452		Control	M	AA	0.249151			Natural	690							true
+1922	21	LIBD_szControl	Br1190		Control	M	AA	0.216296			Natural	590							true
+1923	21	LIBD_szControl	Br1797		Control	F	CAUC	-0.019178											true
+1924	21	LIBD_szControl	Br2416		Control	F	CAUC	-0.09589											true
+1925	21	LIBD_szControl	Br2403		Control	F	AA	-0.268493											true
+1926	21	LIBD_szControl	Br2415		Control	M	CAUC	-0.345205											true
+1927	21	LIBD_szControl	Br2402		Control	F	CAUC	-0.364384											true
+1928	21	LIBD_szControl	Br2413		Control	M	AA	-0.364384											true
+1929	21	LIBD_szControl	Br1805		Control	F	AA	-0.383562											true
+1930	21	LIBD_szControl	Br1803		Control	M	AA	-0.383562											true
+1931	21	LIBD_szControl	Br1824		Control	F	AA	-0.402739726											true
+1932	21	LIBD_szControl	Br1798		Control	M	AA	-0.402739726											true
+1933	21	LIBD_szControl	Br1789		Control	M	CAUC	-0.402739726											true
+1934	21	LIBD_szControl	Br1802		Control	M	AA	-0.402739726											true
+1935	21	LIBD_szControl	Br1796		Control	M	AA	-0.402739726											true
+1936	21	LIBD_szControl	Br1788		Control	F	AA	-0.402739726											true
+1937	21	LIBD_szControl	Br1778		Control	F	AA	-0.40274											true
+1938	21	LIBD_szControl	Br2412		Control	F	AA	-0.40274											true
+1939	21	LIBD_szControl	Br1782		Control	F	AA	-0.40274											true
+1940	21	LIBD_szControl	Br1792		Control	F	AA	-0.40274											true
+1941	21	LIBD_szControl	Br1791		Control	F	AA	-0.40274											true
+1942	21	LIBD_szControl	Br1826		Control	F	CAUC	-0.40274											true
+1943	21	LIBD_szControl	Br2047		Control	F	AA	-0.40274											true
+1944	21	LIBD_szControl	Br2049		Control	M	AA	-0.40274											true
+1945	21	LIBD_szControl	Br1777		Control	F	AA	-0.40274											true
+1946	21	LIBD_szControl	Br1781		Control	M	AA	-0.421917808											true
+1947	21	LIBD_szControl	Br1812		Control	M	AA	-0.421917808											true
+1948	21	LIBD_szControl	Br1794		Control	M	AA	-0.421917808											true
+1949	21	LIBD_szControl	Br1780		Control	F	AA	-0.421917808											true
+1950	21	LIBD_szControl	Br1784		Control	F	AA	-0.421918											true
+1951	21	LIBD_szControl	Br1813		Control	M	AA	-0.421918											true
+1952	21	LIBD_szControl	Br1825		Control	M	CAUC	-0.421918											true
+1953	21	LIBD_szControl	Br1793		Control	F	AA	-0.421918											true
+1954	21	LIBD_szControl	Br1800		Control	M	AA	-0.421918											true
+1955	21	LIBD_szControl	Br1787		Control	F	AA	-0.421918											true
+1956	21	LIBD_szControl	Br1814		Control	F	AA	-0.44109589											true
+1957	21	LIBD_szControl	Br1795		Control	M	AA	-0.44109589											true
+1958	21	LIBD_szControl	Br1779		Control	M	AA	-0.441096											true
+1959	21	LIBD_szControl	Br2399		Control	F	CAUC	-0.441096											true
+1960	21	LIBD_szControl	Br1801		Control	M	AA	-0.460273973											true
+1961	21	LIBD_szControl	Br2411		Control	M	AA	-0.460274											true
+1962	21	LIBD_szControl	Br1816		Control	M	AA	-0.460274											true
+1963	21	LIBD_szControl	Br2397		Control	M	CAUC	-0.460274											true
+1964	21	LIBD_szControl	Br1806		Control	M	AA	-0.479452											true
+1965	21	LIBD_szControl	Br1811		Control	F	AA	-0.49863											true
+1966	21	LIBD_szControl	Br1942		Control	F	AA	-0.49863											true
+1967	21	LIBD_szControl	Br1804		Control	M	AA	-0.49863											true
+1968	21	LIBD_szControl	Br1808		Control	M	AA	-0.49863											true
+1969	21	LIBD_szControl	Br2396		Control	M	CAUC	-0.517808											true
+1970	21	LIBD_szControl	Br2410		Control	M	CAUC	-0.517808											true
+1971	21	LIBD_szControl	Br2409		Control	F	CAUC	-0.517808											true
+1972	21	LIBD_szControl	Br2394		Control	M	CAUC	-0.594521											true
+1973	9	referenceBrain	HSB277		Control	M	CAUC	53			Cardiac arrest								true
+1974	9	referenceBrain	HSB189		Control	M		36											true
+1975	9	referenceBrain	HSB106		Control	M		64											true
+1976	9	referenceBrain	HSB181		Control	M	CAUC	44											true
+1977	3	CNON	SEP025		Schizophrenia	M	CAUC								36.9	34	no		
+1978	3	CNON	SEP026		Schizophrenia	F	CAUC								33.8	32	no		
+1979	3	CNON	SEP028		Schizophrenia	M	CAUC								40.6	31	yes		
+1980	3	CNON	SEP030		Control	M	CAUC								54.5	37	no		
+1981	3	CNON	SEP031		Control,depression	M	CAUC								45.3	37	no		
+1982	3	CNON	SEP034		Control	M	CAUC								51.2	23	yes		
+1983	3	CNON	SEP044		Control	F	CAUC								35.4		no		
+1984	3	CNON	SEP045		Schizophrenia	M	CAUC								29.6		yes		
+1985	3	CNON	SEP060		Control	M	CAUC								41.3	36	no		
+1986	3	CNON	SEP071		Control	M	CAUC								47.9	37	no		
+1987	3	CNON	SEP075		Control	F	CAUC								55.6	35	no		
+1988	3	CNON	SEP084		Control	F	CAUC								33.8	38	no		
+1989	3	CNON	SEP100		Schizophrenia	M	CAUC								25	33	yes		
+1990	3	CNON	SEP102		Schizophrenia	F	Mixed (CAUC_HISP)								34.1	13	no		
+1991	3	CNON	SEP109		Schizophrenia	M	CAUC								34.8	7	yes		
+1992	3	CNON	SEP118		Schizophrenia	M	CAUC								51.5	30	yes		
+1993	3	CNON	SEP120		Schizophrenia	M	CAUC								42.2	37	yes		
+1994	3	CNON	SEP121		Schizophrenia	M	CAUC								52.3	10	yes		
+1995	3	CNON	SEP126		Schizophrenia	M	CAUC								40.4	28	yes		
+1996	3	CNON	SEP128		Control	M	CAUC								51.6	13	no		
+1997	3	CNON	SEP130		Control	F	CAUC								58.2	36	no		
+1998	3	CNON	SEP133		Schizophrenia	M	CAUC								58.4	33	yes		
+1999	3	CNON	SEP149		Schizophrenia	M	CAUC								54.3	17	yes		
+2000	3	CNON	SEP160		Control	M	CAUC								54.8		no		
+2001	3	CNON	SEP161		Control	M	CAUC								32.1		no		
+2002	3	CNON	SEP168		Schizophrenia	M	CAUC								51.4	31	yes		
+2003	3	CNON	SEP170		Control,depression	M	CAUC								55.7	32	no		
+2004	3	CNON	SEP172		Schizophrenia	M	CAUC								47.2	36	yes		
+2005	3	CNON	SEP223		Control	M	CAUC								56	38	no		
+2006	3	CNON	SEP287		Schizophrenia	M	CAUC								58.2		yes		
+2009	16																		
+2010	16																		

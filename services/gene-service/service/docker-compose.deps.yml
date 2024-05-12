@@ -1,0 +1,25 @@
+#
+# docker compose file for testing
+#
+version: '3'
+services:
+  db:
+    image: postgres:latest
+    container_name: db
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - 5555:5432 # don't conflict with local posgresql
+    container_name: service_postgrestest_1
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+  flyway:
+    image: flyway/flyway
+    command: -url=jdbc:postgresql://db/ -user=postgres -connectRetries=60 migrate
+    volumes:
+      - ./db/migration:/flyway/sql
+    depends_on:
+      - db
+
+volumes:
+  db-data:

@@ -1,0 +1,11 @@
+
+#!/bin/bash
+
+export POSTGRES_USER=postgres
+export POSTGRES_HOST=localhost
+export POSTGRES_DB=postgres
+export POSTGRES_PORT=5555
+export POSTGRES_GENCODE_SCHEMA=gencode_test
+export POSTGRES_ENCODE_SCHEMA=encode_test
+export POSTGRES_PSYCHENCODE_SCHEMA=psychencode_test
+export POSTGRES_USER_SCHEMA=gene_user_data

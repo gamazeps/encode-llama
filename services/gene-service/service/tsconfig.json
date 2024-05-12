@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "lib": ["es5", "es6", "dom", "es2015", "es2017", "esnext"],
+        "declaration": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "typeRoots": [ "./types", "./node_modules/@types" ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

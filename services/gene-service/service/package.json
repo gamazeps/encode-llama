@@ -1,0 +1,56 @@
+{
+    "name": "gene-service",
+    "version": "2.9.3",
+    "description": "Service that stores and retrieves gene annotations and experimental data",
+    "main": "index.js",
+    "repository": "git@github.com:/weng-lab/gene-service",
+    "author": "hpratt <hpratt111@live.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "test": "jest --detectOpenHandles --testTimeout 30000",
+        "debug": "node --inspect dist/server.js",
+        "prettier": "prettier --write ./src/**/*.ts ./test/**/*.ts",
+        "precommit": "yarn prettier",
+        "poll": "node dist/poll.js"
+    },
+    "dependencies": {
+        "@apollo/federation": "^0.12.1",
+        "@google-cloud/storage": "^4.1.3",
+        "@kubernetes/client-node": "^0.11.1",
+        "apollo-server-express": "^2.1.0",
+        "@tensorflow/tfjs": "^3.4.0",
+        "@tensorflow/tfjs-backend-cpu": "^3.4.0",
+        "@tensorflow/tfjs-node": "^3.4.0",
+        "busboy": "^0.3.1",
+        "dataloader": "^1.4.0",
+        "express": "^4.16.4",
+        "graphql": "^14.3.1",
+        "pg-promise": "^10.8.1",
+        "prettier": "^1.16.4",
+        "queryz": "^0.0.3"
+    },
+    "devDependencies": {
+        "@types/busboy": "^0.2.3",
+        "@types/express": "^4.16.0",
+        "@types/graphql": "^14.0.3",
+        "@types/jest": "^24.0.23",
+        "@types/node": "^10.12.0",
+        "@types/supertest": "^2.0.7",
+        "@types/yargs": "^15.0.4",
+        "jest": "^24.9.0",
+        "supertest": "^3.4.2",
+        "ts-jest": "^24.1.0",
+        "tsc": "^1.20150623.0",
+        "typescript": "^3.1.3",
+        "yargs": "^15.3.1"
+    },
+    "prettier": {
+        "printWidth": 160,
+        "tabWidth": 4,
+        "arrowParens": "always",
+        "parser": "typescript"
+    }
+}

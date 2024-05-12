@@ -1,0 +1,96 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: import-genes-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: genes-importer
+        image: gcr.io/devenv-215523/genes-importer:${IMPORTER_VERSION}
+        imagePullPolicy: Always
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            sleep 2s
+            trap "touch /tmp/pod/terminated" EXIT
+            java -Xms256M -Xmx1G -jar /app/genes-importer.jar
+        resources:
+          requests:
+            memory: "512M"
+          limits:
+            memory: "1G"
+        env:
+          - name: JVM_OPTS
+            value: "-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+          - name: CAQTL_TYPE
+            value: neuron|glia
+          - name: CAQTL_URLS
+            value: https://downloads.wenglab.org/neuron_meta.tsv|https://downloads.wenglab.org/glia_meta.tsv
+          - name: QTLSIGASSOC_TYPE
+            value: eQTL|isoQTL|sQTL
+          - name: QTLSIGASSOC_URLS
+            value: https://downloads.wenglab.org/eQTL_sig_assoc_nominal.txt|https://downloads.wenglab.org/isoQTL_sig_assoc_nominal.txt|https://downloads.wenglab.org/sQTL_sig_assoc_nominal.txt
+          - name: DECONQTL_TYPE
+            value: "Astrocytes|Endothelial Cells|Excitatory Neurons|Inhibitory Neurons|Microglia|Oligodendrocytes|Oligodendrocyte Precursor Cells|Pericytes"
+          - name: DECONQTL_URLS
+            value: https://downloads.wenglab.org/Ast_deconeQTL_perm.tsv|https://downloads.wenglab.org/End_deconeQTL_perm.tsv|https://downloads.wenglab.org/Ex_deconeQTL_perm.tsv|https://downloads.wenglab.org/In_deconeQTL_perm.tsv|https://downloads.wenglab.org/Mic_deconeQTL_perm.tsv|https://downloads.wenglab.org/Oli_deconeQTL_perm.tsv|https://downloads.wenglab.org/Opc_deconeQTL_perm.tsv|https://downloads.wenglab.org/Per_deconeQTL_perm.tsv
+          - name: DEG_URLS
+            value: "https://downloads.wenglab.org/Age_DEGcombined.csv|https://downloads.wenglab.org/ASD_DEGcombined.csv|https://downloads.wenglab.org/Schizophrenia_DEGcombined.csv|https://downloads.wenglab.org/Bipolar_DEGcombined.csv"  
+          - name: PE_DATASETS
+            value: "SZBDMulti-Seq|CMC|LIBD|IsoHuB|UCLA-ASD|MultiomeBrain-DLPFC|DevBrain-snRNAseq|PTSDBrainomics"
+          - name: PE_DATASET_PCTEXP_BYCT_URL
+            value: "https://downloads.wenglab.org/psychscreen/SZBDMulti-Seq_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/CMC_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/LIBD_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/IsoHuB_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/UCLA-ASD_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/MultiomeBrain-DLPFC_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/DevBrain-snRNAseq_percentexpressed_bycelltype.txt|https://downloads.wenglab.org/psychscreen/PTSDBrainomics_percentexpressed_bycelltype.txt"    
+          - name: PE_DATASET_PCTEXP_BYSC_URL            
+            value: "https://downloads.wenglab.org/psychscreen/SZBDMulti-Seq_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/CMC_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/LIBD_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/IsoHuB_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/UCLA-ASD_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/MultiomeBrain-DLPFC_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/DevBrain-snRNAseq_percentexpressed_bysubclass.txt|https://downloads.wenglab.org/psychscreen/PTSDBrainomics_percentexpressed_bysubclass.txt"    
+          - name: PE_DATASET_AVGEXP_BYSC_URL
+            value: "https://downloads.wenglab.org/psychscreen/SZBDMulti-Seq_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/CMC_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/LIBD_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/IsoHuB_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/UCLA-ASD_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/MultiomeBrain-DLPFC_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/DevBrain-snRNAseq_avgexpression_bysubclass.txt|https://downloads.wenglab.org/psychscreen/PTSDBrainomics_avgexpression_bysubclass.txt"            
+          - name: PE_DATASET_AVGEXP_BYCT_URL
+            value: "https://downloads.wenglab.org/psychscreen/SZBDMulti-Seq_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/CMC_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/LIBD_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/IsoHuB_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/UCLA-ASD_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/MultiomeBrain-DLPFC_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/DevBrain-snRNAseq_avgexpression_bycelltype.txt|https://downloads.wenglab.org/psychscreen/PTSDBrainomics_avgexpression_bycelltype.txt"          
+          - name: ENCODE_METADATA_ASSEMBLIES
+            value: GRCh38|mm10
+          - name: ENCODE_QUANTIFICATION_ASSEMBLIES
+            value: GRCh38|mm10
+          - name: DB_SCHEMA
+            value: "${DB_SCHEMA}"
+          - name: DB_URL
+            value: "jdbc:postgresql://127.0.0.1:5432/genes-db"
+          - name: DB_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: username
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: genes-db-credentials
+                key: password
+        volumeMounts:
+          - name: tmp-pod
+            mountPath: /tmp/pod
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            /cloud_sql_proxy -instances=devenv-215523:us-east1:genes-instance=tcp:5432 -credential_file=/secrets/cloudsql/staging-service-account.json & CHILD_PID=$!
+            (while true; do if [[ -f "/tmp/pod/terminated" ]]; then kill $CHILD_PID; echo "Killed $CHILD_PID because the main container terminated."; fi; sleep 1; done) &
+            wait $CHILD_PID
+            if [[ -f "/tmp/pod/terminated" ]]; then exit 0; echo "Job completed. Exiting..."; fi
+        securityContext:
+          runAsUser: 2  # non-root user
+          allowPrivilegeEscalation: false
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+          - name: tmp-pod
+            mountPath: /tmp/pod
+            readOnly: true
+      volumes:
+        - name: service-account-key
+          secret:
+            secretName: service-account-key
+        - name: tmp-pod
+          emptyDir: {}
+      restartPolicy: Never
