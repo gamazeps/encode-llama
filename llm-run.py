@@ -10,12 +10,19 @@ import traceback
 
 import requests
 import json
+import pickle
 
-import gtfparse
-import pandas as pd
 
-gencode = gtfparse.read_gtf('data/gencode.v40.annotation.gtf')
-gencode = gencode.to_pandas()
+try:
+    with open('data/gencode.v40.annotation.pickle', 'rb') as f:
+        gencode = pickle.load(f)
+except:
+    import gtfparse
+    import pandas as pd
+
+    gencode = gtfparse.read_gtf('data/gencode.v40.annotation.gtf')
+    gencode = gencode.to_pandas()
+    gencode.to_pickle('data/gencode.v40.annotation.pickle')
 
 prompt = ("""
 You are a helpful DNA assistant to 'User'. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'. 'System' will give you data. Do not respond as 'System'. Always explain why you do what you do with lines starting with 'Thoughts:'.
