@@ -1,0 +1,41 @@
+{
+  "name": "signal-service",
+  "version": "1.2.10",
+  "description": "Service that handles retrieving signal and peak data from BigWig and BigBed files",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest",
+    "debug": "node --inspect dist/server.js",
+    "prettier": "prettier --write ./src/**/*.ts",
+    "precommit": "yarn prettier"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.12.1",
+    "apollo-server-express": "^2.14.2",
+    "genomic-reader": "1.4.9",
+    "express": "^4.16.3",
+    "graphql": "^14.3.1",
+    "bigwig-reader-gcp": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/graphql": "^14.3.1",
+    "@types/jest": "^26.0.5",
+    "@types/supertest": "^2.0.6",
+    "jest": "^26.0.5",
+    "prettier": "1.14.2",
+    "supertest": "^3.3.0",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "prettier": {
+    "printWidth": 160,
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "parser": "typescript"
+  }
+}
