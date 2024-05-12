@@ -35,12 +35,13 @@ You always output a JSON, and nothing else. This will allow you to call various 
 """
 - search_genes_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_genes_by_name","query":"MT-TP","fields":["hgcn_id","gene_id","transcript_id"]}
 - search_genes_by_transcript_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_genes_by_transcript_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
+- count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "type":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "type":"start_codon"}
 - say: Say something to the user. Example: {"function":"say","message":"Hello world"}
 """ +
 
 # df['feature'].unique()
 """
-The features you can access for a gene are:
+The features you can access for a gene are [1]:
 - 'gene'
 - 'transcript'
 - 'exon'
@@ -118,6 +119,9 @@ start/end represents the position of the sequence in the chromesome
 strand contains the direction (LTR/RTL) of the gene
 exon_number is an id of the exon within a gene
 
+Mistakes are perfectly normal and expected.
+If you made a mistake, understand which mistake you made. And then try to fix it. Remember to explain your mistakes in Thoughts:
+
 Here is one example of interaction:
 User: What are the transcripts for the MT-TP gene ?
 Thoughts: Okay the user mention the MT-TP gene, I'll look for that gene name. They want the transcripts, so I'll just select that field in the database.
@@ -144,6 +148,9 @@ def search(query_field, query, fields):
             o[f] = row[f]
         ret += [o]
 
+    ret_json = json.dumps(ret)
+    if len(ret_json) > 4000:
+        return "Result too big. Either call count, or do a better filter"
     return ret
 
 def search_genes_by_name(query, fields):
@@ -152,7 +159,31 @@ def search_genes_by_name(query, fields):
 def search_genes_by_transcript_id(query, fields):
     return search('transcript_id', query, fields)
 
+def count_of_type(t, transcript_id, gene_name):
+    global gencode
+    lines = gencode
+    if transcript_id is not None:
+        lines  = lines[lines['transcript_id'] == transcript_id]
+    if gene_name is not None:
+        lines  = lines[lines['gene_name'] == gene_name]
+    key = None
+    if t == 'exon':
+        key = 'exon_id'
+    if t == 'start_codon' or t == "end_codon" or t == "CDS":
+        key = 'start'
+    features = lines['feature'].unique()
+    if not t in features:
+        if'codon' in t:
+            return f"This feature '{t}' doesn't exist. Did you mean start_codon?"
+        return f"This kind of feature '{t}' doesn't exist"
+    lines = lines[lines['feature'] == t]
+    if key is None:
+        return len(lines)
+    return len(lines[key].unique())
+
 max_tokens = 512
+# Launching vllm on RTX3090 with
+# python -m vllm.entrypoints.openai.api_server --model microsoft/Phi-3-mini-128k-instruct --dtype auto --trust-remote-code --gpu-memory-utilization 0.85 --max-model-len 25000
 def vllm_complete(txt):
     data = {
         'model': 'microsoft/Phi-3-mini-128k-instruct',
@@ -252,6 +283,19 @@ while True:
         answer = search_genes_by_name(nextCall['query'], nextCall['fields'])
     elif function == 'search_genes_by_transcript_id':
         answer = search_genes_by_transcript_id(nextCall['query'], nextCall['fields'])
+    elif function == 'count_of_type':
+        transcript_id = None
+        gene_name = None
+        wrong_keys = [key for key in nextCall.keys() if key not in {"transcript_id", "gene_name", "function", "type"}]
+        if wrong_keys:
+            answer = f"Unexpected keys {wrong_keys}"
+        else:
+            if 'transcript_id' in nextCall:
+                transcript_id = nextCall['transcript_id']
+            if 'gene_name' in nextCall:
+                gene_name = nextCall['gene_name']
+            t = nextCall['type']
+            answer = count_of_type(t, transcript_id, gene_name)
     # Currently not declared in the prompt
     elif function == 'end':
         finished = True
