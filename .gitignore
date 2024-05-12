@@ -1,0 +1,9 @@
+tokens/*
+
+data/*
+dataset/*
+
+venv/*
+
+*.swp
+.ipynb_checkpoints/*
