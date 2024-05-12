@@ -1,0 +1,291 @@
+{
+  "@graph": [
+    {
+      "replicates": [
+        {
+          "technical_replicate_number": 1,
+          "@id": "/replicates/c4ff7694-635b-45e5-a41e-f2e40c6605f7/",
+          "biological_replicate_number": 1,
+          "library": {
+            "biosample": {
+              "age_units": "year",
+              "accession": "ENCBS546VBU",
+              "age": "69",
+              "organism": {
+                "scientific_name": "Homo sapiens"
+              },
+              "life_stage": "adult"
+            }
+          }
+        }
+      ],
+      "status": "released",
+      "award": {
+        "project": "ENCODE"
+      },
+      "assay_title": "ChIP-seq",
+      "files": [
+        {
+          "@id": "/files/ENCFF072FYB/"
+        },
+        {
+          "@id": "/files/ENCFF210JBU/"
+        },
+        {
+          "@id": "/files/ENCFF455SPG/"
+        },
+        {
+          "@id": "/files/ENCFF183XMB/"
+        },
+        {
+          "@id": "/files/ENCFF627XQE/"
+        }
+      ],
+      "assay_term_name": "ChIP-seq",
+      "@type": [
+        "Experiment",
+        "Dataset",
+        "Item"
+      ],
+      "@id": "/experiments/ENCSR838ZOW/",
+      "target": {
+        "label": "Control"
+      },
+      "audit": {
+        "INTERNAL_ACTION": [
+          {
+            "level_name": "INTERNAL_ACTION",
+            "category": "insufficient read depth for broad peaks control",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR838ZOW/",
+            "level": 30,
+            "detail": "Control alignments file /files/ENCFF183XMB/ mapped using GRCh38 assembly has 24847012 usable fragments. The minimum ENCODE standard for a control of ChIP-seq assays targeting broad histone marks is 20 million usable fragments, the recommended number of usable fragments is > 45 million. (See /data-standards/chip-seq/ )"
+          },
+          {
+            "level_name": "INTERNAL_ACTION",
+            "category": "insufficient read depth for broad peaks control",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR838ZOW/",
+            "level": 30,
+            "detail": "Control alignments file /files/ENCFF455SPG/ mapped using hg19 assembly has 24850139 usable fragments. The minimum ENCODE standard for a control of ChIP-seq assays targeting broad histone marks is 20 million usable fragments, the recommended number of usable fragments is > 45 million. (See /data-standards/chip-seq/ )"
+          }
+        ]
+      },
+      "lab": {
+        "title": "Richard Myers, HAIB"
+      },
+      "description": "Chip-Seq on MCF7-human (fragmentation date:2014-10-03",
+      "accession": "ENCSR838ZOW",
+      "biosample_summary": "MCF-7",
+      "biosample_term_name": "MCF-7"
+    },
+    {
+      "replicates": [
+        {
+          "antibody": {
+            "accession": "ENCAB360BDG"
+          },
+          "technical_replicate_number": 1,
+          "@id": "/replicates/b30a521e-a32a-4be9-9502-636dafb5a35a/",
+          "biological_replicate_number": 1,
+          "library": {
+            "biosample": {
+              "age_units": "year",
+              "accession": "ENCBS401SWW",
+              "age": "54",
+              "organism": {
+                "scientific_name": "Homo sapiens"
+              },
+              "life_stage": "adult"
+            }
+          }
+        },
+        {
+          "antibody": {
+            "accession": "ENCAB000ADU"
+          },
+          "technical_replicate_number": 2,
+          "@id": "/replicates/b8722c9f-9e2c-4167-879d-e2d3f2b1ffaa/",
+          "biological_replicate_number": 1,
+          "library": {
+            "biosample": {
+              "age_units": "year",
+              "accession": "ENCBS401SWW",
+              "age": "54",
+              "organism": {
+                "scientific_name": "Homo sapiens"
+              },
+              "life_stage": "adult"
+            }
+          }
+        }
+      ],
+      "status": "released",
+      "award": {
+        "project": "ENCODE"
+      },
+      "assay_title": "ChIP-seq",
+      "files": [
+        {
+          "@id": "/files/ENCFF727GKJ/"
+        },
+        {
+          "@id": "/files/ENCFF981EZJ/"
+        },
+        {
+          "@id": "/files/ENCFF840WGB/"
+        },
+        {
+          "@id": "/files/ENCFF222RAW/"
+        },
+        {
+          "@id": "/files/ENCFF916CFG/"
+        },
+        {
+          "@id": "/files/ENCFF572VAG/"
+        },
+        {
+          "@id": "/files/ENCFF072NME/"
+        },
+        {
+          "@id": "/files/ENCFF618TXP/"
+        },
+        {
+          "@id": "/files/ENCFF797GYF/"
+        },
+        {
+          "@id": "/files/ENCFF676BFX/"
+        },
+        {
+          "@id": "/files/ENCFF999BVE/"
+        },
+        {
+          "@id": "/files/ENCFF465XHG/"
+        },
+        {
+          "@id": "/files/ENCFF444AOJ/"
+        },
+        {
+          "@id": "/files/ENCFF899GXZ/"
+        },
+        {
+          "@id": "/files/ENCFF996WQO/"
+        },
+        {
+          "@id": "/files/ENCFF103XCQ/"
+        },
+        {
+          "@id": "/files/ENCFF760VLI/"
+        },
+        {
+          "@id": "/files/ENCFF790FFC/"
+        },
+        {
+          "@id": "/files/ENCFF657HPN/"
+        },
+        {
+          "@id": "/files/ENCFF023TUA/"
+        }
+      ],
+      "assay_term_name": "ChIP-seq",
+      "lab": {
+        "title": "Bradley Bernstein, Broad"
+      },
+      "@id": "/experiments/ENCSR229GEL/",
+      "target": {
+        "label": "H3K36me3",
+        "genes": [
+          {
+            "symbol": "HIST2H3A"
+          },
+          {
+            "symbol": "HIST2H3D"
+          },
+          {
+            "symbol": "HIST2H3C"
+          }
+        ]
+      },
+      "audit": {
+        "WARNING": [
+          {
+            "level_name": "WARNING",
+            "category": "moderate library complexity",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR229GEL/",
+            "level": 40,
+            "detail": "NRF (Non Redundant Fraction) is equal to the result of the division of the number of reads after duplicates removal by the total number of reads. An NRF value in the range 0 - 0.5 is poor complexity, 0.5 - 0.8 is moderate complexity, and > 0.8 high complexity. NRF value > 0.8 is recommended, but > 0.5 is acceptable. ENCODE processed alignments file /files/ENCFF222RAW/ was generated from a library with NRF value of 0.54."
+          }
+        ],
+        "NOT_COMPLIANT": [
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "severe bottlenecking",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR229GEL/",
+            "level": 50,
+            "detail": "PBC1 (PCR Bottlenecking Coefficient 1, M1/M_distinct) is the ratio of the number of genomic locations where exactly one read maps uniquely (M1) to the number of genomic locations where some reads map (M_distinct). A PBC1 value in the range 0 - 0.5 is severe bottlenecking, 0.5 - 0.8 is moderate bottlenecking, 0.8 - 0.9 is mild bottlenecking, and > 0.9 is no bottlenecking. PBC1 value > 0.9 is recommended, but > 0.8 is acceptable. ENCODE processed alignments file /files/ENCFF222RAW/ was generated from a library with PBC1 value of 0.22."
+          },
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "severe bottlenecking",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR229GEL/",
+            "level": 50,
+            "detail": "PBC2 (PCR Bottlenecking Coefficient 2, M1/M2) is the ratio of the number of genomic locations where exactly one read maps uniquely (M1) to the number of genomic locations where two reads map uniquely (M2). A PBC2 value in the range 0 - 1 is severe bottlenecking, 1 - 3 is moderate bottlenecking, 3 - 10 is mild bottlenecking, > 10 is no bottlenecking. PBC2 value > 10 is recommended, but > 3 is acceptable. ENCODE processed alignments file /files/ENCFF222RAW/ was generated from a library with PBC2 value of 0.29."
+          },
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "missing controlled_by",
+            "name": "audit_file",
+            "path": "/files/ENCFF023TUA/",
+            "level": 50,
+            "detail": "controlled_by is a list of files that are used as controls for a given experimental file. Fastq files generated in a ChIP-seq assay require the specification of control fastq file(s) in the controlled_by list. Fastq file /files/ENCFF023TUA/ is missing the requisite file specification in controlled_by list."
+          },
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "missing controlled_by",
+            "name": "audit_file",
+            "path": "/files/ENCFF657HPN/",
+            "level": 50,
+            "detail": "controlled_by is a list of files that are used as controls for a given experimental file. Fastq files generated in a ChIP-seq assay require the specification of control fastq file(s) in the controlled_by list. Fastq file /files/ENCFF657HPN/ is missing the requisite file specification in controlled_by list."
+          },
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "missing controlled_by",
+            "name": "audit_file",
+            "path": "/files/ENCFF790FFC/",
+            "level": 50,
+            "detail": "controlled_by is a list of files that are used as controls for a given experimental file. Fastq files generated in a ChIP-seq assay require the specification of control fastq file(s) in the controlled_by list. Fastq file /files/ENCFF790FFC/ is missing the requisite file specification in controlled_by list."
+          },
+          {
+            "level_name": "NOT_COMPLIANT",
+            "category": "missing controlled_by",
+            "name": "audit_file",
+            "path": "/files/ENCFF760VLI/",
+            "level": 50,
+            "detail": "controlled_by is a list of files that are used as controls for a given experimental file. Fastq files generated in a ChIP-seq assay require the specification of control fastq file(s) in the controlled_by list. Fastq file /files/ENCFF760VLI/ is missing the requisite file specification in controlled_by list."
+          }
+        ],
+        "INTERNAL_ACTION": [
+          {
+            "level_name": "INTERNAL_ACTION",
+            "category": "experiment not submitted to GEO",
+            "name": "audit_experiment",
+            "path": "/experiments/ENCSR229GEL/",
+            "level": 30,
+            "detail": "Experiment /experiments/ENCSR229GEL/ is released, but is not submitted to GEO."
+          }
+        ]
+      },
+      "@type": [
+        "Experiment",
+        "Dataset",
+        "Item"
+      ],
+      "accession": "ENCSR229GEL",
+      "biosample_summary": "upper lobe of left lung male adult (54 years)",
+      "biosample_term_name": "upper lobe of left lung"
+    }
+  ]
+}

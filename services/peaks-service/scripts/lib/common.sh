@@ -1,0 +1,6 @@
+#!/bin/bash
+GCR_PROJECT_ID=devenv-215523
+SERVICE_DOCKER_IMAGE_NAME=peaks-service
+IMPORTER_DOCKER_IMAGE_NAME=peaks-importer
+KUBE_DEPLOYMENT_NAME=peaks-service-deployment
+KUBE_DEPLOYMENT_CONTAINER_NAME=peaks-service
