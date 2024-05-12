@@ -1,0 +1,57 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: import-factor-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: factor-importer
+        image: gcr.io/devenv-215523/factor-importer:${IMPORTER_VERSION}
+        imagePullPolicy: Always
+        command: ["java", "-Xms256M", "-Xmx1G", "-jar", "/app/factor-importer.jar"]
+        resources:
+          requests:
+            memory: "512M"
+          limits:
+            memory: "1G"
+        env:
+          - name: JVM_OPTS
+            value: "-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+          - name: GFF3_FTP_URLS
+            value: GRCh38;ftp://anonymous@ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.annotation.gff3.gz|mm10;ftp://anonymous@ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/gencode.vM23.annotation.gff3.gz
+          - name: REPLACE_SCHEMA
+            value: "true"
+          - name: DB_SCHEMA
+            value: "${DB_SCHEMA}"
+          - name: DB_URL
+            value: "jdbc:postgresql://127.0.0.1:5432/factor-db"
+          - name: TEST_ENV
+            value: "jdbc:postgresql://127.0.0.1:5432/factor-db"
+          - name: DB_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: factor-db-credentials
+                key: username
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: factor-db-credentials
+                key: password
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/cloud_sql_proxy",
+                  "-instances=devenv-215523:us-east1:annotations-instance=tcp:5432",
+                  "-credential_file=/secrets/cloudsql/staging-service-account.json"]
+        securityContext:
+          runAsUser: 2  # non-root user
+          allowPrivilegeEscalation: false
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+      volumes:
+        - name: service-account-key
+          secret:
+            secretName: service-account-key
+      restartPolicy: Never
