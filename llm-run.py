@@ -12,7 +12,6 @@ import requests
 import json
 import pickle
 
-
 try:
     with open('data/gencode.v40.annotation.pickle', 'rb') as f:
         gencode = pickle.load(f)
@@ -110,46 +109,42 @@ The available types of genes are:
 
 """ +
 
-# Note: exon_number has been renamed to exon_id
 """
 
 A given line in the database contain the followwing columns:
-'seqname' 'source' 'feature' 'start' 'end' 'score' 'strand' 'frame' 'gene_id' 'gene_type' 'gene_name' 'level' 'hgnc_id' 'havana_gene' 'transcript_id' 'transcript_type' 'transcript_name' 'transcript_support_level' 'tag' 'havana_transcript' 'exon_id' 'exon_id' 'ont' 'protein_id' 'ccdsid'
+'seqname' 'source' 'feature' 'start' 'end' 'score' 'strand' 'frame' 'gene_id' 'gene_type' 'gene_name' 'level' 'hgnc_id' 'havana_gene' 'transcript_id' 'transcript_type' 'transcript_name' 'transcript_support_level' 'tag' 'havana_transcript' 'exon_number' 'exon_id' 'ont' 'protein_id' 'ccdsid'
 
 start/end represents the position of the sequence in the chromesome
 strand contains the direction (LTR/RTL) of the gene
+exon_number is an id of the exon within a gene
 
 Here is one example of interaction:
 User: What are the transcripts for the MT-TP gene ?
 Thoughts: Okay the user mention the MT-TP gene, I'll look for that gene name. They want the transcripts, so I'll just select that field in the database.
-Assistant: {"function","search_genes_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"]}
+Assistant: {"function":"search_genes_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"]}
 System: [{"feature":"exon","transcript_id":"ENST00000387461.2", "transcript_name":"MT-TP-201"}, {"feature":"transcript""transcript_id":"ENST00000387461.2", "transcript_name":"MT-TP-201"}]
 Assistant: {"function":"say","message":"There is one transcript for MT-TP: ENST00000387461.2 called MT-TP-201"}
 
 Here is another example of interaction
 User: What is the name of the gene associated with transcript ENST00000450305.2
 Thoughts: Okay, I just need to grab the gene_name, for gene with transcript_id ENST00000450305.2
-Assistant: {"function":"search_genes_by_transcript_id","query":"ENST00000450305.2","fields":"gene_name"}
+Assistant: {"function":"search_genes_by_transcript_id","query":"ENST00000450305.2","fields":["gene_name"]}
 System: [{"gene_name":"DDX11L1.2","repeated":7}]
-Assistant: {"function":"say","The name of the gene for that transcript is DDX11L1"}
+Assistant: {"function":"say","message":"The name of the gene for that transcript is DDX11L1"}
 
 """)
 
 def search(query_field, query, fields):
     global gencode
     lines = gencode[gencode[query_field] == query]
-    objs = {}
-    for line in lines:
+    ret = []
+    for index, row in lines.iterrows():
         o = {}
         for f in fields:
-            o[f] = lines[f]
-        if o in objs:
-            if 'repeated' in objs[o]:
-                objs[o]['repeated'] += 1
-            else:
-                objs[o]['repeated'] = 2
+            o[f] = row[f]
+        ret += [o]
 
-    return list(objs)
+    return ret
 
 def search_genes_by_name(query, fields):
     return search('gene_name', query, fields)
@@ -163,7 +158,7 @@ def vllm_complete(txt):
         'model': 'microsoft/Phi-3-mini-128k-instruct',
         'prompt': prompt,
         'max_tokens': max_tokens,
-        'temperature': 0.35,
+        'temperature': 0.20,
     }
 
     headers = {'Content-Type': 'application/json'}
@@ -173,8 +168,8 @@ def vllm_complete(txt):
 
 def togetherxyz_complete(txt):
     data = {
-        'model': 'meta-llama/Llama-3-70b-chat-hf',
-        #'model': 'meta-llama/Llama-3-8b-chat-hf',
+        #'model': 'meta-llama/Llama-3-70b-chat-hf',
+        'model': 'meta-llama/Llama-3-8b-chat-hf',
         'max_tokens': max_tokens,
         'stream_tokens': False,
         "stop": ["</s>", "[/INST]"],
@@ -219,6 +214,7 @@ while True:
     answer = None
     nextCall = None
     skip =  False
+    finished = False
     while len(lines) > 0:
         line = lines.pop(0)
         print("RX: " + line)
