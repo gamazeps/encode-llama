@@ -1,0 +1,95 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: encode-ccre-service-deployment
+  labels:
+    app: encode-ccre-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: encode-ccre-service
+  template:
+    metadata:
+      labels:
+        app: encode-ccre-service
+    spec:
+      containers:
+      - name: ccre-service
+        image: gcr.io/devenv-215523/ccres-service:${SERVICE_VERSION}
+        env:
+          - name: POSTGRES_SCHEMA
+            value: "${DB_SCHEMA}"
+          - name: MATRICES
+            value: "grch38=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.1.npy|mm10=http://gcp.wenglab.org/rDHS-V3-g/mm10.1.npy"
+          - name: PCA_MATRICES
+            value: "grch38=dnase=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.DNase.npy=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.elements.DNase.npy|grch38=h3k4me3=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.H3K4me3.npy=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.elements.H3K4me3.npy|grch38=h3k27ac=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.H3K27ac.npy=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.elements.H3K27ac.npy|grch38=ctcf=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.CTCF.npy=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.pca.elements.CTCF.npy|mm10=dnase=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.DNase.npy=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.elements.DNase.npy|mm10=h3k4me3=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.H3K4me3.npy=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.elements.H3K4me3.npy|mm10=h3k27ac=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.H3K27ac.npy=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.elements.H3K27ac.npy|mm10=ctcf=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.CTCF.npy=http://gcp.wenglab.org/rDHS-V3-g/mm10.pca.elements.CTCF.npy"
+          - name: UMAP_MATRICES
+            value: "grch38=dnase=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.umap.DNase.npy|grch38=h3k4me3=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.umap.H3K4me3.npy|grch38=h3k27ac=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.umap.H3K27ac.npy|grch38=ctcf=http://gcp.wenglab.org/rDHS-V3-g/GRCh38.umap.CTCF.npy|mm10=dnase=http://gcp.wenglab.org/rDHS-V3-g/mm10.umap.DNase.npy|mm10=h3k4me3=http://gcp.wenglab.org/rDHS-V3-g/mm10.umap.H3K4me3.npy|mm10=h3k27ac=http://gcp.wenglab.org/rDHS-V3-g/mm10.umap.H3K27ac.npy|mm10=ctcf=http://gcp.wenglab.org/rDHS-V3-g/mm10.umap.CTCF.npy"
+          - name: GTEX_DECORATIONS
+            value: "grch38=http://gcp.wenglab.org/cCRE_dec.V3.matrix"
+          - name: LDR_STUDIES
+            value: http://gcp.wenglab.org/V3/ldr-20220131/studies.txt
+          - name: LDR_BIOSAMPLES
+            value: http://gcp.wenglab.org/V3/ldr-20220131/biosamples.txt
+          - name: LDR_MATRIX
+            value: http://gcp.wenglab.org/V3/ldr-20220131/GWAS.npy
+          - name: SEQUENCE_READERS
+            value: grch38=http://gcp.wenglab.org/hg38.2bit|mm10=http://gcp.wenglab.org/mm10.2bit
+          - name: POSTGRES_USER
+            valueFrom:
+              secretKeyRef:
+                name: ccre-db-credentials
+                key: username
+          - name: POSTGRES_PASS
+            valueFrom:
+              secretKeyRef:
+                name: ccre-db-credentials
+                key: password
+          - name: POSTGRES_DB
+            value: "ccres-db"
+        ports:
+        - containerPort: 3000
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Gi
+          limits:
+            memory: 100Gi
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/cloud_sql_proxy",
+                  "-instances=devenv-215523:us-east1:peak-instance=tcp:5432",
+                  "-credential_file=/secrets/cloudsql/staging-service-account.json"]
+        securityContext:
+          runAsUser: 2  # non-root user
+          allowPrivilegeEscalation: false
+        volumeMounts:
+          - name: service-account-key
+            mountPath: /secrets/cloudsql
+            readOnly: true
+      volumes:
+        - name: service-account-key
+          secret:
+            secretName: service-account-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: encode-ccre-service-service
+  labels:
+    app: encode-ccre-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 3000
+  selector:
+    app: encode-ccre-service

@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS grch38_mm10_ortholog (
+    grch38 TEXT NOT NULL,
+    mm10 TEXT NOT NULL
+);

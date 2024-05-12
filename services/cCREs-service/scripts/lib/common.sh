@@ -1,0 +1,6 @@
+#!/bin/bash
+GCR_PROJECT_ID=devenv-215523
+SERVICE_DOCKER_IMAGE_NAME=ccres-service
+IMPORTER_DOCKER_IMAGE_NAME=ccres-importer
+KUBE_DEPLOYMENT_NAME=ccre-service-deployment
+KUBE_DEPLOYMENT_CONTAINER_NAME=ccre-service
