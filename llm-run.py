@@ -218,8 +218,6 @@ def togetherxyz_complete(txt, max_tokens, api_key):
     if response.status_code != 200:
         print("Failed infering", response.text)
         return "Error"
-    # Wait one second after the request to avoid being rate limited
-    time.sleep(1)
     return json.loads(response.text)['output']['choices'][0]['text']
 
 
