@@ -12,16 +12,15 @@ import requests
 import json
 import pickle
 
-try:
-    with open('data/gencode.v40.annotation.pickle', 'rb') as f:
-        gencode = pickle.load(f)
-except:
-    import gtfparse
-    import pandas as pd
+from absl import app
+from absl import flags
 
-    gencode = gtfparse.read_gtf('data/gencode.v40.annotation.gtf')
-    gencode = gencode.to_pandas()
-    gencode.to_pickle('data/gencode.v40.annotation.pickle')
+FLAGS = flags.FLAGS
+flags.DEFINE_enum('backend', 'vllm', ['vllm', 'togetherXYZ'], 'Provider for the LLM API')
+flags.DEFINE_integer('max_tokens', 512,
+                     'Maximum number of tokens the model should generate per query')
+flags.DEFINE_string('query', None, 'User query')
+flags.DEFINE_enum('debug', 'high', ['high', 'low'], 'Should we display API queries')
 
 prompt = ("""
 You are a helpful DNA assistant to 'User'. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'. 'System' will give you data. Do not respond as 'System'. Always explain why you do what you do with lines starting with 'Thoughts:'.
@@ -62,7 +61,7 @@ You have two dataset in this database: HAVANA and ENSEMBL.
 """
 You have access to all chromosomes from 1 to 22, then X/Y chromosomes, and M for mitochondrial DNA. They are named chr1, ... chr22, chrX, chrX, chrM
 
-""" + 
+""" +
 
 # df['gene_type'].unique()
 """
@@ -138,6 +137,7 @@ Assistant: {"function":"say","message":"The name of the gene for that transcript
 
 """)
 
+
 def search(query_field, query, fields):
     global gencode
     lines = gencode[gencode[query_field] == query]
@@ -153,11 +153,14 @@ def search(query_field, query, fields):
         return "Result too big. Either call count, or do a better filter"
     return ret
 
+
 def search_genes_by_name(query, fields):
     return search('gene_name', query, fields)
 
+
 def search_genes_by_transcript_id(query, fields):
     return search('transcript_id', query, fields)
+
 
 def count_of_type(t, transcript_id, gene_name):
     global gencode
@@ -181,10 +184,10 @@ def count_of_type(t, transcript_id, gene_name):
         return len(lines)
     return len(lines[key].unique())
 
-max_tokens = 512
+
 # Launching vllm on RTX3090 with
 # python -m vllm.entrypoints.openai.api_server --model microsoft/Phi-3-mini-128k-instruct --dtype auto --trust-remote-code --gpu-memory-utilization 0.85 --max-model-len 25000
-def vllm_complete(txt):
+def vllm_complete(txt, max_tokens):
     data = {
         'model': 'microsoft/Phi-3-mini-128k-instruct',
         'prompt': prompt,
@@ -197,9 +200,10 @@ def vllm_complete(txt):
     response = requests.post('http://phh-abiko.local:8000/v1/completions', data=json.dumps(data), headers=headers)
     return json.loads(response.text)['choices'][0]['text']
 
-def togetherxyz_complete(txt):
+
+# You may need to create an account on https://api.together.ai/, and copy your API key in tokens/together
+def togetherxyz_complete(txt, max_tokens, api_key):
     data = {
-        #'model': 'meta-llama/Llama-3-70b-chat-hf',
         'model': 'meta-llama/Llama-3-8b-chat-hf',
         'max_tokens': max_tokens,
         'stream_tokens': False,
@@ -207,7 +211,7 @@ def togetherxyz_complete(txt):
         'temperature': 0.35,
     }
 
-    headers = {'Content-Type': 'application/json', "Authorization": "Bearer " + TogetherXYZ}
+    headers = {'Content-Type': 'application/json', "Authorization": f'Bearer {api_key}'}
     data['prompt'] = prompt + txt
     response = requests.post('https://api.together.xyz/inference', data=json.dumps(data), headers=headers)
     if response.status_code != 200:
@@ -215,107 +219,133 @@ def togetherxyz_complete(txt):
         return "Error"
     # Wait one second after the request to avoid being rate limited
     time.sleep(1)
-    # print(response.text)
     return json.loads(response.text)['output']['choices'][0]['text']
 
 
+try:
+    with open('data/gencode.v40.annotation.pickle', 'rb') as f:
+        gencode = pickle.load(f)
+except:
+    import gtfparse
+    import pandas as pd
+
+    gencode = gtfparse.read_gtf('data/gencode.v40.annotation.gtf')
+    gencode = gencode.to_pandas()
+    gencode.to_pickle('data/gencode.v40.annotation.pickle')
+
+
+
 # Create a function that continues the request and make "prompt" bigger to retain context
-def continue_prompt():
-    global discussion
-    #content = llamacpp_complete(discussion)
-    #content = mistral_complete(discussion)
-    #content = togetherxyz_complete(discussion)
-    content = vllm_complete(discussion)
-    # print(content)
+def continue_prompt(discussion, backend, max_tokens=512):
+    if backend == 'togetherXYZ':
+        # would need to have a lambda that would be cleaner
+        with open('tokens/together', 'r') as f:
+            api_key = f.readline().strip()
+        content = togetherxyz_complete(discussion, max_tokens, api_key)
+    elif backend == 'vllm':
+        content = vllm_complete(discussion, max_tokens)
+    else:
+        raise ValueError(f'{backend} is not in the list of supported backends')
+
     okay_lines = [line for line in content.split("\n") if
                   line.startswith('Assistant:') or line.startswith('Thoughts:') or line.startswith('System:')]
     return okay_lines
 
-discussion = ""
-if len(sys.argv) > 1:
-    if sys.argv[1] == "ask":
-        discussion += f"User: {sys.argv[2]}\n"
 
-if len(discussion) == 0:
-    discussion += "User: how many exons does transcript ENST00000684350.1 have\n"
+def main(argv):
+    del argv  # Unused.
 
-lines = []
-lines += continue_prompt()
-while True:
-    answer = None
-    nextCall = None
-    skip =  False
-    finished = False
-    while len(lines) > 0:
-        line = lines.pop(0)
-        print("RX: " + line)
-        # Model is trying to predict the future, ignore
-        if line.startswith("System:"):
-            lines = []
-            skip = True
-            break
-
-        discussion += line + "\n"
-        if line.startswith("Assistant:"):
-            l = line[len("Assistant:"):]
-            # Sometimes the APIs send the final </s> tag, sometimes they don't
-            # Remove it if it does
-            if l.endswith("</s>"):
-                print("Removing leading </s>")
-                l = l[:-4]
-            nextCall = json.loads(l)
-            lines = []
-            break
-    if skip:
-        continue
-    if nextCall is None:
-        print("----- Failed")
-        print(discussion)
-        print("----- Failed")
-        sys.exit(1)
-
-    function = nextCall['function']
-    print(f"Calling function {function} {nextCall}")
-    if function == 'say':
-        print(f"Assistant says {nextCall['message']}")
-        finished = True
-    elif function == 'search_genes_by_name':
-        answer = search_genes_by_name(nextCall['query'], nextCall['fields'])
-    elif function == 'search_genes_by_transcript_id':
-        answer = search_genes_by_transcript_id(nextCall['query'], nextCall['fields'])
-    elif function == 'count_of_type':
-        transcript_id = None
-        gene_name = None
-        wrong_keys = [key for key in nextCall.keys() if key not in {"transcript_id", "gene_name", "function", "type"}]
-        if wrong_keys:
-            answer = f"Unexpected keys {wrong_keys}"
-        else:
-            if 'transcript_id' in nextCall:
-                transcript_id = nextCall['transcript_id']
-            if 'gene_name' in nextCall:
-                gene_name = nextCall['gene_name']
-            t = nextCall['type']
-            answer = count_of_type(t, transcript_id, gene_name)
-    # Currently not declared in the prompt
-    elif function == 'end':
-        finished = True
+    if FLAGS.query:
+        discussion = f"User: {FLAGS.query}\n"
     else:
-        exception = f"Function {function} not implemented"
-        print(exception)
-        print(discussion)
-        sys.exit(1)
-    if answer is not None:
-        print("TX:" + json.dumps(answer))
-        discussion += f"\nSystem: {json.dumps(answer)}\n"
+        discussion = "User: how many exons does transcript ENST00000684350.1 have\n"
 
-    # If there are no more commands, call continue_prompt to get new ones
-    if len(lines) == 0 and not finished:
-        lines += continue_prompt()
-    if finished:
-        break
+    lines = []
+    lines += continue_prompt(discussion, FLAGS.backend, FLAGS.max_tokens)
+    while True:
+        answer = None
+        nextCall = None
+        skip =  False
+        finished = False
+        while len(lines) > 0:
+            line = lines.pop(0)
+            if FLAGS.debug == 'high':
+                print("RX: " + line)
+            # Model is trying to predict the future, ignore
+            if line.startswith("System:"):
+                lines = []
+                skip = True
+                break
 
-# Dump the content of the discussion inside dataset/timestamp.txt
-with open(f"dataset/{int(time.time())}.txt", "w") as f:
-    f.write(discussion)
-print("--------------------------------")
-print(discussion)
+            discussion += line + "\n"
+            if line.startswith("Assistant:"):
+                l = line[len("Assistant:"):]
+                # Sometimes the APIs send the final </s> tag, sometimes they don't
+                # Remove it if it does
+                if l.endswith("</s>"):
+                    if FLAGS.debug == 'high':
+                        print("Removing leading </s>")
+                    l = l[:-4]
+                nextCall = json.loads(l)
+                lines = []
+                break
+        if skip:
+            continue
+        if nextCall is None:
+            print("----- Failed")
+            print(discussion)
+            print("----- Failed")
+            sys.exit(1)
+
+        function = nextCall['function']
+        if FLAGS.debug == 'high':
+            print(f"Calling function {function} {nextCall}")
+
+        if function == 'say':
+            print(f"Assistant says {nextCall['message']}")
+            finished = True
+        elif function == 'search_genes_by_name':
+            answer = search_genes_by_name(nextCall['query'], nextCall['fields'])
+        elif function == 'search_genes_by_transcript_id':
+            answer = search_genes_by_transcript_id(nextCall['query'], nextCall['fields'])
+        elif function == 'count_of_type':
+            transcript_id = None
+            gene_name = None
+            wrong_keys = [key for key in nextCall.keys() if key not in {"transcript_id", "gene_name", "function", "type"}]
+            if wrong_keys:
+                answer = f"Unexpected keys {wrong_keys}"
+            else:
+                if 'transcript_id' in nextCall:
+                    transcript_id = nextCall['transcript_id']
+                if 'gene_name' in nextCall:
+                    gene_name = nextCall['gene_name']
+                t = nextCall['type']
+                answer = count_of_type(t, transcript_id, gene_name)
+        # Currently not declared in the prompt
+        elif function == 'end':
+            finished = True
+        else:
+            exception = f"Function {function} not implemented"
+            print(exception)
+            print(discussion)
+            sys.exit(1)
+        if answer is not None:
+            if FLAGS.debug == 'high':
+                print("TX:" + json.dumps(answer))
+            discussion += f"\nSystem: {json.dumps(answer)}\n"
+
+        # If there are no more commands, call continue_prompt to get new ones
+        if len(lines) == 0 and not finished:
+            lines += continue_prompt(discussion, FLAGS.backend, FLAGS.max_tokens)
+        if finished:
+            break
+
+    # Dump the content of the discussion inside dataset/timestamp.txt
+    with open(f"dataset/{int(time.time())}.txt", "w") as f:
+        f.write(discussion)
+    print("--------------------------------")
+    print(discussion)
+
+
+if __name__ == '__main__':
+    app.run(main)
