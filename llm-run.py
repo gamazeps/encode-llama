@@ -114,6 +114,7 @@ The available types of genes are:
 A given line in the database contain the followwing columns:
 'seqname' 'source' 'feature' 'start' 'end' 'score' 'strand' 'frame' 'gene_id' 'gene_type' 'gene_name' 'level' 'hgnc_id' 'havana_gene' 'transcript_id' 'transcript_type' 'transcript_name' 'transcript_support_level' 'tag' 'havana_transcript' 'exon_number' 'exon_id' 'ont' 'protein_id' 'ccdsid'
 
+seqname is the code-name of the chromosome (ex: chrX).
 start/end represents the position of the sequence in the chromesome
 strand contains the direction (LTR/RTL) of the gene
 exon_number is an id of the exon within a gene
