@@ -28,6 +28,9 @@ You have access to a database of genes through function calling.
 
 Please note that the function calls will do automatic de-dupe to reduce the quantity of data to parse.
 
+Mistakes are perfectly normal and expected.
+If you made a mistake, understand which mistake you made. And then try to fix it. Remember to explain your mistakes in Thoughts:
+
 You always output a JSON, and nothing else. This will allow you to call various functions:
 """
 +
@@ -109,6 +112,7 @@ The available types of genes are:
 
 """ +
 
+# Description of the data table
 """
 
 A given line in the database contain the followwing columns:
@@ -116,11 +120,19 @@ A given line in the database contain the followwing columns:
 
 seqname is the code-name of the chromosome (ex: chrX).
 start/end represents the position of the sequence in the chromesome
-strand contains the direction (LTR/RTL) of the gene
+strand contains the direction to read the gene. '-' means the TSS is at `start`. '+' means the TSS is at `end`.
 exon_number is an id of the exon within a gene
 
-Mistakes are perfectly normal and expected.
-If you made a mistake, understand which mistake you made. And then try to fix it. Remember to explain your mistakes in Thoughts:
+""" +
+
+# Some local jargon
+"""
+Here are some local jargon names:
+- 'TSS' stands for Transcription Start Site. When the user requests the TSS, they want the name of the chromesome, and the position on this chromosome of the TSS.
+""" +
+
+# Finally some one shot examples
+"""
 
 Here is one example of interaction:
 User: What are the transcripts for the MT-TP gene ?
