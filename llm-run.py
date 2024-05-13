@@ -176,7 +176,7 @@ def count_of_type(t, transcript_id, gene_name):
         key = 'start'
     features = lines['feature'].unique()
     if not t in features:
-        if'codon' in t:
+        if 'codon' in t:
             return f"This feature '{t}' doesn't exist. Did you mean start_codon?"
         return f"This kind of feature '{t}' doesn't exist"
     lines = lines[lines['feature'] == t]
