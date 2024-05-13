@@ -32,8 +32,8 @@ You always output a JSON, and nothing else. This will allow you to call various 
 """
 +
 """
-- search_genes_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_genes_by_name","query":"MT-TP","fields":["hgcn_id","gene_id","transcript_id"]}
-- search_genes_by_transcript_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_genes_by_transcript_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
+- search_gene_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgcn_id","gene_id","transcript_id"]}
+- search_gene_by_transcript_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_transcript_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
 - count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "type":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "type":"start_codon"}
 - say: Say something to the user. Example: {"function":"say","message":"Hello world"}
 """ +
@@ -125,14 +125,14 @@ If you made a mistake, understand which mistake you made. And then try to fix it
 Here is one example of interaction:
 User: What are the transcripts for the MT-TP gene ?
 Thoughts: Okay the user mention the MT-TP gene, I'll look for that gene name. They want the transcripts, so I'll just select that field in the database.
-Assistant: {"function":"search_genes_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"]}
+Assistant: {"function":"search_gene_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"]}
 System: [{"feature":"exon","transcript_id":"ENST00000387461.2", "transcript_name":"MT-TP-201"}, {"feature":"transcript""transcript_id":"ENST00000387461.2", "transcript_name":"MT-TP-201"}]
 Assistant: {"function":"say","message":"There is one transcript for MT-TP: ENST00000387461.2 called MT-TP-201"}
 
 Here is another example of interaction
 User: What is the name of the gene associated with transcript ENST00000450305.2
 Thoughts: Okay, I just need to grab the gene_name, for gene with transcript_id ENST00000450305.2
-Assistant: {"function":"search_genes_by_transcript_id","query":"ENST00000450305.2","fields":["gene_name"]}
+Assistant: {"function":"search_gene_by_transcript_id","query":"ENST00000450305.2","fields":["gene_name"]}
 System: [{"gene_name":"DDX11L1.2","repeated":7}]
 Assistant: {"function":"say","message":"The name of the gene for that transcript is DDX11L1"}
 
@@ -155,11 +155,11 @@ def search(query_field, query, fields):
     return ret
 
 
-def search_genes_by_name(query, fields):
+def search_gene_by_name(query, fields):
     return search('gene_name', query, fields)
 
 
-def search_genes_by_transcript_id(query, fields):
+def search_gene_by_transcript_id(query, fields):
     return search('transcript_id', query, fields)
 
 
@@ -303,10 +303,10 @@ def main(argv):
         if function == 'say':
             print(f"Assistant says {nextCall['message']}")
             finished = True
-        elif function == 'search_genes_by_name':
-            answer = search_genes_by_name(nextCall['query'], nextCall['fields'])
-        elif function == 'search_genes_by_transcript_id':
-            answer = search_genes_by_transcript_id(nextCall['query'], nextCall['fields'])
+        elif function == 'search_gene_by_name':
+            answer = search_gene_by_name(nextCall['query'], nextCall['fields'])
+        elif function == 'search_gene_by_transcript_id':
+            answer = search_gene_by_transcript_id(nextCall['query'], nextCall['fields'])
         elif function == 'count_of_type':
             transcript_id = None
             gene_name = None
