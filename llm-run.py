@@ -39,6 +39,7 @@ You always output a JSON, and nothing else. This will allow you to call various 
 - search_gene_by_transcript_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_transcript_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
 - count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "type":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "type":"start_codon"}
 - say: Say something to the user. Example: {"function":"say","message":"Hello world"}
+- exit: Finish the conversation. Example: {"function":"exit"}
 
 
 For both search_gene_by_name and search_gene_by_transcript_id you can specify only some specific type of data.
@@ -283,7 +284,7 @@ def main(argv):
     if FLAGS.query:
         discussion = f"User: {FLAGS.query}\n"
     else:
-        discussion = "User: how many exons does transcript ENST00000684350.1 have\n"
+        discussion = "User: " + input(">>> ") + "\n"
 
     lines = []
     lines += continue_prompt(discussion, FLAGS.backend, FLAGS.max_tokens)
@@ -292,6 +293,7 @@ def main(argv):
         nextCall = None
         skip =  False
         finished = False
+        do_exit = False
         while len(lines) > 0:
             line = lines.pop(0)
             if FLAGS.debug == 'high':
@@ -327,7 +329,10 @@ def main(argv):
             print(f"Calling function {function} {nextCall}")
 
         if function == 'say':
-            print(f"Assistant says {nextCall['message']}")
+            if FLAGS.debug == 'high':
+                print(f"Assistant says {nextCall['message']}")
+            else:
+                print(f"{nextCall['message']}")
             finished = True
         elif function == 'search_gene_by_name':
             # Default to 'gene'?
@@ -354,9 +359,8 @@ def main(argv):
                     gene_name = nextCall['gene_name']
                 t = nextCall['type']
                 answer = count_of_type(t, transcript_id, gene_name)
-        # Currently not declared in the prompt
-        elif function == 'end':
-            finished = True
+        elif function == 'exit':
+            do_exit = True
         else:
             exception = f"Function {function} not implemented"
             print(exception)
@@ -367,11 +371,18 @@ def main(argv):
                 print("TX:" + json.dumps(answer))
             discussion += f"\nSystem: {json.dumps(answer)}\n"
 
+        if do_exit:
+            break
+        if finished:
+            if FLAGS.query:
+                break
+            else:
+                finished = False
+                discussion += "\nUser: " + input(">>> ") + "\n"
+
         # If there are no more commands, call continue_prompt to get new ones
         if len(lines) == 0 and not finished:
             lines += continue_prompt(discussion, FLAGS.backend, FLAGS.max_tokens)
-        if finished:
-            break
 
     # Dump the content of the discussion inside dataset/timestamp.txt
     with open(f"dataset/{int(time.time())}.txt", "w") as f:
