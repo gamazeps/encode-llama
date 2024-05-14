@@ -35,15 +35,15 @@ You always output a JSON, and nothing else. This will allow you to call various 
 """
 +
 """
-- search_gene_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgcn_id","gene_id","transcript_id"]}
-- search_gene_by_transcript_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_transcript_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
+- search_gene_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgnc_id","gene_id","transcript_id"]}
+- search_transcript_by_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_transcript_by_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
 - count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "type":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "type":"start_codon"}
 - say: Say something to the user. Example: {"function":"say","message":"Hello world"}
 - exit: Finish the conversation. Example: {"function":"exit"}
 
 
-For both search_gene_by_name and search_gene_by_transcript_id you can specify only some specific type of data.
-Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgcn_id","gene_id","transcript_id"],"type":"exon"}
+For both search_gene_by_name and search_transcript_by_id you can specify only some specific type of data.
+Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgnc_id","gene_id","transcript_id"],"type":"exon"}
 """ +
 
 # df['feature'].unique()
@@ -133,7 +133,8 @@ exon_number is an id of the exon within a gene
 # Some local jargon
 """
 Here are some local jargon names:
-- 'TSS' stands for Transcription Start Site. When the user requests the TSS, they want the name of the chromesome, and the position on this chromosome of the TSS.
+- 'TSS' stands for Transcription Start Site. When the user requests the TSS, they want the name of the chromesome, and the position on this chromosome of the transcript.
+- The 'accession' of a transcript is its `transcript_id` value
 """ +
 
 # Finally some one shot examples
@@ -149,17 +150,17 @@ Assistant: {"function":"say","message":"There is one transcript for MT-TP: ENST0
 Here is another example of interaction
 User: What is the name of the gene associated with transcript ENST00000450305.2
 Thoughts: Okay, I just need to grab the gene_name, for gene with transcript_id ENST00000450305.2
-Assistant: {"function":"search_gene_by_transcript_id","query":"ENST00000450305.2","fields":["gene_name"]}
+Assistant: {"function":"search_transcript_by_id","query":"ENST00000450305.2","fields":["gene_name"]}
 System: [{"gene_name":"DDX11L1.2","repeated":7}]
 Assistant: {"function":"say","message":"The name of the gene for that transcript is DDX11L1"}
 
 Here is another example of interaction
-User: What's the TSS of MT-TP?
-Thoughts: Okay, I need to search for the MT-TP gene eand then look for the TSS.
-Assistant: {"function":"search_gene_by_name","query":"MIR1302-2","fields":["seqname","start","end","strand"],"type":"gene"}
+User: What's the TSS of ENST00000456328.2?
+Thoughts: Okay, I need to search for the ENST00000456328.2 transcript and then look for the TSS.
+Assistant: {"function":"search_transcript_by_id","query":"ENST00000456328.2","fields":["seqname","start","end","strand"],"type":"transcript"}
 System: [{"start": 30366, "end":30503, "strand":"+","seqname":"chr1"}]
 Thoughts: Okay, the strand is '+', which means the TSS is at the end.
-Assistant: {"function":"say","message":"The TSS of MIR1302-2 is at position 30503 of chromosome 1"}
+Assistant: {"function":"say","message":"The TSS of ENST00000456328.2 is at position 30503 of chromosome 1"}
 
 """)
 
@@ -186,7 +187,7 @@ def search_gene_by_name(query, fields, t):
     return search('gene_name', query, fields, t)
 
 
-def search_gene_by_transcript_id(query, fields, t):
+def search_transcript_by_id(query, fields, t):
     return search('transcript_id', query, fields, t)
 
 
@@ -340,12 +341,12 @@ def main(argv):
             if 'type' in nextCall:
                 t = nextCall['type']
             answer = search_gene_by_name(nextCall['query'], nextCall['fields'], t)
-        elif function == 'search_gene_by_transcript_id':
+        elif function == 'search_transcript_by_id':
             # Default to 'transcript'?
             t = None
             if 'type' in nextCall:
                 t = nextCall['type']
-            answer = search_gene_by_transcript_id(nextCall['query'], nextCall['fields'], t)
+            answer = search_transcript_by_id(nextCall['query'], nextCall['fields'], t)
         elif function == 'count_of_type':
             transcript_id = None
             gene_name = None
