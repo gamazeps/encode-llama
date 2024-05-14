@@ -1,12 +1,10 @@
-how many exons in a gene
-how many exons in a transcript
+how many exons in a gene -- ok
+how many exons in a transcript -- ok
 
-how many transcripts does a gene have? What are
-the accessions of these transcripts?
+how many transcripts does a gene have? -- ok
+What are the accessions of these transcripts?
 
-What are the GRCh38 coordinates of the TSS of a
-transcript (given the transcript’s accession provided
-in the previous question)?
+What are the GRCh38 coordinates of the TSS of a transcript (given the transcript’s accession provided in the previous question)?
 
 Which isoforms share an exon with a given
 transcript
