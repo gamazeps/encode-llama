@@ -203,12 +203,17 @@ def count_of_type(t, transcript_id, gene_name):
         key = 'exon_id'
     if t == 'start_codon' or t == "end_codon" or t == "CDS":
         key = 'start'
+    if len(lines) == 0:
+        return "No match found. Did you check for the correct kind (transcript_id of gene_name)?"
     features = lines['feature'].unique()
     if not t in features:
         if 'codon' in t:
             return f"This feature '{t}' doesn't exist. Did you mean start_codon?"
+        print(f"Got feature {t}, valid is {features}")
         return f"This kind of feature '{t}' doesn't exist"
     lines = lines[lines['feature'] == t]
+    if len(lines) == 0:
+        return "No match found. Did you check for the correct feature?"
     if key is None:
         return len(lines)
     return len(lines[key].unique())
