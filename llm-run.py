@@ -6,6 +6,7 @@ import sys
 import time
 import re
 import random
+import csv
 import traceback
 
 import requests
@@ -37,13 +38,15 @@ You always output a JSON, and nothing else. This will allow you to call various 
 """
 - search_gene_by_name: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgnc_id","gene_id","transcript_id"]}
 - search_transcript_by_id: Allows you to search genes by name. You need to specify which fields you want. Example: {"function":"search_transcript_by_id","query":"ENSG00000210196.2","fields":["transcript_type", "transcript_name"]}
-- count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "type":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "type":"start_codon"}
+- search: Generic search, where you give the keys/values. You still need to specify which fields you want to show. Example: {"function":"search","havana_transcript":"OTTHUMT00000058878.2","exon_number":4, "fields":["strand"]}
+- tabular_search_display: Just like search. Except the DNA assistant won't see the result, it will be directly displayed to the user. Use this if the result is too big. Example: {"function":"tabular_search_display","havana_transcript":"OTTHUMT00000058878.2","exon_number":4, "fields":["strand"]}
+- count_of_type: Count the number of rows of given feature matching the request. The list of features is described in [1]. Specify `transcript_id` or `gene_name` field in the request. Example: {"function":"count_of_type","transcript_id":"ENSG00000210196.2", "feature":"gene"} or {"function":"count_of_type","gene_name":"MT-TP", "feature":"start_codon"}
 - say: Say something to the user. Example: {"function":"say","message":"Hello world"}
 - exit: Finish the conversation. Example: {"function":"exit"}
 
 
 For both search_gene_by_name and search_transcript_by_id you can specify only some specific type of data.
-Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgnc_id","gene_id","transcript_id"],"type":"exon"}
+Example: {"function":"search_gene_by_name","query":"MT-TP","fields":["hgnc_id","gene_id","transcript_id"],"feature":"exon"}
 """ +
 
 # df['feature'].unique()
@@ -143,7 +146,7 @@ Here are some local jargon names:
 Here is one example of interaction:
 User: What are the transcripts for the MT-TP gene ?
 Thoughts: Okay the user mention the MT-TP gene, I'll look for that gene name. They want the transcripts, so I'll just select that field in the database.
-Assistant: {"function":"search_gene_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"],"type":"transcript"}
+Assistant: {"function":"search_gene_by_name","query":"MT-TP","fields":["transcript_id", "transcript_name", "feature"],"feature":"transcript"}
 System: [{"feature":"transcript""transcript_id":"ENST00000387461.2", "transcript_name":"MT-TP-201"}]
 Assistant: {"function":"say","message":"There is one transcript for MT-TP: ENST00000387461.2 called MT-TP-201"}
 
@@ -157,7 +160,7 @@ Assistant: {"function":"say","message":"The name of the gene for that transcript
 Here is another example of interaction
 User: What's the TSS of ENST00000456328.2?
 Thoughts: Okay, I need to search for the ENST00000456328.2 transcript and then look for the TSS.
-Assistant: {"function":"search_transcript_by_id","query":"ENST00000456328.2","fields":["seqname","start","end","strand"],"type":"transcript"}
+Assistant: {"function":"search_transcript_by_id","query":"ENST00000456328.2","fields":["seqname","start","end","strand"],"feature":"transcript"}
 System: [{"start": 30366, "end":30503, "strand":"+","seqname":"chr1"}]
 Thoughts: Okay, the strand is '+', which means the TSS is at the end.
 Assistant: {"function":"say","message":"The TSS of ENST00000456328.2 is at position 30503 of chromosome 1"}
@@ -165,11 +168,15 @@ Assistant: {"function":"say","message":"The TSS of ENST00000456328.2 is at posit
 """)
 
 
-def search(query_field, query, fields, t):
+def search_filter(query):
     global gencode
-    lines = gencode[gencode[query_field] == query]
-    if t is not None:
-        lines = lines[lines['feature'] == t]
+    lines = gencode
+    for k, v in query.items():
+        lines = lines[lines[k] == v]
+    return lines
+
+def search(query, fields):
+    lines = search_filter(query)
     ret = []
     for index, row in lines.iterrows():
         o = {}
@@ -179,16 +186,31 @@ def search(query_field, query, fields, t):
 
     ret_json = json.dumps(ret)
     if len(ret_json) > 4000:
-        return "Result too big. Either call count, or do a better filter"
+        return "Result too big. You may either call count function, do a better filter, or just show the result directly to the user with `tabular_search_display`"
     return ret
 
+def tabular_search_display(query, fields):
+    lines = search_filter(query)
+    ret = []
+    with open("output.csv", "w", newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(fields)
+        for index, row in lines.iterrows():
+            writer.writerow([row[x] for x in fields])
+    return "Generated output.csv with those infos"
 
 def search_gene_by_name(query, fields, t):
-    return search('gene_name', query, fields, t)
+    return search({
+        'gene_name': query,
+        'feature': t
+        }, fields)
 
 
 def search_transcript_by_id(query, fields, t):
-    return search('transcript_id', query, fields, t)
+    return search({
+        'transcript_id': query,
+        'feature': t
+        }, fields)
 
 
 def count_of_type(t, transcript_id, gene_name):
@@ -242,7 +264,7 @@ def togetherxyz_complete(txt, max_tokens, api_key):
         'max_tokens': max_tokens,
         'stream_tokens': False,
         "stop": ["</s>", "[/INST]"],
-        'temperature': 0.35,
+        'temperature': 0.20,
     }
 
     headers = {'Content-Type': 'application/json', "Authorization": f'Bearer {api_key}'}
@@ -343,19 +365,43 @@ def main(argv):
         elif function == 'search_gene_by_name':
             # Default to 'gene'?
             t = None
-            if 'type' in nextCall:
-                t = nextCall['type']
+            if 'feature' in nextCall:
+                t = nextCall['feature']
             answer = search_gene_by_name(nextCall['query'], nextCall['fields'], t)
         elif function == 'search_transcript_by_id':
             # Default to 'transcript'?
             t = None
-            if 'type' in nextCall:
-                t = nextCall['type']
+            if 'feature' in nextCall:
+                t = nextCall['feature']
             answer = search_transcript_by_id(nextCall['query'], nextCall['fields'], t)
+        elif function == 'search':
+            args = {}
+            for c in gencode.columns.tolist():
+                if c in nextCall:
+                    args[c] = nextCall[c]
+            if not args:
+                answer = "Missing search parameters"
+            elif 'fields' not in nextCall:
+                answer = 'Missing `fields` value'
+            else:
+                fields = nextCall['fields']
+                answer = search(args, fields)
+        elif function == 'tabular_search_display':
+            args = {}
+            for c in gencode.columns.tolist():
+                if c in nextCall:
+                    args[c] = nextCall[c]
+            if not args:
+                answer = "Missing search parameters"
+            elif 'fields' not in nextCall:
+                answer = 'Missing `fields` value'
+            else:
+                fields = nextCall['fields']
+                answer = tabular_search_display(args, fields)
         elif function == 'count_of_type':
             transcript_id = None
             gene_name = None
-            wrong_keys = [key for key in nextCall.keys() if key not in {"transcript_id", "gene_name", "function", "type"}]
+            wrong_keys = [key for key in nextCall.keys() if key not in {"transcript_id", "gene_name", "function", "feature"}]
             if wrong_keys:
                 answer = f"Unexpected keys {wrong_keys}"
             else:
@@ -363,7 +409,7 @@ def main(argv):
                     transcript_id = nextCall['transcript_id']
                 if 'gene_name' in nextCall:
                     gene_name = nextCall['gene_name']
-                t = nextCall['type']
+                t = nextCall['feature']
                 answer = count_of_type(t, transcript_id, gene_name)
         elif function == 'exit':
             do_exit = True
