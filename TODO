@@ -5,35 +5,23 @@ how many transcripts does a gene have? -- ok
 What are the accessions of these transcripts?
 
 What are the GRCh38 coordinates of the TSS of a transcript (given the transcript’s accession provided in the previous question)?
-
-Which isoforms share an exon with a given
-transcript
+Which isoforms share an exon with a given transcript
 
 From a wetlab friend
-
-What is the expression pattern of RAG1 in B-cell
-development?
-
-Which transcription factors control RAG1
-expression? In which tissues
-are those transcription factors expressed?
-
+What is the expression pattern of RAG1 in B-cell development?
+Which transcription factors control RAG1 expression? In which tissues are those transcription factors expressed?
 Which cell lines are used by ENCODE?
 Show me the structure of the RAG1 locus.
-
-Give me a list of genes coding for proteins on
-chromosome X. (csv please?)
-
-Give me a list of IncRNA potentially regulating the
-MYC locus.
-
-Show me all putative NMYC enhancers and overlap
-the RNAseq for HepG2.
-(or a tumor type)
+Give me a list of genes coding for proteins on chromosome X. (csv please?) -- ok
+Give me a list of IncRNA potentially regulating the MYC locus.
+Show me all putative NMYC enhancers and overlap the RNAseq for HepG2. (or a tumor type)
 
 And linking with GTEx for:
-
 In which tissues is a gene expressed over X TPMs
+What are the K tissues with the highest expression of a gene / transcript
 
-What are the K tissues with the highest expression
-of a gene / transcript
+
+----------
+
+Is the definition of the accession of a transcript correct in the prompt?
+
