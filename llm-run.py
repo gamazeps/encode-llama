@@ -10,6 +10,7 @@ import csv
 import traceback
 
 import requests
+from tabulate import tabulate
 import json
 import pickle
 
@@ -197,7 +198,10 @@ def tabular_search_display(query, fields):
         writer.writerow(fields)
         for index, row in lines.iterrows():
             writer.writerow([row[x] for x in fields])
-    return "Generated output.csv with those infos"
+    if lines.shape[0] > 20:
+        return "Generated output.csv with those infos"
+    else:
+        return f"{tabulate(lines)}"
 
 def search_gene_by_name(query, fields, t):
     return search({
