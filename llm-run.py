@@ -17,6 +17,8 @@ import pickle
 from absl import app
 from absl import flags
 
+import fetch_data
+
 FLAGS = flags.FLAGS
 flags.DEFINE_enum('backend', 'vllm', ['vllm', 'togetherXYZ'], 'Provider for the LLM API')
 flags.DEFINE_integer('max_tokens', 512,
@@ -280,18 +282,7 @@ def togetherxyz_complete(txt, max_tokens, api_key):
     return json.loads(response.text)['output']['choices'][0]['text']
 
 
-try:
-    with open('data/gencode.v40.annotation.pickle', 'rb') as f:
-        gencode = pickle.load(f)
-except:
-    import gtfparse
-    import pandas as pd
-
-    gencode = gtfparse.read_gtf('data/gencode.v40.annotation.gtf')
-    gencode = gencode.to_pandas()
-    gencode.to_pickle('data/gencode.v40.annotation.pickle')
-
-
+gencode = fetch_data.fetch_gencode(version=40, data_dir='data')
 
 # Create a function that continues the request and make "prompt" bigger to retain context
 def continue_prompt(discussion, backend, max_tokens=512):
